@@ -1,0 +1,269 @@
+﻿manual_title,question_id,section,day,question_text,domain_category,difficulty_level,required_skill,source_paragraph
+Healthcare,HC-Q-93,Module 1,Day 9,What are the greatest cyber threats to your organization?,,,,93
+Healthcare,HC-Q-94,Module 1,Day 9,"What cybersecurity threat information does your organization receive (e.g., information from CISA, Health-ISAC, HHS)?",,,,94
+Healthcare,HC-Q-95,Module 1,Day 9,What cyber threat information is most useful?,,,,95
+Healthcare,HC-Q-96,Module 1,Day 9,How is information disseminated throughout your organization and by whom?,,,,96
+Healthcare,HC-Q-97,Module 1,Day 9,What actions would your organization take in response to an alert like the one presented in the scenario?,,,,97
+Healthcare,HC-Q-98,Module 1,Day 9,"Has your organization conducted a risk assessment to identify specific cyber threats, vulnerabilities, and critical assets?",,,,98
+Healthcare,HC-Q-99,Module 1,Day 9,What information technology (IT) systems or processes are the most critical to your organization?,,,,99
+Healthcare,HC-Q-100,Module 1,Day 9,Describe your organization’s asset management plan and how you prioritize critical assets.,,,,100
+Healthcare,HC-Q-101,Module 1,Day 9,What improvements have been implemented to enhance cyber resilience following recent risk assessments?,,,,101
+Healthcare,HC-Q-102,Module 1,Day 9,Does your organization have a vulnerability management program dedicated to mitigating known exploited vulnerabilities in internet-facing systems?,,,,102
+Healthcare,HC-Q-103,Module 1,Day 9,Describe your organization’s cybersecurity training program for employees.,,,,103
+Healthcare,HC-Q-104,Module 1,Day 9,How often are employees required to complete this training?,,,,104
+Healthcare,HC-Q-105,Module 1,Day 9,What additional training is required for employees who have system administrator-level privileges?,,,,105
+Healthcare,HC-Q-106,Module 1,Day 9,What type of training methods or approaches have you found most beneficial?,,,,106
+Healthcare,HC-Q-107,Module 1,Day 9,How are employees trained to recognize and report cyber threats such as phishing scams?,,,,107
+Healthcare,HC-Q-108,Module 1,Day 9,What additional training does your organization require for those who fall for a fake phishing campaign?,,,,108
+Healthcare,HC-Q-109,Module 1,Day 9,How do users report suspicious emails?,,,,109
+Healthcare,HC-Q-110,Module 1,Day 9,What procedures or plans would be followed once a suspicious email has been reported?,,,,110
+Healthcare,HC-Q-111,Module 1,Day 9,Describe your organization’s cybersecurity posture.,,,,111
+Healthcare,HC-Q-112,Module 1,Day 9,How frequently are users required to change their passwords?,,,,112
+Healthcare,HC-Q-113,Module 1,Day 9,"Does your organization use multi-factor authentication (e.g., something you know, something you have, something you are) to mitigate the potential effects of phishing?",,,,113
+Healthcare,HC-Q-114,Module 1,Day 9,What are your network access and authentication controls for users?,,,,114
+Healthcare,HC-Q-115,Module 1,Day 9,"Does your organization allow users to run document macros? If so, what compensating security controls do you have to mitigate the risk?",,,,115
+Healthcare,HC-Q-116,Module 1,Day 9,What cybersecurity controls are present to mitigate the risk of users entering credentials into phishing websites?,,,,116
+Healthcare,HC-Q-121,Module 1,Day 13,What cybersecurity language is included within third-party vendor contracts?,,,,121
+Healthcare,HC-Q-122,Module 1,Day 13,How do you evaluate the cybersecurity posture of your vendors?,,,,122
+Healthcare,HC-Q-123,Module 1,Day 13,How often are contracts reviewed?,,,,123
+Healthcare,HC-Q-124,Module 1,Day 13,How do your service level agreements address cyber incident notification?,,,,124
+Healthcare,HC-Q-125,Module 1,Day 13,How do vendors notify you that patches or updates are required?,,,,125
+Healthcare,HC-Q-128,Module 1,Day 15,Describe your organization’s software patch management plan and patching procedures.,,,,128
+Healthcare,HC-Q-129,Module 1,Day 15,What processes are used to evaluate and maintain an approved list of patches?,,,,129
+Healthcare,HC-Q-130,Module 1,Day 15,"How does risk inform decisions regarding allowed hardware, firmware, and software updates?",,,,130
+Healthcare,HC-Q-131,Module 1,Day 15,"What considerations (e.g., extended downtime, loss of data, impaired functionality, etc.) are addressed in the plan’s risk management strategy?",,,,131
+Healthcare,HC-Q-132,Module 1,Day 15,What level of access do your third-party vendors have to your organization’s network?,,,,132
+Healthcare,HC-Q-142,Module 2,Day 23 - Afternoon,"Using your organization’s existing incident response plan/cyber incident response plan (CIRP), describe the actions your organization would take at this time.",,,,142
+Healthcare,HC-Q-143,Module 2,Day 23 - Afternoon,Describe the training your employees receive on this plan.,,,,143
+Healthcare,HC-Q-144,Module 2,Day 23 - Afternoon,What guidance does the plan include on assessing the severity of the incident?,,,,144
+Healthcare,HC-Q-145,Module 2,Day 23 - Afternoon,How does incident severity level dictate response?,,,,145
+Healthcare,HC-Q-146,Module 2,Day 23 - Afternoon,How are critical systems and processes incorporated within your CIRP?,,,,146
+Healthcare,HC-Q-147,Module 2,Day 23 - Afternoon,Does your organization have backups of vital records and EMRs stored in a location separate from your primary working files/copies?,,,,147
+Healthcare,HC-Q-148,Module 2,Day 23 - Afternoon,How frequently do you run backups?,,,,148
+Healthcare,HC-Q-149,Module 2,Day 23 - Afternoon,How long do you keep copies of archived files backed up?,,,,149
+Healthcare,HC-Q-150,Module 2,Day 23 - Afternoon,How long would it take to restore primary files from backups?,,,,150
+Healthcare,HC-Q-151,Module 2,Day 23 - Afternoon,What redundant systems exist for when primary systems are compromised?,,,,151
+Healthcare,HC-Q-152,Module 2,Day 23 - Afternoon,What alternative systems or manual processes are implemented to continue operations if a critical system is unavailable for a significant period?,,,,152
+Healthcare,HC-Q-153,Module 2,Day 23 - Afternoon,Who can authorize use of alternate systems or procedures?,,,,153
+Healthcare,HC-Q-154,Module 2,Day 23 - Afternoon,How long can you perform manual or alternate processes on your critical systems?,,,,154
+Healthcare,HC-Q-155,Module 2,Day 23 - Afternoon,What additional resources are required to operate with manual processes?,,,,155
+Healthcare,HC-Q-165,Module 2,Day 27,"Using your CIRP as a guide, how have your priorities changed based on these recent events?",,,,165
+Healthcare,HC-Q-166,Module 2,Day 27,Explain your organization’s decision-making process regarding ransomware payment.,,,,166
+Healthcare,HC-Q-167,Module 2,Day 27,Are ransomware policies/procedures included in your CIRP?,,,,167
+Healthcare,HC-Q-168,Module 2,Day 27,"Explain how your response partners, such as your cyber insurance provider or third-party vendors, are involved in your procedures.",,,,168
+Healthcare,HC-Q-169,Module 2,Day 27,Discuss the advantages and disadvantages of either agreeing or refusing to pay the ransom.,,,,169
+Healthcare,HC-Q-170,Module 2,Day 27,Discuss potential legal and reputational ramifications of paying or not paying the ransom.,,,,170
+Healthcare,HC-Q-171,Module 2,Day 27,Describe the impact the sale or release of sensitive information or PHI would have on your response and recovery activities.,,,,171
+Healthcare,HC-Q-172,Module 2,Day 27,What security breach notification laws does your state or industry have?,,,,172
+Healthcare,HC-Q-173,Module 2,Day 27,Describe your organizational processes to respond to the media reports and inquiries.,,,,173
+Healthcare,HC-Q-174,Module 2,Day 27,What pre-scripted messages have been developed for cyber incidents?,,,,174
+Healthcare,HC-Q-175,Module 2,Day 27,How would public messaging be coordinated and disseminated during a cyber incident?,,,,175
+Healthcare,HC-Q-176,Module 2,Day 27,How would you preserve and reinforce the public’s confidence and trust in your organization during a significant cyber incident?,,,,176
+Healthcare,HC-Q-177,Module 2,Day 27,"Based on discussion, what changes would you implement to increase the resilience of your organization?",,,,177
+Vendor,VD-Q-115,Module 1,Day 1,What are the greatest cyber threats to your organization?,,,,115
+Vendor,VD-Q-116,Module 1,Day 1,What are the possible impacts of an intrusion into your systems?,,,,116
+Vendor,VD-Q-117,Module 1,Day 1,What cybersecurity threat information does your organization receive?,,,,117
+Vendor,VD-Q-118,Module 1,Day 1,What are your primary sources of information?,,,,118
+Vendor,VD-Q-119,Module 1,Day 1,How do you determine what information is relevant to your equipment and operations?,,,,119
+Vendor,VD-Q-120,Module 1,Day 1,What threat information is most useful?,,,,120
+Vendor,VD-Q-121,Module 1,Day 1,What actions would your organization take in response to a report like the one presented in the scenario?,,,,121
+Vendor,VD-Q-124,Module 1,Day 7,"Has your organization conducted a risk assessment to identify specific cyber threats, vulnerabilities, and critical assets?",,,,124
+Vendor,VD-Q-125,Module 1,Day 7,What information technology (IT) systems or processes are the most critical to your organization?,,,,125
+Vendor,VD-Q-126,Module 1,Day 7,Describe your organization’s asset management plan and how you prioritize critical assets.,,,,126
+Vendor,VD-Q-127,Module 1,Day 7,Do you use a cyber supply chain risk management (C-SCRM) approach to managing supply chain risk?,,,,127
+Vendor,VD-Q-128,Module 1,Day 7,What improvements were implemented to enhance cyber resilience following recent risk assessments?,,,,128
+Vendor,VD-Q-129,Module 1,Day 7,Does your organization have a vulnerability management program dedicated to mitigating known exploited vulnerabilities in internet-facing systems?,,,,129
+Vendor,VD-Q-130,Module 1,Day 7,What is the role of cybersecurity in the review and selection of third-party vendor support?,,,,130
+Vendor,VD-Q-131,Module 1,Day 7,"What cybersecurity language, (e.g., cybersecurity training and cyber incident notification requirements) is included within third-party vendor contracts?",,,,131
+Vendor,VD-Q-132,Module 1,Day 7,How do you evaluate the cybersecurity posture of your vendors?,,,,132
+Vendor,VD-Q-133,Module 1,Day 7,How often are contracts reviewed?,,,,133
+Vendor,VD-Q-134,Module 1,Day 7,What level of access do your third-party vendors have to your organization’s network?,,,,134
+Vendor,VD-Q-135,Module 1,Day 7,How often are third-party access rights and data logs reviewed?,,,,135
+Vendor,VD-Q-138,Module 1,Day 8,"How is your network configured (e.g., network segmentation, least privilege access, etc.) to defend against malicious actors?",,,,138
+Vendor,VD-Q-139,Module 1,Day 8,"What tools (e.g., threat hunting, security audits, etc.) do you leverage as part of a proactive cybersecurity strategy?",,,,139
+Vendor,VD-Q-140,Module 1,Day 8,What indicators of compromise feeds does your organization use?,,,,140
+Vendor,VD-Q-141,Module 1,Day 8,What steps do you take to protect organizational data from data loss/theft?,,,,141
+Vendor,VD-Q-142,Module 1,Day 8,What cybersecurity best practices do you leverage before giving access to sensitive business data?,,,,142
+Vendor,VD-Q-145,Module 1,Day 10,Describe your organization’s patch management and vulnerability management plans.,,,,145
+Vendor,VD-Q-146,Module 1,Day 10,Does your organization apply Zero Trust Architecture (ZTA)/zero-trust concepts?,,,,146
+Vendor,VD-Q-147,Module 1,Day 10,Describe your policies on remote access to your organization’s network.,,,,147
+Vendor,VD-Q-148,Module 1,Day 10,"What security protocols (encryption, etc.) exist on your hardware or software?",,,,148
+Vendor,VD-Q-155,Module 2 – 6 months later,Day 182 - Afternoon,"Using your organization’s cyber incident response plan (CIRP)/continuity of operations plan, describe the actions your organization would take to minimize impacts on current operations.",,,,155
+Vendor,VD-Q-156,Module 2 – 6 months later,Day 182 - Afternoon,"How does your plan define escalation criteria, notifications, activations, and/or courses of action?",,,,156
+Vendor,VD-Q-157,Module 2 – 6 months later,Day 182 - Afternoon,What guidance does the plan include for assessing the severity of the incident?,,,,157
+Vendor,VD-Q-158,Module 2 – 6 months later,Day 182 - Afternoon,What alternative systems or manual processes are implemented to continue operations if a critical system is unavailable for a significant period?,,,,158
+Vendor,VD-Q-159,Module 2 – 6 months later,Day 182 - Afternoon,Who can authorize the use of alternate systems or procedures?,,,,159
+Vendor,VD-Q-160,Module 2 – 6 months later,Day 182 - Afternoon,How long can you operate using manual processes or alternate systems when your primary critical systems fail?,,,,160
+Vendor,VD-Q-161,Module 2 – 6 months later,Day 182 - Afternoon,"What additional staffing requirements are necessary for alternate systems or procedures, if any?",,,,161
+Vendor,VD-Q-164,Module 2 – 6 months later,Day 182 – Evening,How are third-party vendors involved in your incident response?,,,,164
+Vendor,VD-Q-165,Module 2 – 6 months later,Day 182 – Evening,How is this documented in your CIRP?,,,,165
+Vendor,VD-Q-166,Module 2 – 6 months later,Day 182 – Evening,What does your service-level agreement include regarding incident response activity?,,,,166
+Vendor,VD-Q-169,Module 2 – 6 months later,Day 185,What capabilities and resources does your organization require in response to this scenario?,,,,169
+Vendor,VD-Q-170,Module 2 – 6 months later,Day 185,What additional resources outside of your organization are necessary for responding to the cyber incident?,,,,170
+Vendor,VD-Q-171,Module 2 – 6 months later,Day 185,What are the processes or procedures for requesting additional resources?,,,,171
+Vendor,VD-Q-172,Module 2 – 6 months later,Day 185,"What external partners (e.g., CISA, FBI, etc.) would you contact for assistance?",,,,172
+Vendor,VD-Q-173,Module 2 – 6 months later,Day 185,"What information are you sharing internally (e.g., employees, leadership)?",,,,173
+Vendor,VD-Q-174,Module 2 – 6 months later,Day 185,"What information are you sharing externally (e.g., customers, partners, vendors)?",,,,174
+Vendor,VD-Q-175,Module 2 – 6 months later,Day 185,"What sector partners do you collaborate with before, during, and after a cyber-security incident?",,,,175
+Vendor,VD-Q-176,Module 2 – 6 months later,Day 185,What policies and procedures does your organization use to decide when and how to restore backed-up data?,,,,176
+Vendor,VD-Q-177,Module 2 – 6 months later,Day 185,How does your organization incorporate measures for ensuring the integrity of backup data before restoration?,,,,177
+Vendor,VD-Q-178,Module 2 – 6 months later,Day 185,"Based on the discussion, what changes will you implement to increase the resilience of your organization against future attacks?",,,,178
+Vendor,VD-Q-179,Module 2 – 6 months later,Day 185,What measures will you take to better secure your network?,,,,179
+Ransomware,RW-Q-94,Module 1,Day 6,What are the greatest cyber threats to your organization?,,,,94
+Ransomware,RW-Q-95,Module 1,Day 6,What information technology (IT) systems or processes are the most critical to your organization?,,,,95
+Ransomware,RW-Q-96,Module 1,Day 6,What cybersecurity threat information does your organization receive?,,,,96
+Ransomware,RW-Q-97,Module 1,Day 6,What cyber threat information is most useful?,,,,97
+Ransomware,RW-Q-98,Module 1,Day 6,How is information disseminated across your organization and by whom?,,,,98
+Ransomware,RW-Q-99,Module 1,Day 6,What actions would your organization take following an alert like the one presented in the scenario?,,,,99
+Ransomware,RW-Q-100,Module 1,Day 6,"Has your organization conducted a risk assessment to identify specific cyber threats, vulnerabilities, and critical assets?",,,,100
+Ransomware,RW-Q-101,Module 1,Day 6,What information technology (IT) systems or processes are the most critical to your organization?,,,,101
+Ransomware,RW-Q-102,Module 1,Day 6,Describe your organization’s asset management plan and how you prioritize critical assets.,,,,102
+Ransomware,RW-Q-103,Module 1,Day 6,What improvements have been implemented to enhance cyber resilience following recent risk assessments?,,,,103
+Ransomware,RW-Q-104,Module 1,Day 6,Does your organization have a vulnerability management program dedicated to mitigating known exploited vulnerabilities in internet-facing systems?,,,,104
+Ransomware,RW-Q-105,Module 1,Day 6,Does your organization have backups of vital records stored in a location separate from your primary working files/copies?,,,,105
+Ransomware,RW-Q-106,Module 1,Day 6,How frequently do you run backups?,,,,106
+Ransomware,RW-Q-107,Module 1,Day 6,How long do you keep copies of archived files backed up?,,,,107
+Ransomware,RW-Q-108,Module 1,Day 6,How long would it take to restore primary files from backups?,,,,108
+Ransomware,RW-Q-109,Module 1,Day 6,Discuss your risk management strategy.,,,,109
+Ransomware,RW-Q-110,Module 1,Day 6,How is it developed/maintained?,,,,110
+Ransomware,RW-Q-111,Module 1,Day 6,Does your organization apply Zero Trust Architecture (ZTA)/zero-trust concepts?,,,,111
+Ransomware,RW-Q-112,Module 1,Day 6,"What considerations are addressed in your risk management strategy (e.g., extended downtime, impaired functionality, loss of data, etc.)?",,,,112
+Ransomware,RW-Q-113,Module 1,Day 6,Describe your organization’s cybersecurity training program for employees.,,,,113
+Ransomware,RW-Q-114,Module 1,Day 6,How often are employees required to complete this training?,,,,114
+Ransomware,RW-Q-115,Module 1,Day 6,Is training required during employee onboarding before granting system/network access?,,,,115
+Ransomware,RW-Q-116,Module 1,Day 6,What additional training is required for employees who have system administrator-level privileges?,,,,116
+Ransomware,RW-Q-117,Module 1,Day 6,What type of training methods or approaches have you found most beneficial?,,,,117
+Ransomware,RW-Q-118,Module 1,Day 6,How do employees report suspected phishing attempts or other possible cybersecurity incidents?,,,,118
+Ransomware,RW-Q-119,Module 1,Day 6,What actions does the IT department take when suspicious emails are reported?,,,,119
+Ransomware,RW-Q-120,Module 1,Day 6,What feedback do employees receive after reporting a suspicious email or event?,,,,120
+Ransomware,RW-Q-131,Module 2,Day 11,Discuss your organization’s cyber resilience planning.,,,,131
+Ransomware,RW-Q-132,Module 2,Day 11,What information technology (IT) infrastructure has been identified to support mission essential functions in continuity of operations and incident response plans?,,,,132
+Ransomware,RW-Q-133,Module 2,Day 11,How has your organization prioritized IT infrastructure for restoration?,,,,133
+Ransomware,RW-Q-134,Module 2,Day 11,How has cybersecurity been integrated into your continuity plans?,,,,134
+Ransomware,RW-Q-135,Module 2,Day 11,How does your organization baseline network activity?,,,,135
+Ransomware,RW-Q-136,Module 2,Day 11,How can you distinguish between normal and abnormal traffic?,,,,136
+Ransomware,RW-Q-138,Module 2,Day 11,Describe the training your employees receive on this plan.,,,,138
+Ransomware,RW-Q-139,Module 2,Day 11,What guidance does the plan include on assessing the severity of the incident?,,,,139
+Ransomware,RW-Q-140,Module 2,Day 11,How does incident severity level dictate response?,,,,140
+Ransomware,RW-Q-141,Module 2,Day 11,How are critical systems and processes incorporated within your CIRP?,,,,141
+Ransomware,RW-Q-142,Module 2,Day 11,What redundant systems exist for when primary systems are compromised?,,,,142
+Ransomware,RW-Q-143,Module 2,Day 11,What alternative systems or manual processes are implemented to continue operations if a critical system is unavailable for a significant period?,,,,143
+Ransomware,RW-Q-144,Module 2,Day 11,Who can authorize use of alternate systems or procedures?,,,,144
+Ransomware,RW-Q-145,Module 2,Day 11,How long can you perform manual or alternate processes on your critical systems?,,,,145
+Ransomware,RW-Q-146,Module 2,Day 11,What security breach notification laws does your state or industry have?,,,,146
+Ransomware,RW-Q-147,Module 2,Day 11,Explain your organization’s decision-making process regarding ransomware payment.,,,,147
+Ransomware,RW-Q-148,Module 2,Day 11,Are ransomware policies/procedures included in your CIRP?,,,,148
+Ransomware,RW-Q-149,Module 2,Day 11,"Explain how your response partners, such as your cyber insurance provider or third-party vendors, are involved in your procedures.",,,,149
+Ransomware,RW-Q-150,Module 2,Day 11,Discuss the advantages and disadvantages of either agreeing or refusing to pay.,,,,150
+Ransomware,RW-Q-151,Module 2,Day 11,Describe the impact the sale or release of sensitive information or PII would have on your response and recovery activities.,,,,151
+Ransomware,RW-Q-152,Module 2,Day 11,Discuss potential legal and reputational ramifications of paying or not paying the ransom.,,,,152
+Ransomware,RW-Q-153,Module 2,Day 11,What capabilities and resources are required for responding to this scenario?,,,,153
+Ransomware,RW-Q-154,Module 2,Day 11,What additional resources outside of your organization would be necessary for responding to the cyber incident?,,,,154
+Ransomware,RW-Q-155,Module 2,Day 11,What are the processes or procedures for requesting additional resources?,,,,155
+Ransomware,RW-Q-156,Module 2,Day 11,"What external partners (e.g., CISA, FBI, etc.) would you contact for assistance?",,,,156
+Ransomware,RW-Q-157,Module 2,Day 11,Describe your organizational processes to respond to the media reports and inquiries.,,,,157
+Ransomware,RW-Q-158,Module 2,Day 11,What pre-scripted messages have been developed for cyber incidents?,,,,158
+Ransomware,RW-Q-159,Module 2,Day 11,What training do your communications personnel receive on cyber terminology?,,,,159
+Ransomware,RW-Q-160,Module 2,Day 11,How would public messaging be coordinated and disseminated during a cyber incident?,,,,160
+Ransomware,RW-Q-161,Module 2,Day 11,How would you preserve and reinforce the public’s confidence and trust in your organization during a significant cyber incident?,,,,161
+Ransomware,RW-Q-162,Module 2,Day 11,"Based on discussion, what changes would you implement to increase the resilience of your organization?",,,,162
+Insider Threat,IT-Q-98,Module 1,Day 9: Afternoon,What are the greatest cybersecurity threats to your organization?,,,,98
+Insider Threat,IT-Q-99,Module 1,Day 9: Afternoon,What cybersecurity threat information does your organization receive?,,,,99
+Insider Threat,IT-Q-100,Module 1,Day 9: Afternoon,What cyber threat information is most useful?,,,,100
+Insider Threat,IT-Q-101,Module 1,Day 9: Afternoon,How is information disseminated across your organization and by whom?,,,,101
+Insider Threat,IT-Q-102,Module 1,Day 9: Afternoon,What actions would your organization take following an alert like the one presented in the scenario?,,,,102
+Insider Threat,IT-Q-103,Module 1,Day 9: Afternoon,"Has your organization conducted a risk assessment to identify specific cyber threats, vulnerabilities, and critical assets?",,,,103
+Insider Threat,IT-Q-104,Module 1,Day 9: Afternoon,What information technology (IT) systems or processes are the most critical to your organization?,,,,104
+Insider Threat,IT-Q-105,Module 1,Day 9: Afternoon,Describe your organization’s asset management plan and how you prioritize critical assets.,,,,105
+Insider Threat,IT-Q-106,Module 1,Day 9: Afternoon,What improvements have been implemented to enhance cyber resilience following recent risk assessments?,,,,106
+Insider Threat,IT-Q-107,Module 1,Day 9: Afternoon,Does your organization have a vulnerability management program dedicated to mitigating known exploited vulnerabilities in internet-facing systems?,,,,107
+Insider Threat,IT-Q-108,Module 1,Day 9: Afternoon,How does your organization mitigate insider threats? Does your organization have an insider threat management program?,,,,108
+Insider Threat,IT-Q-109,Module 1,Day 9: Afternoon,What are some behavioral indicators of an insider threat?,,,,109
+Insider Threat,IT-Q-110,Module 1,Day 9: Afternoon,What type of training do employees at your organization receive on identifying a potential insider threat?,,,,110
+Insider Threat,IT-Q-111,Module 1,Day 9: Afternoon,Describe your organization’s cybersecurity training program for employees.,,,,111
+Insider Threat,IT-Q-112,Module 1,Day 9: Afternoon,How often are employees required to complete this training?,,,,112
+Insider Threat,IT-Q-113,Module 1,Day 9: Afternoon,Is training required during employee onboarding before granting system/network access?,,,,113
+Insider Threat,IT-Q-114,Module 1,Day 9: Afternoon,What additional training is required for employees who have system administrator-level privileges?,,,,114
+Insider Threat,IT-Q-115,Module 1,Day 9: Afternoon,What type of training methods or approaches have you found most beneficial?,,,,115
+Insider Threat,IT-Q-116,Module 1,Day 9: Afternoon,How does your organization prevent the disclosure of PII?,,,,116
+Insider Threat,IT-Q-117,Module 1,Day 9: Afternoon,What are your organization’s processes and procedures to revoke system access when an employee resigns or is terminated?,,,,117
+Insider Threat,IT-Q-118,Module 1,Day 9: Afternoon,Are there any additional processes implemented if the employee’s termination is contentious?,,,,118
+Insider Threat,IT-Q-119,Module 1,Day 9: Afternoon,"Does your organization retrieve all information system-related property (e.g., authentication key, system administration's handbook/manual, keys, identification cards, etc.) during the employment termination/off boarding process?",,,,119
+Insider Threat,IT-Q-136,Module 2,Day 44: Afternoon,Discuss your organization’s cyber resilience planning.,,,,136
+Insider Threat,IT-Q-137,Module 2,Day 44: Afternoon,What IT infrastructure has been identified to support mission essential functions in continuity of operations and incident response plans?,,,,137
+Insider Threat,IT-Q-138,Module 2,Day 44: Afternoon,How has your organization prioritized IT infrastructure for restoration?,,,,138
+Insider Threat,IT-Q-139,Module 2,Day 44: Afternoon,How has cybersecurity been integrated into your continuity plans?,,,,139
+Insider Threat,IT-Q-140,Module 2,Day 44: Afternoon,Does your organization have backups of vital records stored in a location separate from your primary working files/copies?,,,,140
+Insider Threat,IT-Q-141,Module 2,Day 44: Afternoon,How frequently do you run backups?,,,,141
+Insider Threat,IT-Q-142,Module 2,Day 44: Afternoon,How long do you keep copies of archived files backed up?,,,,142
+Insider Threat,IT-Q-143,Module 2,Day 44: Afternoon,How long would it take to restore primary files from backups?,,,,143
+Insider Threat,IT-Q-145,Module 2,Day 44: Afternoon,What CIRP training do you provide your employees?,,,,145
+Insider Threat,IT-Q-146,Module 2,Day 44: Afternoon,What guidance does the CIRP include on assessing the severity of the incident?,,,,146
+Insider Threat,IT-Q-147,Module 2,Day 44: Afternoon,How does incident severity level determine response?,,,,147
+Insider Threat,IT-Q-148,Module 2,Day 44: Afternoon,What are your organization’s policies or procedures for IT account management?,,,,148
+Insider Threat,IT-Q-149,Module 2,Day 44: Afternoon,"What are the protocols/procedures for establishing, activating, modifying, disabling, and removing accounts?",,,,149
+Insider Threat,IT-Q-150,Module 2,Day 44: Afternoon,Do these policies or procedures include protocols/steps for notifying IT account managers/administrators when users are terminated or resign?,,,,150
+Insider Threat,IT-Q-151,Module 2,Day 44: Afternoon,How would you respond to the discovery of an unauthorized administrator account on your systems?,,,,151
+Insider Threat,IT-Q-152,Module 2,Day 44: Afternoon,What capabilities and resources are required to respond to this scenario?,,,,152
+Insider Threat,IT-Q-153,Module 2,Day 44: Afternoon,What additional resources outside of your organization are necessary for responding to the cyber incident?,,,,153
+Insider Threat,IT-Q-154,Module 2,Day 44: Afternoon,What are the processes or procedures for requesting additional resources?,,,,154
+Insider Threat,IT-Q-155,Module 2,Day 44: Afternoon,"What external partners (e.g., CISA, FBI, etc.) would you contact for assistance?",,,,155
+Insider Threat,IT-Q-156,Module 2,Day 44: Afternoon,How does your organization determine account access for personnel?,,,,156
+Insider Threat,IT-Q-157,Module 2,Day 44: Afternoon,How is unauthorized access monitored?,,,,157
+Insider Threat,IT-Q-158,Module 2,Day 44: Afternoon,"Describe the process for changing or revoking account access, if needed?",,,,158
+Insider Threat,IT-Q-159,Module 2,Day 44: Afternoon,What alternative systems or manual processes are implemented to continue operations if a critical system is unavailable for a significant period?,,,,159
+Insider Threat,IT-Q-160,Module 2,Day 44: Afternoon,Who can authorize use of alternate systems or procedures?,,,,160
+Insider Threat,IT-Q-161,Module 2,Day 44: Afternoon,How long can you perform manual or alternate processes on your critical systems?,,,,161
+Insider Threat,IT-Q-162,Module 2,Day 44: Afternoon,At what point in the scenario would you contact law enforcement?,,,,162
+Insider Threat,IT-Q-163,Module 2,Day 44: Afternoon,How would relationships with law enforcement and other partners be managed?,,,,163
+Insider Threat,IT-Q-164,Module 2,Day 44: Afternoon,Is this process documented in your CIRP?,,,,164
+Insider Threat,IT-Q-165,Module 2,Day 44: Afternoon,Are processes and resources in place for evidence preservation and collection?,,,,165
+Insider Threat,IT-Q-166,Module 2,Day 44: Afternoon,"Based on discussion, what changes will you implement to increase the resilience of your organization?",,,,166
+Executives,EX-Q-86,General Discussion Questions,,What are the greatest cyber threats to your organization?,,,,86
+Executives,EX-Q-87,General Discussion Questions,,Describe your cybersecurity culture.,,,,87
+Executives,EX-Q-88,General Discussion Questions,,How do you articulate the importance of a strong cybersecurity culture and resiliency to your organization?,,,,88
+Executives,EX-Q-89,General Discussion Questions,,How do you enforce a strong cybersecurity culture?,,,,89
+Executives,EX-Q-90,General Discussion Questions,,What are the cybersecurity objectives for your organization?,,,,90
+Executives,EX-Q-91,General Discussion Questions,,How do these align with your business objectives?,,,,91
+Executives,EX-Q-92,General Discussion Questions,,"Describe the relationship between senior leadership, business/application management, and security management (e.g., security steering committee).",,,,92
+Executives,EX-Q-93,General Discussion Questions,,What is your overall cybersecurity strategy/plan?,,,,93
+Executives,EX-Q-94,General Discussion Questions,,In what ways is your cybersecurity strategy/plan supported and advocated for by senior leadership?,,,,94
+Executives,EX-Q-95,General Discussion Questions,,How frequently does the security steering committee communicate with senior leadership?,,,,95
+Executives,EX-Q-96,General Discussion Questions,,Discuss senior leadership’s role in the management of the cybersecurity program.,,,,96
+Executives,EX-Q-97,General Discussion Questions,,"How does senior leadership consider cost-benefit and business impact analyses to determine appropriate risk mitigation, continuity, and cybersecurity measures?",,,,97
+Executives,EX-Q-98,General Discussion Questions,,How does senior leadership oversee the lifecycle management of the cybersecurity program?,,,,98
+Executives,EX-Q-99,General Discussion Questions,,How is senior leadership involved in the development of cybersecurity policies?,,,,99
+Executives,EX-Q-100,General Discussion Questions,,How often is senior leadership briefed on the state of your cybersecurity program?,,,,100
+Executives,EX-Q-101,General Discussion Questions,,Are currently allocated funding and/or resources devoted to cybersecurity sufficient?,,,,101
+Executives,EX-Q-102,General Discussion Questions,,"What additional resources, if any, might your organization require to respond to and recover from a cyber incident?",,,,102
+Executives,EX-Q-103,General Discussion Questions,,How does your organization use artificial intelligence (AI)?,,,,103
+Executives,EX-Q-104,General Discussion Questions,,What cybersecurity vulnerabilities stem from the use of AI technology?,,,,104
+Executives,EX-Q-105,General Discussion Questions,,Describe your organization’s cybersecurity training for senior leadership and those with elevated administrative privileges.,,,,105
+Executives,EX-Q-112,Vignette 1: Whaling/Ransomware,,What is your role during cyber incident response?,,,,112
+Executives,EX-Q-113,Vignette 1: Whaling/Ransomware,,At what point would you be notified and/or involved in this scenario?,,,,113
+Executives,EX-Q-114,Vignette 1: Whaling/Ransomware,,When would you activate your Cyber Incident Response Plan (CIRP) and/or Business Continuity Plan (BCP)/Continuity of Operations (COOP) Plan?,,,,114
+Executives,EX-Q-115,Vignette 1: Whaling/Ransomware,,Who is authorized to activate the CIRP/COOP/BCP?,,,,115
+Executives,EX-Q-116,Vignette 1: Whaling/Ransomware,,How would your organization continue essential functions/operations if a business-critical IT system is unavailable for a significant period of time?,,,,116
+Executives,EX-Q-117,Vignette 1: Whaling/Ransomware,,Discuss your decision-making process for responding to ransomware.,,,,117
+Executives,EX-Q-118,Vignette 1: Whaling/Ransomware,,Does your organization have a ransomware policy?,,,,118
+Executives,EX-Q-119,Vignette 1: Whaling/Ransomware,,"Explain how your response partners, such as your cyber insurance provider or third-party vendors, are involved in your procedures.",,,,119
+Executives,EX-Q-120,Vignette 1: Whaling/Ransomware,,"If you have cyber insurance, what is their role in incident response?",,,,120
+Executives,EX-Q-121,Vignette 1: Whaling/Ransomware,,What does your cyber insurance policy cover?,,,,121
+Executives,EX-Q-122,Vignette 1: Whaling/Ransomware,,What regulatory and/or compliance requirements must be addressed by senior leadership?,,,,122
+Executives,EX-Q-123,Vignette 1: Whaling/Ransomware,,When and how would legal counsel be involved?,,,,123
+Executives,EX-Q-131,Vignette 2: Insider Threat,,How does your organization mitigate insider threats?,,,,131
+Executives,EX-Q-132,Vignette 2: Insider Threat,,Does your organization have an insider threat management program?,,,,132
+Executives,EX-Q-133,Vignette 2: Insider Threat,,What type of training do senior leaders at your organization receive on identifying a potential insider threat?,,,,133
+Executives,EX-Q-135,Vignette 2: Insider Threat,,Employees/customers?,,,,135
+Executives,EX-Q-136,Vignette 2: Insider Threat,,Management?,,,,136
+Executives,EX-Q-137,Vignette 2: Insider Threat,,Shareholders/constituents?,,,,137
+Executives,EX-Q-138,Vignette 2: Insider Threat,,Partners/contractors/vendors?,,,,138
+Executives,EX-Q-139,Vignette 2: Insider Threat,,Media?,,,,139
+Executives,EX-Q-140,Vignette 2: Insider Threat,,What are the reputational impacts of this incident?,,,,140
+Executives,EX-Q-141,Vignette 2: Insider Threat,,How will you manage these impacts?,,,,141
+Executives,EX-Q-142,Vignette 2: Insider Threat,,"How would you address concerns and mistrust from <employees, partners, shareholders, vendors, customers, constituents>?",,,,142
+Executives,EX-Q-143,Vignette 2: Insider Threat,,Is there funding available to pay for credit monitoring for impacted individuals?,,,,143
+Executives,EX-Q-144,Vignette 2: Insider Threat,,Discuss how lessons learned from incidents are briefed to you.,,,,144
+Executives,EX-Q-145,Vignette 2: Insider Threat,,How are lessons learned incorporated into new cybersecurity policies?,,,,145
+Executives,EX-Q-146,Vignette 2: Insider Threat,,Who leads policy development?,,,,146
+Executives,EX-Q-147,Vignette 2: Insider Threat,,Who is part of the approval process?,,,,147
