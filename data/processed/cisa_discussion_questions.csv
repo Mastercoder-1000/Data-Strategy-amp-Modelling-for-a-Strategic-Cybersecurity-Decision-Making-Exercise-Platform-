@@ -142,6 +142,7 @@ Ransomware,RW-Q-133,Module 2,Day 11,How has your organization prioritized IT inf
 Ransomware,RW-Q-134,Module 2,Day 11,How has cybersecurity been integrated into your continuity plans?,,,,134
 Ransomware,RW-Q-135,Module 2,Day 11,How does your organization baseline network activity?,,,,135
 Ransomware,RW-Q-136,Module 2,Day 11,How can you distinguish between normal and abnormal traffic?,,,,136
+Ransomware,RW-Q-137,Module 2,Day 11,"Utilizing your organization’s cyber incident response plan (CIRP), describe the actions that your organization would take at this time.",,,,137
 Ransomware,RW-Q-138,Module 2,Day 11,Describe the training your employees receive on this plan.,,,,138
 Ransomware,RW-Q-139,Module 2,Day 11,What guidance does the plan include on assessing the severity of the incident?,,,,139
 Ransomware,RW-Q-140,Module 2,Day 11,How does incident severity level dictate response?,,,,140
@@ -197,6 +198,7 @@ Insider Threat,IT-Q-140,Module 2,Day 44: Afternoon,Does your organization have b
 Insider Threat,IT-Q-141,Module 2,Day 44: Afternoon,How frequently do you run backups?,,,,141
 Insider Threat,IT-Q-142,Module 2,Day 44: Afternoon,How long do you keep copies of archived files backed up?,,,,142
 Insider Threat,IT-Q-143,Module 2,Day 44: Afternoon,How long would it take to restore primary files from backups?,,,,143
+Insider Threat,IT-Q-144,Module 2,Day 44: Afternoon,"Utilizing your organization’s cyber incident response plan (CIRP), describe the actions that your organization would take at this time.",,,,144
 Insider Threat,IT-Q-145,Module 2,Day 44: Afternoon,What CIRP training do you provide your employees?,,,,145
 Insider Threat,IT-Q-146,Module 2,Day 44: Afternoon,What guidance does the CIRP include on assessing the severity of the incident?,,,,146
 Insider Threat,IT-Q-147,Module 2,Day 44: Afternoon,How does incident severity level determine response?,,,,147
@@ -254,6 +256,7 @@ Executives,EX-Q-123,Vignette 1: Whaling/Ransomware,,When and how would legal cou
 Executives,EX-Q-131,Vignette 2: Insider Threat,,How does your organization mitigate insider threats?,,,,131
 Executives,EX-Q-132,Vignette 2: Insider Threat,,Does your organization have an insider threat management program?,,,,132
 Executives,EX-Q-133,Vignette 2: Insider Threat,,What type of training do senior leaders at your organization receive on identifying a potential insider threat?,,,,133
+Executives,EX-Q-134,Vignette 2: Insider Threat,,"In this scenario, how are you communicating with and what is your message to:",,,,134
 Executives,EX-Q-135,Vignette 2: Insider Threat,,Employees/customers?,,,,135
 Executives,EX-Q-136,Vignette 2: Insider Threat,,Management?,,,,136
 Executives,EX-Q-137,Vignette 2: Insider Threat,,Shareholders/constituents?,,,,137
