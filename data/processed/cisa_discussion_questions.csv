@@ -270,3 +270,162 @@ Executives,EX-Q-144,Vignette 2: Insider Threat,,Discuss how lessons learned from
 Executives,EX-Q-145,Vignette 2: Insider Threat,,How are lessons learned incorporated into new cybersecurity policies?,,,,145
 Executives,EX-Q-146,Vignette 2: Insider Threat,,Who leads policy development?,,,,146
 Executives,EX-Q-147,Vignette 2: Insider Threat,,Who is part of the approval process?,,,,147
+Industrial Control Systems,ICS-Q-94,Module 1,Day 1,Discuss your organization’s cyber resilience planning.,,,,94
+Industrial Control Systems,ICS-Q-95,Module 1,Day 1,How are IT and OT business continuity functions coordinated?,,,,95
+Industrial Control Systems,ICS-Q-96,Module 1,Day 1,"What IT and OT infrastructure supports your essential functions, as documented in continuity of operations and incident response plans?",,,,96
+Industrial Control Systems,ICS-Q-97,Module 1,Day 1,Does your organization apply Zero Trust Architecture (ZTA)/zero-trust concepts?,,,,97
+Industrial Control Systems,ICS-Q-98,Module 1,Day 1,What cybersecurity threat information does your organization receive?,,,,98
+Industrial Control Systems,ICS-Q-99,Module 1,Day 1,What threat information is most useful?,,,,99
+Industrial Control Systems,ICS-Q-100,Module 1,Day 1,How is information disseminated to the relevant parties within your organization?,,,,100
+Industrial Control Systems,ICS-Q-101,Module 1,Day 1,What actions would your organization take in response to an alert like the one presented in the scenario?,,,,101
+Industrial Control Systems,ICS-Q-104,Module 1,Day 4,Describe your organization’s asset management plan and how you prioritize critical assets.,,,,104
+Industrial Control Systems,ICS-Q-105,Module 1,Day 4,"How does your organization maintain availability of critical or key assets (e.g., network connectivity)?",,,,105
+Industrial Control Systems,ICS-Q-106,Module 1,Day 4,How does your organization baseline network activity?,,,,106
+Industrial Control Systems,ICS-Q-107,Module 1,Day 4,How do you distinguish between normal and abnormal traffic?,,,,107
+Industrial Control Systems,ICS-Q-108,Module 1,Day 4,What are your next steps when abnormal activity is detected/reported?,,,,108
+Industrial Control Systems,ICS-Q-109,Module 1,Day 4,Describe the risks/advantages to maintaining legacy equipment/systems.,,,,109
+Industrial Control Systems,ICS-Q-110,Module 1,Day 4,How do you manage technology that is no longer supported by the manufacturer?,,,,110
+Industrial Control Systems,ICS-Q-111,Module 1,Day 4,What supply chain concerns do you have regarding legacy equipment/systems?,,,,111
+Industrial Control Systems,ICS-Q-112,Module 1,Day 4,Describe your organization’s equipment commissioning and decommissioning processes.,,,,112
+Industrial Control Systems,ICS-Q-113,Module 1,Day 4,What level of access do your third-party vendors have to your organization’s network?,,,,113
+Industrial Control Systems,ICS-Q-114,Module 1,Day 4,How often are third-party access rights and data logs reviewed?,,,,114
+Industrial Control Systems,ICS-Q-115,Module 1,Day 4,What mechanisms or processes are in place to prevent malicious activity originating from vendors?,,,,115
+Industrial Control Systems,ICS-Q-120,Module 1,Day 8,Describe your organization’s cybersecurity training program for employees.,,,,120
+Industrial Control Systems,ICS-Q-121,Module 1,Day 8,How often are employees required to complete this training?,,,,121
+Industrial Control Systems,ICS-Q-122,Module 1,Day 8,Describe the cross-training or the coordination between the IT and OT departments.,,,,122
+Industrial Control Systems,ICS-Q-123,Module 1,Day 8,What additional training is required for employees who have system administrator-level privileges?,,,,123
+Industrial Control Systems,ICS-Q-124,Module 1,Day 8,What type of training methods or approaches have you found most beneficial?,,,,124
+Industrial Control Systems,ICS-Q-125,Module 1,Day 8,How do employees report suspected phishing attempts or other possible cybersecurity incidents?,,,,125
+Industrial Control Systems,ICS-Q-126,Module 1,Day 8,What actions does the IT department take when suspicious emails are reported?,,,,126
+Industrial Control Systems,ICS-Q-127,Module 1,Day 8,What feedback do employees receive after reporting a suspicious email or event?,,,,127
+Industrial Control Systems,ICS-Q-128,Module 1,Day 8,"Does your organization employ phishing tests? If so, describe the conduct of the tests and how employees receive feedback/training following the tests.",,,,128
+Industrial Control Systems,ICS-Q-132,Module 1,Day 15,"What policies and procedures does your organization have to maintain the security of facilities, networks, and systems?",,,,132
+Industrial Control Systems,ICS-Q-133,Module 1,Day 15,What are your access control measures for both OT and IT assets and associated facilities?,,,,133
+Industrial Control Systems,ICS-Q-134,Module 1,Day 15,Where are these policies and procedures documented?,,,,134
+Industrial Control Systems,ICS-Q-143,Module 2,Day 23,Discuss your organization’s intrusion detection capabilities and analytics that alert you to a potential cyber incident.,,,,143
+Industrial Control Systems,ICS-Q-144,Module 2,Day 23,What type of hardware and/or software does your organization use to detect and prevent malicious activity on your systems/network?,,,,144
+Industrial Control Systems,ICS-Q-145,Module 2,Day 23,How does your organization differentiate between various types of external scanning?,,,,145
+Industrial Control Systems,ICS-Q-148,Module 2,Day 24,"Using your organization’s cyber incident response plan (CIRP), describe the actions your organization would take to minimize impact on current operations.",,,,148
+Industrial Control Systems,ICS-Q-149,Module 2,Day 24,What guidance does the plan include on assessing the severity of the incident?,,,,149
+Industrial Control Systems,ICS-Q-150,Module 2,Day 24,How does incident severity level dictate response?,,,,150
+Industrial Control Systems,ICS-Q-151,Module 2,Day 24,How are critical systems and processes incorporated within your CIRP?,,,,151
+Industrial Control Systems,ICS-Q-152,Module 2,Day 24,How does your CIRP/IT response plan incorporate OT incident response?,,,,152
+Industrial Control Systems,ICS-Q-153,Module 2,Day 24,Is your CIRP aligned with any OT incident response plans?,,,,153
+Industrial Control Systems,ICS-Q-154,Module 2,Day 24,What redundant systems exist when primary systems are compromised?,,,,154
+Industrial Control Systems,ICS-Q-155,Module 2,Day 24,What alternative systems or manual processes are implemented to continue operations if a critical system is unavailable for a significant period?,,,,155
+Industrial Control Systems,ICS-Q-156,Module 2,Day 24,Does your CIRP include procedures to operate in manual mode if a cyber incident compromises OT systems?,,,,156
+Industrial Control Systems,ICS-Q-157,Module 2,Day 24,Who authorizes the use of alternate systems or procedures?,,,,157
+Industrial Control Systems,ICS-Q-158,Module 2,Day 24,How long can you perform manual or alternate processes?,,,,158
+Industrial Control Systems,ICS-Q-159,Module 2,Day 24,"Does your organization have backups of control files and other important files stored in a location separate from your primary working files/copies?,",,,,159
+Industrial Control Systems,ICS-Q-160,Module 2,Day 24,How long would it take to restore primary files from backups?,,,,160
+Industrial Control Systems,ICS-Q-161,Module 2,Day 24,How frequently do you test restoration from backups?,,,,161
+Industrial Control Systems,ICS-Q-162,Module 2,Day 24,How long do you keep copies of archived files backed up?,,,,162
+Industrial Control Systems,ICS-Q-163,Module 2,Day 24,What are the roles of your security operations center during a response?,,,,163
+Industrial Control Systems,ICS-Q-164,Module 2,Day 24,Who is responsible for coordinating information across different organizational-level incidents?,,,,164
+Industrial Control Systems,ICS-Q-169,Module 2,Day 26,How sufficient are your organization’s current internal resources for responding to the cyber incidents in this scenario?,,,,169
+Industrial Control Systems,ICS-Q-170,Module 2,Day 26,What additional resources outside of your organization would be necessary for responding to the cyber incident?,,,,170
+Industrial Control Systems,ICS-Q-171,Module 2,Day 26,What are the processes or procedures for requesting additional resources?,,,,171
+Industrial Control Systems,ICS-Q-172,Module 2,Day 26,"What external partners (e.g., CISA, FBI, etc.) would you contact for assistance?",,,,172
+Industrial Control Systems,ICS-Q-173,Module 2,Day 26,What legal and regulatory notifications are required based on the scenario?,,,,173
+Industrial Control Systems,ICS-Q-174,Module 2,Day 26,When are notifications made and who is responsible for making the notifications?,,,,174
+Industrial Control Systems,ICS-Q-175,Module 2,Day 26,"Based on discussion, what changes will you implement to increase the resilience of your organization?",,,,175
+Financial Services,FS-Q-87,Module 1,Day 1,What are the greatest cyber threats to your organization?,,,,87
+Financial Services,FS-Q-88,Module 1,Day 1,What are the possible impacts of an intrusion into your systems?,,,,88
+Financial Services,FS-Q-89,Module 1,Day 1,What cybersecurity threat information does your organization receive?,,,,89
+Financial Services,FS-Q-90,Module 1,Day 1,What are your primary sources of information?,,,,90
+Financial Services,FS-Q-91,Module 1,Day 1,How do you determine what information is relevant to your equipment and operations?,,,,91
+Financial Services,FS-Q-92,Module 1,Day 1,What threat information is most useful?,,,,92
+Financial Services,FS-Q-93,Module 1,Day 1,What actions would your organization take in response to an alert like the one presented in the scenario?,,,,93
+Financial Services,FS-Q-94,Module 1,Day 1,Discuss your organization’s cyber resilience planning.,,,,94
+Financial Services,FS-Q-95,Module 1,Day 1,Does your organization apply Zero Trust Architecture (ZTA)/zero-trust concepts?,,,,95
+Financial Services,FS-Q-96,Module 1,Day 1,"Has your organization conducted a risk assessment to identify specific cyber threats, vulnerabilities, and critical assets?",,,,96
+Financial Services,FS-Q-97,Module 1,Day 1,What improvements were implemented to enhance cyber resilience following recent risk assessments?,,,,97
+Financial Services,FS-Q-100,Module 1,Day 6,Describe your organization’s cybersecurity training program for employees.,,,,100
+Financial Services,FS-Q-101,Module 1,Day 6,How often are employees required to complete this training?,,,,101
+Financial Services,FS-Q-102,Module 1,Day 6,What additional training is required for employees who have system administrator-level privileges?,,,,102
+Financial Services,FS-Q-103,Module 1,Day 6,What type of training methods or approaches have you found most beneficial?,,,,103
+Financial Services,FS-Q-104,Module 1,Day 6,What is the role of cybersecurity in the review and selection of TSP support?,,,,104
+Financial Services,FS-Q-105,Module 1,Day 6,"What cybersecurity language (e.g., cybersecurity training and cyber incident notification requirements) is included within TSP contracts?",,,,105
+Financial Services,FS-Q-106,Module 1,Day 6,How do you evaluate the cybersecurity posture of your vendors?,,,,106
+Financial Services,FS-Q-107,Module 1,Day 6,How often are contracts reviewed?,,,,107
+Financial Services,FS-Q-108,Module 1,Day 6,What level of access do your TSP have to your organization’s network?,,,,108
+Financial Services,FS-Q-109,Module 1,Day 6,How often are TSP access rights and data logs reviewed?,,,,109
+Financial Services,FS-Q-112,Module 1,Day 7,"How is your network configured (e.g., network segmentation, least privilege access, etc.) to defend against malicious actors?",,,,112
+Financial Services,FS-Q-113,Module 1,Day 7,How does your organization baseline network activity?,,,,113
+Financial Services,FS-Q-114,Module 1,Day 7,How do you distinguish between normal and abnormal traffic?,,,,114
+Financial Services,FS-Q-115,Module 1,Day 7,What are your next steps when abnormal activity is detected/reported?,,,,115
+Financial Services,FS-Q-116,Module 1,Day 7,What intelligence feeds for indicators of compromise does your organization use?,,,,116
+Financial Services,FS-Q-117,Module 1,Day 7,What IT systems or processes are the most critical to your organization?,,,,117
+Financial Services,FS-Q-118,Module 1,Day 7,How would you coordinate with your cloud service provider to investigate anomalies with cloud-based services?,,,,118
+Financial Services,FS-Q-121,Module 1,Day 8,What steps do you take to ensure organizational data is secure from data loss/theft?,,,,121
+Financial Services,FS-Q-126,Module 2,Day 9 - Morning,"Using your organization’s Cyber Incident Response Plan (CIRP)/incident response/continuity of operations plan, describe the actions your organization would take to minimize impact on current operations.",,,,126
+Financial Services,FS-Q-127,Module 2,Day 9 - Morning,"How does your plan define escalation criteria, notifications, activations, and/or courses of action?",,,,127
+Financial Services,FS-Q-128,Module 2,Day 9 - Morning,What guidance does the plan include on assessing the severity of the incident?,,,,128
+Financial Services,FS-Q-129,Module 2,Day 9 - Morning,How does incident severity level dictate response actions?,,,,129
+Financial Services,FS-Q-130,Module 2,Day 9 - Morning,How are critical systems and processes incorporated within your plan?,,,,130
+Financial Services,FS-Q-131,Module 2,Day 9 - Morning,Explain your organization’s decision-making process regarding ransomware payment.,,,,131
+Financial Services,FS-Q-132,Module 2,Day 9 - Morning,Are ransomware policies/procedures included in your CIRP?,,,,132
+Financial Services,FS-Q-135,Module 2,Day 9 – Afternoon,Are you able to continue to provide services to your customers while responding to this incident?,,,,135
+Financial Services,FS-Q-136,Module 2,Day 9 – Afternoon,What alternative systems or manual processes are implemented to continue operations if a critical system is unavailable for a significant period?,,,,136
+Financial Services,FS-Q-137,Module 2,Day 9 – Afternoon,Who can authorize the use of alternate systems or procedures?,,,,137
+Financial Services,FS-Q-138,Module 2,Day 9 – Afternoon,How long can you operate using manual processes or alternate systems when your primary critical systems fail?,,,,138
+Financial Services,FS-Q-139,Module 2,Day 9 – Afternoon,What additional staffing requirements are necessary for alternate systems or procedures?,,,,139
+Financial Services,FS-Q-140,Module 2,Day 9 – Afternoon,What incident-related information are you sharing with customer-facing employees?,,,,140
+Financial Services,FS-Q-143,Module 2,Day 9 – Evening,"What incident-related information are you sharing externally (e.g., with customers, partners)?",,,,143
+Financial Services,FS-Q-144,Module 2,Day 9 – Evening,How do you respond to the media inquiries?,,,,144
+Financial Services,FS-Q-145,Module 2,Day 9 – Evening,What legal and regulatory notifications are required based on the scenario?,,,,145
+Financial Services,FS-Q-146,Module 2,Day 9 – Evening,When are notifications made?,,,,146
+Financial Services,FS-Q-147,Module 2,Day 9 – Evening,Who is responsible for making the notifications?,,,,147
+Financial Services,FS-Q-148,Module 2,Day 9 – Evening,How are TSP vendors involved in your incident response?,,,,148
+Financial Services,FS-Q-149,Module 2,Day 9 – Evening,Is this documented in your CIRP?,,,,149
+Financial Services,FS-Q-152,Module 2,Day 10,How sufficient are your organization’s current internal resources for responding to the cyber incidents in this scenario?,,,,152
+Financial Services,FS-Q-153,Module 2,Day 10,What additional resources outside of your organization are necessary for responding to the cyber incident?,,,,153
+Financial Services,FS-Q-154,Module 2,Day 10,What are the processes or procedures for requesting additional resources?,,,,154
+Financial Services,FS-Q-155,Module 2,Day 10,"What external partners (e.g., Department of the Treasury, CISA, FBI, vendors) would you contact for assistance?",,,,155
+Financial Services,FS-Q-156,Module 2,Day 10,How would you work to regain public trust and the trust of your customers following this incident?,,,,156
+Financial Services,FS-Q-157,Module 2,Day 10,"Based on discussion and lessons learned, what changes will you implement to increase the resilience of your organization?",,,,157
+Communications,CM-Q-87,Module 1,Day 1,What are the greatest cyber threats to your organization?,,,,87
+Communications,CM-Q-88,Module 1,Day 1,What concerns do you have regarding potential threats posed by Artificial Intelligence (AI) like those addressed in the alert?,,,,88
+Communications,CM-Q-89,Module 1,Day 1,What risks do you face from end user malware infections?,,,,89
+Communications,CM-Q-90,Module 1,Day 1,What are the potential impacts to you and your customers if you were the target of a DDoS attack?,,,,90
+Communications,CM-Q-91,Module 1,Day 1,"What cybersecurity threat information does your organization receive (e.g., information from CISA, FBI, Fusion Center)?",,,,91
+Communications,CM-Q-92,Module 1,Day 1,What cyber threat information is most useful?,,,,92
+Communications,CM-Q-93,Module 1,Day 1,How is information disseminated throughout your organization?,,,,93
+Communications,CM-Q-94,Module 1,Day 1,What actions would your organization take in response to an alert like the one presented in the scenario?,,,,94
+Communications,CM-Q-97,Module 1,Day 12,Describe your organization’s cybersecurity posture.,,,,97
+Communications,CM-Q-98,Module 1,Day 12,"Does your organization use multi-factor authentication (e.g., something you know, something you have, something you are) to mitigate the potential effects of phishing?",,,,98
+Communications,CM-Q-99,Module 1,Day 12,Describe your organization’s cybersecurity training program for employees.,,,,99
+Communications,CM-Q-100,Module 1,Day 12,How often are employees required to complete this training?,,,,100
+Communications,CM-Q-101,Module 1,Day 12,What additional training is required for employees with elevated or system administrator-level privileges?,,,,101
+Communications,CM-Q-102,Module 1,Day 12,What training methods or approaches have you found most beneficial?,,,,102
+Communications,CM-Q-103,Module 1,Day 12,How are employees trained to recognize and report cyber threats such as phishing scams?,,,,103
+Communications,CM-Q-104,Module 1,Day 12,What additional training does your organization require for those who fall for a phishing email?,,,,104
+Communications,CM-Q-105,Module 1,Day 12,What are your network access and authentication controls for users?,,,,105
+Communications,CM-Q-106,Module 1,Day 12,"Does your organization allow users to run document macros? If so, what compensating security controls do you have to mitigate the risk?",,,,106
+Communications,CM-Q-107,Module 1,Day 12,What cybersecurity controls are present to mitigate the risk of users entering credentials into phishing websites?,,,,107
+Communications,CM-Q-110,Module 1,Day 20,"What would you do with this information, if verified?",,,,110
+Communications,CM-Q-111,Module 1,Day 20,What methods do you have in place for network monitoring?,,,,111
+Communications,CM-Q-112,Module 1,Day 20,What services do you use for intrusion detection monitoring?,,,,112
+Communications,CM-Q-113,Module 1,Day 20,When was your last penetration test performed and what improvements have you made based on the findings?,,,,113
+Communications,CM-Q-123,Module 2,Day 43 – Early Morning,"Using your organization’s existing incident response plan/cyber incident response plan (CIRP), describe the actions your organization would take at this time.",,,,123
+Communications,CM-Q-124,Module 2,Day 43 – Early Morning,Describe the training your employees receive on this plan.,,,,124
+Communications,CM-Q-125,Module 2,Day 43 – Early Morning,What guidance does the plan include on assessing the severity of an incident?,,,,125
+Communications,CM-Q-126,Module 2,Day 43 – Early Morning,How does incident severity level dictate response?,,,,126
+Communications,CM-Q-127,Module 2,Day 43 – Early Morning,How are critical systems and processes incorporated within your CIRP?,,,,127
+Communications,CM-Q-128,Module 2,Day 43 – Early Morning,What methods does your organization have to sustain operations during a DDoS?,,,,128
+Communications,CM-Q-129,Module 2,Day 43 – Early Morning,Do you employ a DDoS mitigation solution?,,,,129
+Communications,CM-Q-130,Module 2,Day 43 – Early Morning,Describe your crisis communication plan.,,,,130
+Communications,CM-Q-131,Module 2,Day 43 – Early Morning,"If primary communications are compromised, how do you provide information to internal and external entities?",,,,131
+Communications,CM-Q-132,Module 2,Day 43 – Early Morning,Are your responders and support personnel registered users of Government Emergency Telecommunications Service (GETS)/Wireless Priority Service (WPS) to ensure they have the level of priority needed to communicate during an incident?,,,,132
+Communications,CM-Q-133,Module 2,Day 43 – Early Morning,How do you maintain services for critical infrastructure customers?,,,,133
+Communications,CM-Q-134,Module 2,Day 43 – Early Morning,What methods are referenced in your CIRP/Continuity of Operations Plan (COOP) for restoring these services?,,,,134
+Communications,CM-Q-137,Module 2,Day 43 – Mid Morning,What steps within your CIRP/COOP might help mitigate the TDoS?,,,,137
+Communications,CM-Q-138,Module 2,Day 43 – Mid Morning,What capabilities do you have to get messages out to your customers to inform them of outages and restoration efforts?,,,,138
+Communications,CM-Q-139,Module 2,Day 43 – Mid Morning,"Given the scenario, what are the broader impacts to your community?",,,,139
+Communications,CM-Q-140,Module 2,Day 43 – Mid Morning,What essential services are dependent upon your organization providing telecommunications services?,,,,140
+Communications,CM-Q-143,Module 2,Day 43 – Evening,Describe your organizational processes to respond to the media reports and inquiries.,,,,143
+Communications,CM-Q-144,Module 2,Day 43 – Evening,What pre-scripted messages exist for cyber incidents?,,,,144
+Communications,CM-Q-145,Module 2,Day 43 – Evening,How is public messaging  coordinated and disseminated during a cyber incident?,,,,145
+Communications,CM-Q-146,Module 2,Day 43 – Evening,How would you preserve and reinforce the public’s confidence and trust in your organization during a significant cyber incident?,,,,146
+Communications,CM-Q-149,Module 2,Day 60,How do you determine a cyber event/incident is over?,,,,149
+Communications,CM-Q-150,Module 2,Day 60,"Based on discussion, what changes would you implement to increase the resilience of your organization?",,,,150
