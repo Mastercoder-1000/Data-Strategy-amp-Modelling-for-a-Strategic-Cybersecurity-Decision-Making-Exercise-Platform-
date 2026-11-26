@@ -1,0 +1,432 @@
+﻿inject_id,threat_category,domain,technique_id,mitigation_id,mitigation_name
+HC-INJ-89,Phishing,enterprise-attack,T1566,M1047,Audit
+HC-INJ-89,Phishing,enterprise-attack,T1566,M1031,Network Intrusion Prevention
+HC-INJ-89,Phishing,enterprise-attack,T1566,M1054,Software Configuration
+HC-INJ-89,Phishing,enterprise-attack,T1566,M1021,Restrict Web-Based Content
+HC-INJ-89,Phishing,enterprise-attack,T1566,M1049,Antivirus/Antimalware
+HC-INJ-89,Phishing,enterprise-attack,T1566,M1017,User Training
+HC-INJ-89,Phishing,enterprise-attack,T1598,M1017,User Training
+HC-INJ-89,Phishing,enterprise-attack,T1598,M1054,Software Configuration
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1048,Application Isolation and Sandboxing
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1037,Filter Network Traffic
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1030,Network Segmentation
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1016,Vulnerability Scanning
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1026,Privileged Account Management
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1050,Exploit Protection
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1035,Limit Access to Resource Over Network
+HC-INJ-119,Vulnerability,enterprise-attack,T1190,M1051,Update Software
+HC-INJ-119,Vulnerability,enterprise-attack,T1068,M1051,Update Software
+HC-INJ-119,Vulnerability,enterprise-attack,T1068,M1050,Exploit Protection
+HC-INJ-119,Vulnerability,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
+HC-INJ-119,Vulnerability,enterprise-attack,T1068,M1019,Threat Intelligence Program
+HC-INJ-119,Vulnerability,enterprise-attack,T1068,M1038,Execution Prevention
+HC-INJ-126,System Disruption,enterprise-attack,T1489,M1030,Network Segmentation
+HC-INJ-126,System Disruption,enterprise-attack,T1489,M1018,User Account Management
+HC-INJ-126,System Disruption,enterprise-attack,T1489,M1060,Out-of-Band Communications Channel
+HC-INJ-126,System Disruption,enterprise-attack,T1489,M1024,Restrict Registry Permissions
+HC-INJ-126,System Disruption,enterprise-attack,T1489,M1022,Restrict File and Directory Permissions
+HC-INJ-126,System Disruption,enterprise-attack,T1499,M1037,Filter Network Traffic
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1027,Password Policies
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1018,User Account Management
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1026,Privileged Account Management
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1032,Multi-factor Authentication
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1013,Application Developer Guidance
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1017,User Training
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1015,Active Directory Configuration
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1036,Account Use Policies
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1621,M1032,Multi-factor Authentication
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1621,M1036,Account Use Policies
+HC-INJ-135,Insider Threat / Unauthorized Access,enterprise-attack,T1621,M1017,User Training
+HC-INJ-137,Other Security Incident,enterprise-attack,T1565.001,M1022,Restrict File and Directory Permissions
+HC-INJ-137,Other Security Incident,enterprise-attack,T1565.001,M1029,Remote Data Storage
+HC-INJ-137,Other Security Incident,enterprise-attack,T1565.001,M1041,Encrypt Sensitive Information
+HC-INJ-139,System Disruption,enterprise-attack,T1565,M1041,Encrypt Sensitive Information
+HC-INJ-139,System Disruption,enterprise-attack,T1565,M1029,Remote Data Storage
+HC-INJ-139,System Disruption,enterprise-attack,T1565,M1030,Network Segmentation
+HC-INJ-139,System Disruption,enterprise-attack,T1565,M1022,Restrict File and Directory Permissions
+HC-INJ-156,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+HC-INJ-156,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+HC-INJ-156,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+HC-INJ-156,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+HC-INJ-156,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+HC-INJ-156,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+HC-INJ-159,Data Exposure,enterprise-attack,T1530,M1018,User Account Management
+HC-INJ-159,Data Exposure,enterprise-attack,T1530,M1041,Encrypt Sensitive Information
+HC-INJ-159,Data Exposure,enterprise-attack,T1530,M1022,Restrict File and Directory Permissions
+HC-INJ-159,Data Exposure,enterprise-attack,T1530,M1037,Filter Network Traffic
+HC-INJ-159,Data Exposure,enterprise-attack,T1530,M1047,Audit
+HC-INJ-159,Data Exposure,enterprise-attack,T1530,M1032,Multi-factor Authentication
+HC-INJ-159,Data Exposure,enterprise-attack,T1567,M1021,Restrict Web-Based Content
+HC-INJ-159,Data Exposure,enterprise-attack,T1567,M1057,Data Loss Prevention
+HC-INJ-163,Data Exposure,enterprise-attack,T1530,M1018,User Account Management
+HC-INJ-163,Data Exposure,enterprise-attack,T1530,M1041,Encrypt Sensitive Information
+HC-INJ-163,Data Exposure,enterprise-attack,T1530,M1022,Restrict File and Directory Permissions
+HC-INJ-163,Data Exposure,enterprise-attack,T1530,M1037,Filter Network Traffic
+HC-INJ-163,Data Exposure,enterprise-attack,T1530,M1047,Audit
+HC-INJ-163,Data Exposure,enterprise-attack,T1530,M1032,Multi-factor Authentication
+HC-INJ-163,Data Exposure,enterprise-attack,T1567,M1021,Restrict Web-Based Content
+HC-INJ-163,Data Exposure,enterprise-attack,T1567,M1057,Data Loss Prevention
+VD-INJ-111,Third-Party / Supply Chain,enterprise-attack,T1195.002,M1051,Update Software
+VD-INJ-111,Third-Party / Supply Chain,enterprise-attack,T1195.002,M1016,Vulnerability Scanning
+VD-INJ-111,Third-Party / Supply Chain,enterprise-attack,T1199,M1032,Multi-factor Authentication
+VD-INJ-111,Third-Party / Supply Chain,enterprise-attack,T1199,M1018,User Account Management
+VD-INJ-111,Third-Party / Supply Chain,enterprise-attack,T1199,M1030,Network Segmentation
+VD-INJ-136,Third-Party / Supply Chain,enterprise-attack,T1199,M1032,Multi-factor Authentication
+VD-INJ-136,Third-Party / Supply Chain,enterprise-attack,T1199,M1018,User Account Management
+VD-INJ-136,Third-Party / Supply Chain,enterprise-attack,T1199,M1030,Network Segmentation
+VD-INJ-150,System Disruption,enterprise-attack,T1489,M1030,Network Segmentation
+VD-INJ-150,System Disruption,enterprise-attack,T1489,M1018,User Account Management
+VD-INJ-150,System Disruption,enterprise-attack,T1489,M1060,Out-of-Band Communications Channel
+VD-INJ-150,System Disruption,enterprise-attack,T1489,M1024,Restrict Registry Permissions
+VD-INJ-150,System Disruption,enterprise-attack,T1489,M1022,Restrict File and Directory Permissions
+VD-INJ-150,System Disruption,enterprise-attack,T1499,M1037,Filter Network Traffic
+VD-INJ-152,System Disruption,enterprise-attack,T1489,M1030,Network Segmentation
+VD-INJ-152,System Disruption,enterprise-attack,T1489,M1018,User Account Management
+VD-INJ-152,System Disruption,enterprise-attack,T1489,M1060,Out-of-Band Communications Channel
+VD-INJ-152,System Disruption,enterprise-attack,T1489,M1024,Restrict Registry Permissions
+VD-INJ-152,System Disruption,enterprise-attack,T1489,M1022,Restrict File and Directory Permissions
+VD-INJ-152,System Disruption,enterprise-attack,T1499,M1037,Filter Network Traffic
+VD-INJ-162,Third-Party / Supply Chain,enterprise-attack,T1195.002,M1051,Update Software
+VD-INJ-162,Third-Party / Supply Chain,enterprise-attack,T1195.002,M1016,Vulnerability Scanning
+VD-INJ-162,Third-Party / Supply Chain,enterprise-attack,T1199,M1032,Multi-factor Authentication
+VD-INJ-162,Third-Party / Supply Chain,enterprise-attack,T1199,M1018,User Account Management
+VD-INJ-162,Third-Party / Supply Chain,enterprise-attack,T1199,M1030,Network Segmentation
+VD-INJ-167,Other Security Incident,enterprise-attack,T1041,M1031,Network Intrusion Prevention
+VD-INJ-167,Other Security Incident,enterprise-attack,T1041,M1057,Data Loss Prevention
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1048,Application Isolation and Sandboxing
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1037,Filter Network Traffic
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1030,Network Segmentation
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1016,Vulnerability Scanning
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1026,Privileged Account Management
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1050,Exploit Protection
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1035,Limit Access to Resource Over Network
+RW-INJ-86,Vulnerability,enterprise-attack,T1190,M1051,Update Software
+RW-INJ-86,Vulnerability,enterprise-attack,T1068,M1051,Update Software
+RW-INJ-86,Vulnerability,enterprise-attack,T1068,M1050,Exploit Protection
+RW-INJ-86,Vulnerability,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
+RW-INJ-86,Vulnerability,enterprise-attack,T1068,M1019,Threat Intelligence Program
+RW-INJ-86,Vulnerability,enterprise-attack,T1068,M1038,Execution Prevention
+RW-INJ-90,Phishing,enterprise-attack,T1566,M1047,Audit
+RW-INJ-90,Phishing,enterprise-attack,T1566,M1031,Network Intrusion Prevention
+RW-INJ-90,Phishing,enterprise-attack,T1566,M1054,Software Configuration
+RW-INJ-90,Phishing,enterprise-attack,T1566,M1021,Restrict Web-Based Content
+RW-INJ-90,Phishing,enterprise-attack,T1566,M1049,Antivirus/Antimalware
+RW-INJ-90,Phishing,enterprise-attack,T1566,M1017,User Training
+RW-INJ-90,Phishing,enterprise-attack,T1598,M1017,User Training
+RW-INJ-90,Phishing,enterprise-attack,T1598,M1054,Software Configuration
+RW-INJ-122,Data Exposure,enterprise-attack,T1048,M1030,Network Segmentation
+RW-INJ-122,Data Exposure,enterprise-attack,T1048,M1057,Data Loss Prevention
+RW-INJ-122,Data Exposure,enterprise-attack,T1048,M1037,Filter Network Traffic
+RW-INJ-122,Data Exposure,enterprise-attack,T1048,M1031,Network Intrusion Prevention
+RW-INJ-122,Data Exposure,enterprise-attack,T1048,M1022,Restrict File and Directory Permissions
+RW-INJ-122,Data Exposure,enterprise-attack,T1048,M1018,User Account Management
+RW-INJ-122,Data Exposure,enterprise-attack,T1071.004,M1037,Filter Network Traffic
+RW-INJ-122,Data Exposure,enterprise-attack,T1071.004,M1031,Network Intrusion Prevention
+RW-INJ-124,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+RW-INJ-124,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+RW-INJ-124,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+RW-INJ-124,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+RW-INJ-124,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+RW-INJ-124,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+RW-INJ-126,Data Exposure,enterprise-attack,T1530,M1018,User Account Management
+RW-INJ-126,Data Exposure,enterprise-attack,T1530,M1041,Encrypt Sensitive Information
+RW-INJ-126,Data Exposure,enterprise-attack,T1530,M1022,Restrict File and Directory Permissions
+RW-INJ-126,Data Exposure,enterprise-attack,T1530,M1037,Filter Network Traffic
+RW-INJ-126,Data Exposure,enterprise-attack,T1530,M1047,Audit
+RW-INJ-126,Data Exposure,enterprise-attack,T1530,M1032,Multi-factor Authentication
+RW-INJ-126,Data Exposure,enterprise-attack,T1567,M1021,Restrict Web-Based Content
+RW-INJ-126,Data Exposure,enterprise-attack,T1567,M1057,Data Loss Prevention
+RW-INJ-128,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+RW-INJ-128,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+RW-INJ-128,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+RW-INJ-128,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+RW-INJ-128,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+RW-INJ-128,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1048,Application Isolation and Sandboxing
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1037,Filter Network Traffic
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1030,Network Segmentation
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1016,Vulnerability Scanning
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1026,Privileged Account Management
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1050,Exploit Protection
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1035,Limit Access to Resource Over Network
+IT-INJ-85,Vulnerability,enterprise-attack,T1190,M1051,Update Software
+IT-INJ-85,Vulnerability,enterprise-attack,T1068,M1051,Update Software
+IT-INJ-85,Vulnerability,enterprise-attack,T1068,M1050,Exploit Protection
+IT-INJ-85,Vulnerability,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
+IT-INJ-85,Vulnerability,enterprise-attack,T1068,M1019,Threat Intelligence Program
+IT-INJ-85,Vulnerability,enterprise-attack,T1068,M1038,Execution Prevention
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1048,Application Isolation and Sandboxing
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1037,Filter Network Traffic
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1030,Network Segmentation
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1016,Vulnerability Scanning
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1026,Privileged Account Management
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1050,Exploit Protection
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1035,Limit Access to Resource Over Network
+IT-INJ-87,Vulnerability,enterprise-attack,T1190,M1051,Update Software
+IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1051,Update Software
+IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1050,Exploit Protection
+IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
+IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1019,Threat Intelligence Program
+IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1038,Execution Prevention
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1027,Password Policies
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1018,User Account Management
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1026,Privileged Account Management
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1032,Multi-factor Authentication
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1013,Application Developer Guidance
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1017,User Training
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1015,Active Directory Configuration
+IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1036,Account Use Policies
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1048,Application Isolation and Sandboxing
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1037,Filter Network Traffic
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1030,Network Segmentation
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1016,Vulnerability Scanning
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1026,Privileged Account Management
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1050,Exploit Protection
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1035,Limit Access to Resource Over Network
+IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1051,Update Software
+IT-INJ-121,Vulnerability,enterprise-attack,T1068,M1051,Update Software
+IT-INJ-121,Vulnerability,enterprise-attack,T1068,M1050,Exploit Protection
+IT-INJ-121,Vulnerability,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
+IT-INJ-121,Vulnerability,enterprise-attack,T1068,M1019,Threat Intelligence Program
+IT-INJ-121,Vulnerability,enterprise-attack,T1068,M1038,Execution Prevention
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1027,Password Policies
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1018,User Account Management
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1026,Privileged Account Management
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1032,Multi-factor Authentication
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1013,Application Developer Guidance
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1017,User Training
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1015,Active Directory Configuration
+IT-INJ-123,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1036,Account Use Policies
+IT-INJ-125,Insider Threat / Unauthorized Access,enterprise-attack,T1565.001,M1022,Restrict File and Directory Permissions
+IT-INJ-125,Insider Threat / Unauthorized Access,enterprise-attack,T1565.001,M1029,Remote Data Storage
+IT-INJ-125,Insider Threat / Unauthorized Access,enterprise-attack,T1565.001,M1041,Encrypt Sensitive Information
+IT-INJ-125,Insider Threat / Unauthorized Access,enterprise-attack,T1485,M1032,Multi-factor Authentication
+IT-INJ-125,Insider Threat / Unauthorized Access,enterprise-attack,T1485,M1053,Data Backup
+IT-INJ-125,Insider Threat / Unauthorized Access,enterprise-attack,T1485,M1018,User Account Management
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1030,Network Segmentation
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1028,Operating System Configuration
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1032,Multi-factor Authentication
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1026,Privileged Account Management
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1051,Update Software
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1050,Exploit Protection
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1019,Threat Intelligence Program
+IT-INJ-127,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1038,Execution Prevention
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1030,Network Segmentation
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1028,Operating System Configuration
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1032,Multi-factor Authentication
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1136,M1026,Privileged Account Management
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1051,Update Software
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1050,Exploit Protection
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1019,Threat Intelligence Program
+IT-INJ-129,Insider Threat / Unauthorized Access,enterprise-attack,T1068,M1038,Execution Prevention
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1199,M1032,Multi-factor Authentication
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1199,M1018,User Account Management
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1199,M1030,Network Segmentation
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1027,Password Policies
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1018,User Account Management
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1026,Privileged Account Management
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1032,Multi-factor Authentication
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1013,Application Developer Guidance
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1017,User Training
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1015,Active Directory Configuration
+IT-INJ-131,Third-Party / Supply Chain,enterprise-attack,T1078,M1036,Account Use Policies
+IT-INJ-133,Insider Threat / Unauthorized Access,enterprise-attack,T1485,M1032,Multi-factor Authentication
+IT-INJ-133,Insider Threat / Unauthorized Access,enterprise-attack,T1485,M1053,Data Backup
+IT-INJ-133,Insider Threat / Unauthorized Access,enterprise-attack,T1485,M1018,User Account Management
+EX-INJ-109,Ransomware,enterprise-attack,T1566,M1047,Audit
+EX-INJ-109,Ransomware,enterprise-attack,T1566,M1031,Network Intrusion Prevention
+EX-INJ-109,Ransomware,enterprise-attack,T1566,M1054,Software Configuration
+EX-INJ-109,Ransomware,enterprise-attack,T1566,M1021,Restrict Web-Based Content
+EX-INJ-109,Ransomware,enterprise-attack,T1566,M1049,Antivirus/Antimalware
+EX-INJ-109,Ransomware,enterprise-attack,T1566,M1017,User Training
+EX-INJ-109,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+EX-INJ-109,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1027,Password Policies
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1018,User Account Management
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1026,Privileged Account Management
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1032,Multi-factor Authentication
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1013,Application Developer Guidance
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1017,User Training
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1015,Active Directory Configuration
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1036,Account Use Policies
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1098,M1030,Network Segmentation
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1098,M1042,Disable or Remove Feature or Program
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1098,M1018,User Account Management
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1098,M1022,Restrict File and Directory Permissions
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1098,M1032,Multi-factor Authentication
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1098,M1026,Privileged Account Management
+EX-INJ-126,Insider Threat / Unauthorized Access,enterprise-attack,T1098,M1028,Operating System Configuration
+ICS-INJ-116,Phishing,enterprise-attack,T1566,M1047,Audit
+ICS-INJ-116,Phishing,enterprise-attack,T1566,M1031,Network Intrusion Prevention
+ICS-INJ-116,Phishing,enterprise-attack,T1566,M1054,Software Configuration
+ICS-INJ-116,Phishing,enterprise-attack,T1566,M1021,Restrict Web-Based Content
+ICS-INJ-116,Phishing,enterprise-attack,T1566,M1049,Antivirus/Antimalware
+ICS-INJ-116,Phishing,enterprise-attack,T1566,M1017,User Training
+ICS-INJ-116,Phishing,enterprise-attack,T1598,M1017,User Training
+ICS-INJ-116,Phishing,enterprise-attack,T1598,M1054,Software Configuration
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1027,Password Policies
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1018,User Account Management
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1026,Privileged Account Management
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1032,Multi-factor Authentication
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1013,Application Developer Guidance
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1017,User Training
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1015,Active Directory Configuration
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1036,Account Use Policies
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1621,M1032,Multi-factor Authentication
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1621,M1036,Account Use Policies
+ICS-INJ-118,Insider Threat / Unauthorized Access,enterprise-attack,T1621,M1017,User Training
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1199,M1032,Multi-factor Authentication
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1199,M1018,User Account Management
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1199,M1030,Network Segmentation
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1027,Password Policies
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1018,User Account Management
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1026,Privileged Account Management
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1032,Multi-factor Authentication
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1013,Application Developer Guidance
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1017,User Training
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1015,Active Directory Configuration
+ICS-INJ-129,Third-Party / Supply Chain,enterprise-attack,T1078,M1036,Account Use Policies
+ICS-INJ-139,System Disruption,enterprise-attack,T1489,M1030,Network Segmentation
+ICS-INJ-139,System Disruption,enterprise-attack,T1489,M1018,User Account Management
+ICS-INJ-139,System Disruption,enterprise-attack,T1489,M1060,Out-of-Band Communications Channel
+ICS-INJ-139,System Disruption,enterprise-attack,T1489,M1024,Restrict Registry Permissions
+ICS-INJ-139,System Disruption,enterprise-attack,T1489,M1022,Restrict File and Directory Permissions
+ICS-INJ-139,System Disruption,enterprise-attack,T1499,M1037,Filter Network Traffic
+ICS-INJ-146,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+ICS-INJ-146,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+ICS-INJ-146,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+ICS-INJ-146,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+ICS-INJ-146,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+ICS-INJ-146,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+ICS-INJ-165,Ransomware,enterprise-attack,T1657,M1017,User Training
+ICS-INJ-165,Ransomware,enterprise-attack,T1657,M1018,User Account Management
+ICS-INJ-167,Data Exposure,enterprise-attack,T1530,M1018,User Account Management
+ICS-INJ-167,Data Exposure,enterprise-attack,T1530,M1041,Encrypt Sensitive Information
+ICS-INJ-167,Data Exposure,enterprise-attack,T1530,M1022,Restrict File and Directory Permissions
+ICS-INJ-167,Data Exposure,enterprise-attack,T1530,M1037,Filter Network Traffic
+ICS-INJ-167,Data Exposure,enterprise-attack,T1530,M1047,Audit
+ICS-INJ-167,Data Exposure,enterprise-attack,T1530,M1032,Multi-factor Authentication
+ICS-INJ-167,Data Exposure,enterprise-attack,T1567,M1021,Restrict Web-Based Content
+ICS-INJ-167,Data Exposure,enterprise-attack,T1567,M1057,Data Loss Prevention
+FS-INJ-98,Phishing,enterprise-attack,T1566,M1047,Audit
+FS-INJ-98,Phishing,enterprise-attack,T1566,M1031,Network Intrusion Prevention
+FS-INJ-98,Phishing,enterprise-attack,T1566,M1054,Software Configuration
+FS-INJ-98,Phishing,enterprise-attack,T1566,M1021,Restrict Web-Based Content
+FS-INJ-98,Phishing,enterprise-attack,T1566,M1049,Antivirus/Antimalware
+FS-INJ-98,Phishing,enterprise-attack,T1566,M1017,User Training
+FS-INJ-98,Phishing,enterprise-attack,T1598,M1017,User Training
+FS-INJ-98,Phishing,enterprise-attack,T1598,M1054,Software Configuration
+FS-INJ-110,Data Exposure,enterprise-attack,T1530,M1018,User Account Management
+FS-INJ-110,Data Exposure,enterprise-attack,T1530,M1041,Encrypt Sensitive Information
+FS-INJ-110,Data Exposure,enterprise-attack,T1530,M1022,Restrict File and Directory Permissions
+FS-INJ-110,Data Exposure,enterprise-attack,T1530,M1037,Filter Network Traffic
+FS-INJ-110,Data Exposure,enterprise-attack,T1530,M1047,Audit
+FS-INJ-110,Data Exposure,enterprise-attack,T1530,M1032,Multi-factor Authentication
+FS-INJ-110,Data Exposure,enterprise-attack,T1567,M1021,Restrict Web-Based Content
+FS-INJ-110,Data Exposure,enterprise-attack,T1567,M1057,Data Loss Prevention
+FS-INJ-119,Data Exposure,enterprise-attack,T1530,M1018,User Account Management
+FS-INJ-119,Data Exposure,enterprise-attack,T1530,M1041,Encrypt Sensitive Information
+FS-INJ-119,Data Exposure,enterprise-attack,T1530,M1022,Restrict File and Directory Permissions
+FS-INJ-119,Data Exposure,enterprise-attack,T1530,M1037,Filter Network Traffic
+FS-INJ-119,Data Exposure,enterprise-attack,T1530,M1047,Audit
+FS-INJ-119,Data Exposure,enterprise-attack,T1530,M1032,Multi-factor Authentication
+FS-INJ-119,Data Exposure,enterprise-attack,T1567,M1021,Restrict Web-Based Content
+FS-INJ-119,Data Exposure,enterprise-attack,T1567,M1057,Data Loss Prevention
+FS-INJ-123,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+FS-INJ-123,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+FS-INJ-123,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+FS-INJ-123,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+FS-INJ-123,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+FS-INJ-123,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+FS-INJ-133,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+FS-INJ-133,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+FS-INJ-133,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+FS-INJ-133,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+FS-INJ-133,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+FS-INJ-133,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+FS-INJ-141,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+FS-INJ-141,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+FS-INJ-141,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+FS-INJ-141,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+FS-INJ-141,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+FS-INJ-141,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+FS-INJ-150,Ransomware,enterprise-attack,T1486,M1040,Behavior Prevention on Endpoint
+FS-INJ-150,Ransomware,enterprise-attack,T1486,M1053,Data Backup
+FS-INJ-150,Ransomware,enterprise-attack,T1490,M1038,Execution Prevention
+FS-INJ-150,Ransomware,enterprise-attack,T1490,M1028,Operating System Configuration
+FS-INJ-150,Ransomware,enterprise-attack,T1490,M1018,User Account Management
+FS-INJ-150,Ransomware,enterprise-attack,T1490,M1053,Data Backup
+CM-INJ-95,Phishing,enterprise-attack,T1566,M1047,Audit
+CM-INJ-95,Phishing,enterprise-attack,T1566,M1031,Network Intrusion Prevention
+CM-INJ-95,Phishing,enterprise-attack,T1566,M1054,Software Configuration
+CM-INJ-95,Phishing,enterprise-attack,T1566,M1021,Restrict Web-Based Content
+CM-INJ-95,Phishing,enterprise-attack,T1566,M1049,Antivirus/Antimalware
+CM-INJ-95,Phishing,enterprise-attack,T1566,M1017,User Training
+CM-INJ-95,Phishing,enterprise-attack,T1598,M1017,User Training
+CM-INJ-95,Phishing,enterprise-attack,T1598,M1054,Software Configuration
+CM-INJ-114,System Disruption,enterprise-attack,T1489,M1030,Network Segmentation
+CM-INJ-114,System Disruption,enterprise-attack,T1489,M1018,User Account Management
+CM-INJ-114,System Disruption,enterprise-attack,T1489,M1060,Out-of-Band Communications Channel
+CM-INJ-114,System Disruption,enterprise-attack,T1489,M1024,Restrict Registry Permissions
+CM-INJ-114,System Disruption,enterprise-attack,T1489,M1022,Restrict File and Directory Permissions
+CM-INJ-114,System Disruption,enterprise-attack,T1499,M1037,Filter Network Traffic
+CM-INJ-120,Denial of Service,enterprise-attack,T1498,M1037,Filter Network Traffic
+CM-INJ-120,Denial of Service,enterprise-attack,T1499,M1037,Filter Network Traffic
+CM-INJ-135,Denial of Service,enterprise-attack,T1498,M1037,Filter Network Traffic
+CM-INJ-135,Denial of Service,enterprise-attack,T1499.002,M1037,Filter Network Traffic
+CM-INJ-141,Denial of Service,enterprise-attack,T1498,M1037,Filter Network Traffic
+CM-INJ-141,Denial of Service,enterprise-attack,T1499,M1037,Filter Network Traffic
+CM-INJ-147,Denial of Service,enterprise-attack,T1498,M1037,Filter Network Traffic
+CM-INJ-147,Denial of Service,enterprise-attack,T1499,M1037,Filter Network Traffic
+ICS-INJ-116,Phishing,ics-attack,T0865,M0917,User Training
+ICS-INJ-116,Phishing,ics-attack,T0865,M0931,Network Intrusion Prevention
+ICS-INJ-116,Phishing,ics-attack,T0865,M0949,Antivirus/Antimalware
+ICS-INJ-116,Phishing,ics-attack,T0865,M0921,Restrict Web-Based Content
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0801,Access Management
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0926,Privileged Account Management
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0918,User Account Management
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0937,Filter Network Traffic
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0932,Multi-factor Authentication
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0927,Password Policies
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0913,Application Developer Guidance
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0947,Audit
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0936,Account Use Policies
+ICS-INJ-118,Insider Threat / Unauthorized Access,ics-attack,T0859,M0915,Active Directory Configuration
+ICS-INJ-129,Third-Party / Supply Chain,ics-attack,T0862,M0951,Update Software
+ICS-INJ-129,Third-Party / Supply Chain,ics-attack,T0862,M0947,Audit
+ICS-INJ-129,Third-Party / Supply Chain,ics-attack,T0862,M0916,Vulnerability Scanning
+ICS-INJ-129,Third-Party / Supply Chain,ics-attack,T0862,M0817,Supply Chain Management
+ICS-INJ-129,Third-Party / Supply Chain,ics-attack,T0862,M0945,Code Signing
+ICS-INJ-139,System Disruption,ics-attack,T0826,M0810,Out-of-Band Communications Channel
+ICS-INJ-139,System Disruption,ics-attack,T0826,M0811,Redundancy of Service
+ICS-INJ-139,System Disruption,ics-attack,T0826,M0953,Data Backup
+ICS-INJ-139,System Disruption,ics-attack,T0832,M0802,Communication Authenticity
+ICS-INJ-139,System Disruption,ics-attack,T0832,M0810,Out-of-Band Communications Channel
+ICS-INJ-139,System Disruption,ics-attack,T0832,M0953,Data Backup
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0807,Network Allowlists
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0804,Human User Authentication
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0930,Network Segmentation
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0802,Communication Authenticity
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0800,Authorization Enforcement
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0942,Disable or Remove Feature or Program
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0937,Filter Network Traffic
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0801,Access Management
+ICS-INJ-146,Ransomware,ics-attack,T0816,M0813,Software Process and Device Authentication
+ICS-INJ-146,Ransomware,ics-attack,T0826,M0810,Out-of-Band Communications Channel
+ICS-INJ-146,Ransomware,ics-attack,T0826,M0811,Redundancy of Service
+ICS-INJ-146,Ransomware,ics-attack,T0826,M0953,Data Backup
+ICS-INJ-146,Ransomware,ics-attack,T0828,M0953,Data Backup
+ICS-INJ-165,Ransomware,ics-attack,T0831,M0810,Out-of-Band Communications Channel
+ICS-INJ-165,Ransomware,ics-attack,T0831,M0953,Data Backup
+ICS-INJ-165,Ransomware,ics-attack,T0831,M0802,Communication Authenticity
+ICS-INJ-165,Ransomware,ics-attack,T0828,M0953,Data Backup
+ICS-INJ-167,Data Exposure,ics-attack,T0883,M0930,Network Segmentation
+ICS-INJ-167,Data Exposure,ics-attack,T0822,M0930,Network Segmentation
+ICS-INJ-167,Data Exposure,ics-attack,T0822,M0936,Account Use Policies
+ICS-INJ-167,Data Exposure,ics-attack,T0822,M0935,Limit Access to Resource Over Network
+ICS-INJ-167,Data Exposure,ics-attack,T0822,M0927,Password Policies
+ICS-INJ-167,Data Exposure,ics-attack,T0822,M0918,User Account Management
+ICS-INJ-167,Data Exposure,ics-attack,T0822,M0942,Disable or Remove Feature or Program
+ICS-INJ-167,Data Exposure,ics-attack,T0822,M0932,Multi-factor Authentication

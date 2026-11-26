@@ -1,0 +1,58 @@
+﻿threat_type,technique_id,domain,justification,technique_name,tactics
+Suspected Phishing,T1566,enterprise-attack,Emails trick employees into opening attachments or entering credentials.,Phishing,initial-access
+Suspected Phishing,T1598,enterprise-attack,Emails trick employees into opening attachments or entering credentials.,Phishing for Information,reconnaissance
+Whaling / Ransomware,T1566,enterprise-attack,Phishing aimed at executives that leads to ransomware.,Phishing,initial-access
+Whaling / Ransomware,T1486,enterprise-attack,Phishing aimed at executives that leads to ransomware.,Data Encrypted for Impact,impact
+Ransomware,T1486,enterprise-attack,Files are encrypted and a ransom is demanded; recovery is often blocked.,Data Encrypted for Impact,impact
+Ransomware,T1490,enterprise-attack,Files are encrypted and a ransom is demanded; recovery is often blocked.,Inhibit System Recovery,impact
+Suspected Ransomware,T1486,enterprise-attack,"Same behaviour as ransomware, not yet confirmed.",Data Encrypted for Impact,impact
+Suspected Ransomware,T1490,enterprise-attack,"Same behaviour as ransomware, not yet confirmed.",Inhibit System Recovery,impact
+Extortion Threat,T1657,enterprise-attack,Attackers demand payment; MITRE covers extortion under Financial Theft.,Financial Theft,impact
+Insider Threat,T1078,enterprise-attack,A trusted employee misuses legitimate accounts and access rights.,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access"
+Insider Threat,T1098,enterprise-attack,A trusted employee misuses legitimate accounts and access rights.,Account Manipulation,"persistence, privilege-escalation"
+Potential Insider Threat,T1078,enterprise-attack,A terminated or unhappy employee may still have valid access.,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access"
+Unauthorized Access,T1136,enterprise-attack,An unknown administrator account is created by exploiting a vulnerability.,Create Account,persistence
+Unauthorized Access,T1068,enterprise-attack,An unknown administrator account is created by exploiting a vulnerability.,Exploitation for Privilege Escalation,privilege-escalation
+Unauthorized Access Risk,T1078,enterprise-attack,Old accounts left active (valid accounts) and repeated MFA push requests.,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access"
+Unauthorized Access Risk,T1621,enterprise-attack,Old accounts left active (valid accounts) and repeated MFA push requests.,Multi-Factor Authentication Request Generation,credential-access
+Unauthorized File Deletion,T1485,enterprise-attack,Files crucial to core functions are deleted.,Data Destruction,impact
+Unauthorized File Modification,T1565.001,enterprise-attack,"Files on shared drives are renamed, moved or deleted.",Stored Data Manipulation,impact
+Unauthorized File Modification,T1485,enterprise-attack,"Files on shared drives are renamed, moved or deleted.",Data Destruction,impact
+Data Breach,T1530,enterprise-attack,Customer or patient data is taken from cloud/network storage and leaked.,Data from Cloud Storage,collection
+Data Breach,T1567,enterprise-attack,Customer or patient data is taken from cloud/network storage and leaked.,Exfiltration Over Web Service,exfiltration
+Suspected Data Exfiltration,T1048,enterprise-attack,Unusual DNS traffic used to move data out of the network.,Exfiltration Over Alternative Protocol,exfiltration
+Suspected Data Exfiltration,T1071.004,enterprise-attack,Unusual DNS traffic used to move data out of the network.,DNS,command-and-control
+Accidental Data Disclosure,,enterprise-attack,"Employee mistake, not an attacker technique.",,
+DDoS,T1498,enterprise-attack,Millions of requests overload servers; the attack uses a botnet.,Network Denial of Service,impact
+DDoS,T1499,enterprise-attack,Millions of requests overload servers; the attack uses a botnet.,Endpoint Denial of Service,impact
+DDoS,T1584.005,enterprise-attack,Millions of requests overload servers; the attack uses a botnet.,Botnet,resource-development
+DDoS / Unintentional TDoS,T1498,enterprise-attack,Network flooding that also overloads the call centre.,Network Denial of Service,impact
+DDoS / Unintentional TDoS,T1499.002,enterprise-attack,Network flooding that also overloads the call centre.,Service Exhaustion Flood,impact
+Data Integrity Issue,T1565.001,enterprise-attack,Patient records show incorrect information (stored data manipulation).,Stored Data Manipulation,impact
+Device Theft,,enterprise-attack,"Physical theft of a laptop, outside the scope of ATT&CK.",,
+Suspicious Network Activity,T1041,enterprise-attack,"Months of anomalous traffic, consistent with data leaving via a C2 channel.",Exfiltration Over C2 Channel,exfiltration
+Medical Device Malfunction,T1565,enterprise-attack,Monitors show inaccurate data and pumps misbehave (data manipulation).,Data Manipulation,impact
+System Disruption (Unconfirmed Cause),T1489,enterprise-attack,Services stop or slow down; the cause is not yet known.,Service Stop,impact
+System Disruption (Unconfirmed Cause),T1499,enterprise-attack,Services stop or slow down; the cause is not yet known.,Endpoint Denial of Service,impact
+Supply Chain Compromise,T1195.002,enterprise-attack,Attackers reach customers through a managed service provider's software.,Compromise Software Supply Chain,initial-access
+Supply Chain Compromise,T1199,enterprise-attack,Attackers reach customers through a managed service provider's software.,Trusted Relationship,initial-access
+Suspicious Third-Party Activity,T1199,enterprise-attack,A vendor's address or access is used for unauthorized activity.,Trusted Relationship,initial-access
+Suspicious Third-Party Activity,T1078,enterprise-attack,A vendor's address or access is used for unauthorized activity.,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access"
+Third-Party Data Breach,T1199,enterprise-attack,Data is exposed through partners the organization trusts.,Trusted Relationship,initial-access
+Vulnerability Exposure,T1190,enterprise-attack,Unpatched or unsupported software/hardware that attackers can exploit.,Exploit Public-Facing Application,initial-access
+Vulnerability Exposure,T1068,enterprise-attack,Unpatched or unsupported software/hardware that attackers can exploit.,Exploitation for Privilege Escalation,privilege-escalation
+Security Alert,,enterprise-attack,"Warning from authorities, no attack yet.",,
+No Specific Threat,,enterprise-attack,No attack in this event.,,
+No Specific Cyber Threat,,enterprise-attack,No attack in this event.,,
+Suspected Phishing,T0865,ics-attack,Phishing aimed at IT and OT staff.,Spearphishing Attachment,initial-access
+Unauthorized Access Risk,T0859,ics-attack,Approved MFA requests give access to valid accounts in the OT environment.,Valid Accounts,"persistence, lateral-movement"
+Suspicious Third-Party Activity,T0862,ics-attack,Equipment from an OT vendor may be compromised.,Supply Chain Compromise,initial-access
+System Disruption (Unconfirmed Cause),T0826,ics-attack,Service disruptions and distorted data inputs (manipulation of view).,Loss of Availability,impact
+System Disruption (Unconfirmed Cause),T0832,ics-attack,Service disruptions and distorted data inputs (manipulation of view).,Manipulation of View,impact
+Suspected Ransomware,T0816,ics-attack,"Fail-safes shut down operations, causing lost availability and revenue.",Device Restart/Shutdown,inhibit-response-function
+Suspected Ransomware,T0826,ics-attack,"Fail-safes shut down operations, causing lost availability and revenue.",Loss of Availability,impact
+Suspected Ransomware,T0828,ics-attack,"Fail-safes shut down operations, causing lost availability and revenue.",Loss of Productivity and Revenue,impact
+Extortion Threat,T0831,ics-attack,Attackers take credit for malfunctioning industrial processes and threaten to continue.,Manipulation of Control,impact
+Extortion Threat,T0828,ics-attack,Attackers take credit for malfunctioning industrial processes and threaten to continue.,Loss of Productivity and Revenue,impact
+Data Breach,T0883,ics-attack,Vulnerable internet-facing remote access solution.,Internet Accessible Device,initial-access
+Data Breach,T0822,ics-attack,Vulnerable internet-facing remote access solution.,External Remote Services,initial-access

@@ -1,0 +1,125 @@
+﻿threat_category,mitigation_id,mitigation_name,events_covered,techniques_covered
+Data Exposure,M1037,Filter Network Traffic,7,3
+Data Exposure,M1018,User Account Management,7,2
+Data Exposure,M1022,Restrict File and Directory Permissions,7,2
+Data Exposure,M1057,Data Loss Prevention,7,2
+Data Exposure,M1021,Restrict Web-Based Content,6,1
+Data Exposure,M1032,Multi-factor Authentication,6,1
+Data Exposure,M1041,Encrypt Sensitive Information,6,1
+Data Exposure,M1047,Audit,6,1
+Data Exposure,M0930,Network Segmentation,1,2
+Data Exposure,M1031,Network Intrusion Prevention,1,2
+Data Exposure,M0918,User Account Management,1,1
+Data Exposure,M0927,Password Policies,1,1
+Data Exposure,M0932,Multi-factor Authentication,1,1
+Data Exposure,M0935,Limit Access to Resource Over Network,1,1
+Data Exposure,M0936,Account Use Policies,1,1
+Data Exposure,M0942,Disable or Remove Feature or Program,1,1
+Data Exposure,M1030,Network Segmentation,1,1
+Denial of Service,M1037,Filter Network Traffic,4,3
+Insider Threat / Unauthorized Access,M1032,Multi-factor Authentication,9,5
+Insider Threat / Unauthorized Access,M1018,User Account Management,7,3
+Insider Threat / Unauthorized Access,M1026,Privileged Account Management,7,3
+Insider Threat / Unauthorized Access,M1017,User Training,5,2
+Insider Threat / Unauthorized Access,M1036,Account Use Policies,5,2
+Insider Threat / Unauthorized Access,M1013,Application Developer Guidance,5,1
+Insider Threat / Unauthorized Access,M1015,Active Directory Configuration,5,1
+Insider Threat / Unauthorized Access,M1027,Password Policies,5,1
+Insider Threat / Unauthorized Access,M1028,Operating System Configuration,3,2
+Insider Threat / Unauthorized Access,M1030,Network Segmentation,3,2
+Insider Threat / Unauthorized Access,M1022,Restrict File and Directory Permissions,2,2
+Insider Threat / Unauthorized Access,M1019,Threat Intelligence Program,2,1
+Insider Threat / Unauthorized Access,M1038,Execution Prevention,2,1
+Insider Threat / Unauthorized Access,M1048,Application Isolation and Sandboxing,2,1
+Insider Threat / Unauthorized Access,M1050,Exploit Protection,2,1
+Insider Threat / Unauthorized Access,M1051,Update Software,2,1
+Insider Threat / Unauthorized Access,M1053,Data Backup,2,1
+Insider Threat / Unauthorized Access,M0801,Access Management,1,1
+Insider Threat / Unauthorized Access,M0913,Application Developer Guidance,1,1
+Insider Threat / Unauthorized Access,M0915,Active Directory Configuration,1,1
+Insider Threat / Unauthorized Access,M0918,User Account Management,1,1
+Insider Threat / Unauthorized Access,M0926,Privileged Account Management,1,1
+Insider Threat / Unauthorized Access,M0927,Password Policies,1,1
+Insider Threat / Unauthorized Access,M0932,Multi-factor Authentication,1,1
+Insider Threat / Unauthorized Access,M0936,Account Use Policies,1,1
+Insider Threat / Unauthorized Access,M0937,Filter Network Traffic,1,1
+Insider Threat / Unauthorized Access,M0947,Audit,1,1
+Insider Threat / Unauthorized Access,M1029,Remote Data Storage,1,1
+Insider Threat / Unauthorized Access,M1041,Encrypt Sensitive Information,1,1
+Insider Threat / Unauthorized Access,M1042,Disable or Remove Feature or Program,1,1
+Other Security Incident,M1022,Restrict File and Directory Permissions,1,1
+Other Security Incident,M1029,Remote Data Storage,1,1
+Other Security Incident,M1031,Network Intrusion Prevention,1,1
+Other Security Incident,M1041,Encrypt Sensitive Information,1,1
+Other Security Incident,M1057,Data Loss Prevention,1,1
+Phishing,M1017,User Training,5,2
+Phishing,M1054,Software Configuration,5,2
+Phishing,M1021,Restrict Web-Based Content,5,1
+Phishing,M1031,Network Intrusion Prevention,5,1
+Phishing,M1047,Audit,5,1
+Phishing,M1049,Antivirus/Antimalware,5,1
+Phishing,M0917,User Training,1,1
+Phishing,M0921,Restrict Web-Based Content,1,1
+Phishing,M0931,Network Intrusion Prevention,1,1
+Phishing,M0949,Antivirus/Antimalware,1,1
+Ransomware,M1018,User Account Management,9,2
+Ransomware,M1053,Data Backup,9,2
+Ransomware,M1040,Behavior Prevention on Endpoint,9,1
+Ransomware,M1028,Operating System Configuration,8,1
+Ransomware,M1038,Execution Prevention,8,1
+Ransomware,M0953,Data Backup,2,3
+Ransomware,M0802,Communication Authenticity,2,2
+Ransomware,M0810,Out-of-Band Communications Channel,2,2
+Ransomware,M1017,User Training,2,2
+Ransomware,M0800,Authorization Enforcement,1,1
+Ransomware,M0801,Access Management,1,1
+Ransomware,M0804,Human User Authentication,1,1
+Ransomware,M0807,Network Allowlists,1,1
+Ransomware,M0811,Redundancy of Service,1,1
+Ransomware,M0813,Software Process and Device Authentication,1,1
+Ransomware,M0930,Network Segmentation,1,1
+Ransomware,M0937,Filter Network Traffic,1,1
+Ransomware,M0942,Disable or Remove Feature or Program,1,1
+Ransomware,M1021,Restrict Web-Based Content,1,1
+Ransomware,M1031,Network Intrusion Prevention,1,1
+Ransomware,M1047,Audit,1,1
+Ransomware,M1049,Antivirus/Antimalware,1,1
+Ransomware,M1054,Software Configuration,1,1
+System Disruption,M1022,Restrict File and Directory Permissions,6,2
+System Disruption,M1030,Network Segmentation,6,2
+System Disruption,M1018,User Account Management,5,1
+System Disruption,M1024,Restrict Registry Permissions,5,1
+System Disruption,M1037,Filter Network Traffic,5,1
+System Disruption,M1060,Out-of-Band Communications Channel,5,1
+System Disruption,M0810,Out-of-Band Communications Channel,1,2
+System Disruption,M0953,Data Backup,1,2
+System Disruption,M0802,Communication Authenticity,1,1
+System Disruption,M0811,Redundancy of Service,1,1
+System Disruption,M1029,Remote Data Storage,1,1
+System Disruption,M1041,Encrypt Sensitive Information,1,1
+Third-Party / Supply Chain,M1018,User Account Management,5,2
+Third-Party / Supply Chain,M1032,Multi-factor Authentication,5,2
+Third-Party / Supply Chain,M1030,Network Segmentation,5,1
+Third-Party / Supply Chain,M1013,Application Developer Guidance,2,1
+Third-Party / Supply Chain,M1015,Active Directory Configuration,2,1
+Third-Party / Supply Chain,M1016,Vulnerability Scanning,2,1
+Third-Party / Supply Chain,M1017,User Training,2,1
+Third-Party / Supply Chain,M1026,Privileged Account Management,2,1
+Third-Party / Supply Chain,M1027,Password Policies,2,1
+Third-Party / Supply Chain,M1036,Account Use Policies,2,1
+Third-Party / Supply Chain,M1051,Update Software,2,1
+Third-Party / Supply Chain,M0817,Supply Chain Management,1,1
+Third-Party / Supply Chain,M0916,Vulnerability Scanning,1,1
+Third-Party / Supply Chain,M0945,Code Signing,1,1
+Third-Party / Supply Chain,M0947,Audit,1,1
+Third-Party / Supply Chain,M0951,Update Software,1,1
+Vulnerability,M1048,Application Isolation and Sandboxing,5,2
+Vulnerability,M1050,Exploit Protection,5,2
+Vulnerability,M1051,Update Software,5,2
+Vulnerability,M1016,Vulnerability Scanning,5,1
+Vulnerability,M1019,Threat Intelligence Program,5,1
+Vulnerability,M1026,Privileged Account Management,5,1
+Vulnerability,M1030,Network Segmentation,5,1
+Vulnerability,M1035,Limit Access to Resource Over Network,5,1
+Vulnerability,M1037,Filter Network Traffic,5,1
+Vulnerability,M1038,Execution Prevention,5,1

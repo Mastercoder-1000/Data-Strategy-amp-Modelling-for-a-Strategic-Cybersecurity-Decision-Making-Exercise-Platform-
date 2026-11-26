@@ -1,6 +1,6 @@
-﻿id,mitigation_id,name,description
-course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c,M1031,Network Intrusion Prevention,Use intrusion detection signatures to block traffic at network boundaries.
-course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266,M1016,Vulnerability Scanning,"Vulnerability scanning involves the automated or manual assessment of systems, applications, and networks to identify misconfigurations, unpatched software, or other security weaknesses. The process helps prioritize remediation efforts by classifying vulnerabilities based on risk and impact, reducing the likelihood of exploitation by adversaries. This mitigation can be implemented through the following measures: 
+﻿domain,id,mitigation_id,name,description
+enterprise-attack,course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c,M1031,Network Intrusion Prevention,Use intrusion detection signatures to block traffic at network boundaries.
+enterprise-attack,course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266,M1016,Vulnerability Scanning,"Vulnerability scanning involves the automated or manual assessment of systems, applications, and networks to identify misconfigurations, unpatched software, or other security weaknesses. The process helps prioritize remediation efforts by classifying vulnerabilities based on risk and impact, reducing the likelihood of exploitation by adversaries. This mitigation can be implemented through the following measures: 
 
 Proactive Identification of Vulnerabilities
 
@@ -35,7 +35,7 @@ Open Source Tools:
 - OpenVAS: Comprehensive network and system vulnerability scanning.
 - OWASP ZAP: Dynamic scanning of web applications for vulnerabilities.
 - Nmap with NSE Scripts: Network scanning with scripts to detect vulnerabilities."
-course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f,M1035,Limit Access to Resource Over Network,"Restrict access to network resources, such as file shares, remote systems, and services, to only those users, accounts, or systems with a legitimate business requirement. This can include employing technologies like network concentrators, RDP gateways, and zero-trust network access (ZTNA) models, alongside hardening services and protocols. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f,M1035,Limit Access to Resource Over Network,"Restrict access to network resources, such as file shares, remote systems, and services, to only those users, accounts, or systems with a legitimate business requirement. This can include employing technologies like network concentrators, RDP gateways, and zero-trust network access (ZTNA) models, alongside hardening services and protocols. This mitigation can be implemented through the following measures:
 
 Audit and Restrict Access:
 
@@ -88,7 +88,7 @@ Service and Protocol Hardening:
 Network Segmentation:
 
 - pfSense for open-source network isolation"
-course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea,M1029,Remote Data Storage,"Remote Data Storage focuses on moving critical data, such as security logs and sensitive files, to secure, off-host locations to minimize unauthorized access, tampering, or destruction by adversaries. By leveraging remote storage solutions, organizations enhance the protection of forensic evidence, sensitive information, and monitoring data. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea,M1029,Remote Data Storage,"Remote Data Storage focuses on moving critical data, such as security logs and sensitive files, to secure, off-host locations to minimize unauthorized access, tampering, or destruction by adversaries. By leveraging remote storage solutions, organizations enhance the protection of forensic evidence, sensitive information, and monitoring data. This mitigation can be implemented through the following measures:
 
 Centralized Log Management:
 
@@ -119,7 +119,7 @@ Data Encryption:
 
 - Ensure encryption for sensitive data using AES-256 at rest and TLS 1.2+ for data in transit.
 Tools: OpenSSL, BitLocker, LUKS for Linux."
-course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d,M1037,Filter Network Traffic,"Employ network appliances and endpoint software to filter ingress, egress, and lateral network traffic. This includes protocol-based filtering, enforcing firewall rules, and blocking or restricting traffic based on predefined conditions to limit adversary movement and data exfiltration. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d,M1037,Filter Network Traffic,"Employ network appliances and endpoint software to filter ingress, egress, and lateral network traffic. This includes protocol-based filtering, enforcing firewall rules, and blocking or restricting traffic based on predefined conditions to limit adversary movement and data exfiltration. This mitigation can be implemented through the following measures:
 
 Ingress Traffic Filtering:
 
@@ -145,7 +145,7 @@ Application Layer Filtering:
 
 - Use Case: Use proxy servers or Web Application Firewalls (WAFs) to inspect and block malicious HTTP/S traffic.
 - Implementation: Configure a WAF to block SQL injection attempts or other web application exploitation techniques."
-course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96,M1021,Restrict Web-Based Content,"Restricting web-based content involves enforcing policies and technologies that limit access to potentially malicious websites, unsafe downloads, and unauthorized browser behaviors. This can include URL filtering, download restrictions, script blocking, and extension control to protect against exploitation, phishing, and malware delivery. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96,M1021,Restrict Web-Based Content,"Restricting web-based content involves enforcing policies and technologies that limit access to potentially malicious websites, unsafe downloads, and unauthorized browser behaviors. This can include URL filtering, download restrictions, script blocking, and extension control to protect against exploitation, phishing, and malware delivery. This mitigation can be implemented through the following measures:
 
 Deploy Web Proxy Filtering:
 
@@ -170,7 +170,7 @@ Monitor and Alert on Web-Based Threats:
 
 - Use SIEM tools to collect and analyze web proxy logs for signs of anomalous or malicious activity.
 - Configure alerts for access attempts to blocked domains or repeated file download failures."
-course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547,M1033,Limit Software Installation,"Prevent users or groups from installing unauthorized or unapproved software to reduce the risk of introducing malicious or vulnerable applications. This can be achieved through allowlists, software restriction policies, endpoint management tools, and least privilege access principles. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547,M1033,Limit Software Installation,"Prevent users or groups from installing unauthorized or unapproved software to reduce the risk of introducing malicious or vulnerable applications. This can be achieved through allowlists, software restriction policies, endpoint management tools, and least privilege access principles. This mitigation can be implemented through the following measures:
 
 Application Whitelisting
 
@@ -232,7 +232,7 @@ Inventory Management and Auditing:
 
 - OSQuery
 - Wazuh"
-course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1,M1013,Application Developer Guidance,"Application Developer Guidance focuses on providing developers with the knowledge, tools, and best practices needed to write secure code, reduce vulnerabilities, and implement secure design principles. By integrating security throughout the software development lifecycle (SDLC), this mitigation aims to prevent the introduction of exploitable weaknesses in applications, systems, and APIs. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1,M1013,Application Developer Guidance,"Application Developer Guidance focuses on providing developers with the knowledge, tools, and best practices needed to write secure code, reduce vulnerabilities, and implement secure design principles. By integrating security throughout the software development lifecycle (SDLC), this mitigation aims to prevent the introduction of exploitable weaknesses in applications, systems, and APIs. This mitigation can be implemented through the following measures:
  
 Preventing SQL Injection (Secure Coding Practice):
 
@@ -264,7 +264,7 @@ Threat Modeling in the Design Phase:
 - Static Code Analysis Tools: Use tools that can scan for known vulnerabilities in source code.
 - Dynamic Application Security Testing (DAST): Use tools like Burp Suite or OWASP ZAP to simulate runtime attacks and identify vulnerabilities.
 - Secure Frameworks: Recommend secure-by-default frameworks (e.g., Django for Python, Spring Security for Java) that enforce security best practices."
-course-of-action--2995bc22-2851-4345-ad19-4e7e295be264,M1034,Limit Hardware Installation,"Prevent unauthorized users or groups from installing or using hardware, such as external drives, peripheral devices, or unapproved internal hardware components, by enforcing hardware usage policies and technical controls. This includes disabling USB ports, restricting driver installation, and implementing endpoint security tools to monitor and block unapproved devices. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--2995bc22-2851-4345-ad19-4e7e295be264,M1034,Limit Hardware Installation,"Prevent unauthorized users or groups from installing or using hardware, such as external drives, peripheral devices, or unapproved internal hardware components, by enforcing hardware usage policies and technical controls. This includes disabling USB ports, restricting driver installation, and implementing endpoint security tools to monitor and block unapproved devices. This mitigation can be implemented through the following measures:
 
 Disable USB Ports and Hardware Installation Policies:
 
@@ -322,7 +322,7 @@ BIOS/UEFI Security:
 
 - Secure Boot (Windows/Linux)
 Firmware management tools like Dell Command Update or HP Sure Start"
-course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a,M1017,User Training,"User Training involves educating employees and contractors on recognizing, reporting, and preventing cyber threats that rely on human interaction, such as phishing, social engineering, and other manipulative techniques. Comprehensive training programs create a human firewall by empowering users to be an active component of the organization's cybersecurity defenses. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a,M1017,User Training,"User Training involves educating employees and contractors on recognizing, reporting, and preventing cyber threats that rely on human interaction, such as phishing, social engineering, and other manipulative techniques. Comprehensive training programs create a human firewall by empowering users to be an active component of the organization's cybersecurity defenses. This mitigation can be implemented through the following measures:
 
 Create Comprehensive Training Programs:
 
@@ -352,7 +352,7 @@ Emphasize Real-World Scenarios:
 
 - Use case studies of recent attacks to demonstrate the consequences of successful phishing or social engineering.
 - Discuss how specific employee actions can prevent or mitigate such attacks."
-course-of-action--2c2ad92a-d710-41ab-a996-1db143bb4808,M1052,User Account Control,"User Account Control (UAC) is a security feature in Microsoft Windows that prevents unauthorized changes to the operating system. UAC prompts users to confirm or provide administrator credentials when an action requires elevated privileges. Proper configuration of UAC reduces the risk of privilege escalation attacks. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--2c2ad92a-d710-41ab-a996-1db143bb4808,M1052,User Account Control,"User Account Control (UAC) is a security feature in Microsoft Windows that prevents unauthorized changes to the operating system. UAC prompts users to confirm or provide administrator credentials when an action requires elevated privileges. Proper configuration of UAC reduces the risk of privilege escalation attacks. This mitigation can be implemented through the following measures:
 
 Enable UAC Globally:
 
@@ -395,7 +395,7 @@ Third-Party Security Tools:
 
 - Process Monitor (Sysinternals): Tracks real-time processes interacting with UAC.
 - EventSentry: Monitors Windows Event Logs for UAC-related alerts."
-course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3,M1028,Operating System Configuration,"Operating System Configuration involves adjusting system settings and hardening the default configurations of an operating system (OS) to mitigate adversary exploitation and prevent abuse of system functionality. Proper OS configurations address security vulnerabilities, limit attack surfaces, and ensure robust defense against a wide range of techniques. This mitigation can be implemented through the following measures: 
+enterprise-attack,course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3,M1028,Operating System Configuration,"Operating System Configuration involves adjusting system settings and hardening the default configurations of an operating system (OS) to mitigate adversary exploitation and prevent abuse of system functionality. Proper OS configurations address security vulnerabilities, limit attack surfaces, and ensure robust defense against a wide range of techniques. This mitigation can be implemented through the following measures: 
 
 Disable Unused Features:
 
@@ -449,7 +449,7 @@ Cross-Platform:
 
 - Ansible or Chef/Puppet: Automate configuration hardening at scale.
 - OpenSCAP: Perform compliance and configuration checks."
-course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b,M1053,Data Backup,"Data Backup involves taking and securely storing backups of data from end-user systems and critical servers. It ensures that data remains available in the event of system compromise, ransomware attacks, or other disruptions. Backup processes should include hardening backup systems, implementing secure storage solutions, and keeping backups isolated from the corporate network to prevent compromise during active incidents. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b,M1053,Data Backup,"Data Backup involves taking and securely storing backups of data from end-user systems and critical servers. It ensures that data remains available in the event of system compromise, ransomware attacks, or other disruptions. Backup processes should include hardening backup systems, implementing secure storage solutions, and keeping backups isolated from the corporate network to prevent compromise during active incidents. This mitigation can be implemented through the following measures:
 
 Regular Backup Scheduling:
 - Use Case: Ensure timely and consistent backups of critical data.
@@ -470,7 +470,7 @@ Offsite Backup Storage:
 Backup Testing:
 - Use Case: Validate backup integrity and ensure recoverability.
 - Implementation: Regularly test data restoration processes to ensure that backups are not corrupted and can be recovered quickly."
-course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db,M1038,Execution Prevention,"Prevent the execution of unauthorized or malicious code on systems by implementing application control, script blocking, and other execution prevention mechanisms. This ensures that only trusted and authorized code is executed, reducing the risk of malware and unauthorized actions. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db,M1038,Execution Prevention,"Prevent the execution of unauthorized or malicious code on systems by implementing application control, script blocking, and other execution prevention mechanisms. This ensures that only trusted and authorized code is executed, reducing the risk of malware and unauthorized actions. This mitigation can be implemented through the following measures:
 
 Application Control:
 
@@ -491,7 +491,7 @@ Executable Blocking:
 Dynamic Analysis Prevention:
 - Use Case: Use behavior-based execution prevention tools to identify and block malicious activity in real time.
 - Implemenation: Employ EDR solutions that analyze runtime behavior and block suspicious code execution."
-course-of-action--49c06d54-9002-491d-9147-8efb537fbd26,M1043,Credential Access Protection,"Credential Access Protection focuses on implementing measures to prevent adversaries from obtaining credentials, such as passwords, hashes, tokens, or keys, that could be used for unauthorized access. This involves restricting access to credential storage mechanisms, hardening configurations to block credential dumping methods, and using monitoring tools to detect suspicious credential-related activity. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--49c06d54-9002-491d-9147-8efb537fbd26,M1043,Credential Access Protection,"Credential Access Protection focuses on implementing measures to prevent adversaries from obtaining credentials, such as passwords, hashes, tokens, or keys, that could be used for unauthorized access. This involves restricting access to credential storage mechanisms, hardening configurations to block credential dumping methods, and using monitoring tools to detect suspicious credential-related activity. This mitigation can be implemented through the following measures:
 
 Restrict Access to Credential Storage:
 
@@ -517,7 +517,7 @@ Enable Secure Boot and Memory Protections:
 
 - Use Case: Prevent memory-based attacks used to extract credentials.
 - Implementation: Configure Secure Boot and enforce hardware-based security features like DEP (Data Execution Prevention) and ASLR (Address Space Layout Randomization)."
-course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312,M1045,Code Signing,"Code Signing is a security process that ensures the authenticity and integrity of software by digitally signing executables, scripts, and other code artifacts. It prevents untrusted or malicious code from executing by verifying the digital signatures against trusted sources. Code signing protects against tampering, impersonation, and distribution of unauthorized or malicious software, forming a critical defense against supply chain and software exploitation attacks. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312,M1045,Code Signing,"Code Signing is a security process that ensures the authenticity and integrity of software by digitally signing executables, scripts, and other code artifacts. It prevents untrusted or malicious code from executing by verifying the digital signatures against trusted sources. Code signing protects against tampering, impersonation, and distribution of unauthorized or malicious software, forming a critical defense against supply chain and software exploitation attacks. This mitigation can be implemented through the following measures:
 
 Enforce Signed Code Execution:
 
@@ -551,7 +551,7 @@ Script Integrity in CI/CD Pipelines:
 - Enforced Policy for Unsigned Code: Prevents the execution of unsigned or untrusted binaries and scripts.
 - Hash Integrity Check: Confirms that code has not been altered since signing by comparing cryptographic hashes.
 "
-course-of-action--609191bf-7d06-40e4-b1f8-9e11eb3ff8a6,M1039,Environment Variable Permissions,"Restrict the modification of environment variables to authorized users and processes by enforcing strict permissions and policies. This ensures the integrity of environment variables, preventing adversaries from abusing or altering them for malicious purposes. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--609191bf-7d06-40e4-b1f8-9e11eb3ff8a6,M1039,Environment Variable Permissions,"Restrict the modification of environment variables to authorized users and processes by enforcing strict permissions and policies. This ensures the integrity of environment variables, preventing adversaries from abusing or altering them for malicious purposes. This mitigation can be implemented through the following measures:
 
 Restrict Write Access:
 
@@ -572,7 +572,7 @@ Audit Environment Variable Changes:
 
 - Use Case: Enable logging for changes to critical environment variables.
 - Implementation: Use `auditd` on Linux to monitor changes to files like `/etc/environment` or application-specific environment files."
-course-of-action--65401701-019d-44ff-b223-08d520bb0e7b,M1057,Data Loss Prevention,"Data Loss Prevention (DLP) involves implementing strategies and technologies to identify, categorize, monitor, and control the movement of sensitive data within an organization. This includes protecting data formats indicative of Personally Identifiable Information (PII), intellectual property, or financial data from unauthorized access, transmission, or exfiltration. DLP solutions integrate with network, endpoint, and cloud platforms to enforce security policies and prevent accidental or malicious data leaks. (Citation: PurpleSec Data Loss Prevention) This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--65401701-019d-44ff-b223-08d520bb0e7b,M1057,Data Loss Prevention,"Data Loss Prevention (DLP) involves implementing strategies and technologies to identify, categorize, monitor, and control the movement of sensitive data within an organization. This includes protecting data formats indicative of Personally Identifiable Information (PII), intellectual property, or financial data from unauthorized access, transmission, or exfiltration. DLP solutions integrate with network, endpoint, and cloud platforms to enforce security policies and prevent accidental or malicious data leaks. (Citation: PurpleSec Data Loss Prevention) This mitigation can be implemented through the following measures:
 
 Sensitive Data Categorization:
 
@@ -598,7 +598,7 @@ Cloud Data Security:
 
 - Use Case: Protect data stored in cloud platforms.
 - Implementation: Integrate DLP with cloud storage platforms like Google Drive, OneDrive, or AWS to monitor and restrict sensitive data sharing or downloads."
-course-of-action--72dade3e-1cba-4182-b3b3-a77ca52f02a1,M1025,Privileged Process Integrity,"Privileged Process Integrity focuses on defending highly privileged processes (e.g., system services, antivirus, or authentication processes) from tampering, injection, or compromise by adversaries. These processes often interact with critical components, making them prime targets for techniques like code injection, privilege escalation, and process manipulation. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--72dade3e-1cba-4182-b3b3-a77ca52f02a1,M1025,Privileged Process Integrity,"Privileged Process Integrity focuses on defending highly privileged processes (e.g., system services, antivirus, or authentication processes) from tampering, injection, or compromise by adversaries. These processes often interact with critical components, making them prime targets for techniques like code injection, privilege escalation, and process manipulation. This mitigation can be implemented through the following measures:
 
 Protected Process Mechanisms:
 
@@ -653,7 +653,7 @@ Kernel Protection:
 - PatchGuard (Windows Kernel Patch Protection)
 - SELinux (Mandatory Access Control for Linux)
 - AppArmor"
-course-of-action--787fb64d-c87b-4ee5-a341-0ef17ec4c15c,M1055,Do Not Mitigate,"The Do Not Mitigate category highlights scenarios where attempting to mitigate a specific technique may inadvertently increase the organization's security risk or operational instability. This could happen due to the complexity of the system, the integration of critical processes, or the potential for introducing new vulnerabilities. Instead of direct mitigation, these situations may call for alternative strategies such as detection, monitoring, or response. The Do Not Mitigate category underscores the importance of assessing the trade-offs between mitigation efforts and overall system integrity. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--787fb64d-c87b-4ee5-a341-0ef17ec4c15c,M1055,Do Not Mitigate,"The Do Not Mitigate category highlights scenarios where attempting to mitigate a specific technique may inadvertently increase the organization's security risk or operational instability. This could happen due to the complexity of the system, the integration of critical processes, or the potential for introducing new vulnerabilities. Instead of direct mitigation, these situations may call for alternative strategies such as detection, monitoring, or response. The Do Not Mitigate category underscores the importance of assessing the trade-offs between mitigation efforts and overall system integrity. This mitigation can be implemented through the following measures:
 
 Complex Systems Where Mitigation is Risky:
 
@@ -674,7 +674,7 @@ Negative Impact on Performance and Availability:
 
 - Interpretation: Mitigations that involve removing or restricting system functionalities can have unintended consequences for system performance and availability. Some mitigations, while effective at blocking certain attacks, may introduce performance bottlenecks or compromise essential operations.
 - Use Case: Implementing high levels of encryption to mitigate data theft might result in significant performance degradation in systems handling large volumes of real-time transactions."
-course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc,M1056,Pre-compromise,"Pre-compromise mitigations involve proactive measures and defenses implemented to prevent adversaries from successfully identifying and exploiting weaknesses during the Reconnaissance and Resource Development phases of an attack. These activities focus on reducing an organization's attack surface, identify adversarial preparation efforts, and increase the difficulty for attackers to conduct successful operations. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc,M1056,Pre-compromise,"Pre-compromise mitigations involve proactive measures and defenses implemented to prevent adversaries from successfully identifying and exploiting weaknesses during the Reconnaissance and Resource Development phases of an attack. These activities focus on reducing an organization's attack surface, identify adversarial preparation efforts, and increase the difficulty for attackers to conduct successful operations. This mitigation can be implemented through the following measures:
 
 Limit Information Exposure:
 
@@ -703,7 +703,7 @@ Content and Email Protections:
 Training and Awareness:
 
 - Educate employees on identifying phishing attempts, securing their social media, and avoiding information leaks."
-course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d,M1020,SSL/TLS Inspection,"SSL/TLS inspection involves decrypting encrypted network traffic to examine its content for signs of malicious activity. This capability is crucial for detecting threats that use encryption to evade detection, such as phishing, malware, or data exfiltration. After inspection, the traffic is re-encrypted and forwarded to its destination. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d,M1020,SSL/TLS Inspection,"SSL/TLS inspection involves decrypting encrypted network traffic to examine its content for signs of malicious activity. This capability is crucial for detecting threats that use encryption to evade detection, such as phishing, malware, or data exfiltration. After inspection, the traffic is re-encrypted and forwarded to its destination. This mitigation can be implemented through the following measures:
 
 Deploy SSL/TLS Inspection Appliances:
 
@@ -732,7 +732,7 @@ Implement Certificate Management:
 Monitor and Tune:
 
 - Continuously monitor SSL/TLS inspection logs for anomalies and fine-tune policies to reduce false positives."
-course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb,M1046,Boot Integrity,"Boot Integrity ensures that a system starts securely by verifying the integrity of its boot process, operating system, and associated components. This mitigation focuses on leveraging secure boot mechanisms, hardware-rooted trust, and runtime integrity checks to prevent tampering during the boot sequence. It is designed to thwart adversaries attempting to modify system firmware, bootloaders, or critical OS components. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb,M1046,Boot Integrity,"Boot Integrity ensures that a system starts securely by verifying the integrity of its boot process, operating system, and associated components. This mitigation focuses on leveraging secure boot mechanisms, hardware-rooted trust, and runtime integrity checks to prevent tampering during the boot sequence. It is designed to thwart adversaries attempting to modify system firmware, bootloaders, or critical OS components. This mitigation can be implemented through the following measures:
 
 Implementation of Secure Boot:
 
@@ -753,8 +753,8 @@ Runtime Integrity Monitoring:
 
 - Implementation: Deploy solutions to verify the integrity of critical files and processes after boot.
 - Use Case: A malware infection modifies kernel modules post-boot. Runtime integrity monitoring detects the modification and prevents the malicious module from loading."
-course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808,M1060,Out-of-Band Communications Channel,"Establish secure out-of-band communication channels to ensure the continuity of critical communications during security incidents, data integrity attacks, or in-network communication failures. Out-of-band communication refers to using an alternative, separate communication path that is not dependent on the potentially compromised primary network infrastructure. This method can include secure messaging apps, encrypted phone lines, satellite communications, or dedicated emergency communication systems. Leveraging these alternative channels reduces the risk of adversaries intercepting, disrupting, or tampering with sensitive communications and helps coordinate an effective incident response.(Citation: TrustedSec OOB Communications)(Citation: NIST Special Publication 800-53 Revision 5)"
-course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c,M1030,Network Segmentation,"Network segmentation involves dividing a network into smaller, isolated segments to control and limit the flow of traffic between devices, systems, and applications. By segmenting networks, organizations can reduce the attack surface, restrict lateral movement by adversaries, and protect critical assets from compromise.
+enterprise-attack,course-of-action--80a0e940-f683-4fbd-ac00-e9f935f2f808,M1060,Out-of-Band Communications Channel,"Establish secure out-of-band communication channels to ensure the continuity of critical communications during security incidents, data integrity attacks, or in-network communication failures. Out-of-band communication refers to using an alternative, separate communication path that is not dependent on the potentially compromised primary network infrastructure. This method can include secure messaging apps, encrypted phone lines, satellite communications, or dedicated emergency communication systems. Leveraging these alternative channels reduces the risk of adversaries intercepting, disrupting, or tampering with sensitive communications and helps coordinate an effective incident response.(Citation: TrustedSec OOB Communications)(Citation: NIST Special Publication 800-53 Revision 5)"
+enterprise-attack,course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c,M1030,Network Segmentation,"Network segmentation involves dividing a network into smaller, isolated segments to control and limit the flow of traffic between devices, systems, and applications. By segmenting networks, organizations can reduce the attack surface, restrict lateral movement by adversaries, and protect critical assets from compromise.
 
 Effective network segmentation leverages a combination of physical boundaries, logical separation through VLANs, and access control policies enforced by network appliances like firewalls, routers, and cloud-based configurations. This mitigation can be implemented through the following measures:
 
@@ -790,7 +790,7 @@ Monitor and Audit Segmented Networks:
 Test Segmentation Effectiveness:
 
 - Perform periodic penetration tests to verify that unauthorized access is blocked between network segments."
-course-of-action--874c0166-e407-45c2-a1d9-e4e3a6570fd8,M1019,Threat Intelligence Program,"A Threat Intelligence Program enables organizations to proactively identify, analyze, and act on cyber threats by leveraging internal and external data sources. The program supports decision-making processes, prioritizes defenses, and improves incident response by delivering actionable intelligence tailored to the organization's risk profile and operational environment. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--874c0166-e407-45c2-a1d9-e4e3a6570fd8,M1019,Threat Intelligence Program,"A Threat Intelligence Program enables organizations to proactively identify, analyze, and act on cyber threats by leveraging internal and external data sources. The program supports decision-making processes, prioritizes defenses, and improves incident response by delivering actionable intelligence tailored to the organization's risk profile and operational environment. This mitigation can be implemented through the following measures:
 
 Establish a Threat Intelligence Team:
 
@@ -850,7 +850,7 @@ Community and Collaboration Tools:
 
 - ISAC Memberships: Join industry-specific ISACs for intelligence sharing.
 - Slack/Discord Channels: Participate in threat intelligence communities for real-time collaboration."
-course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485,M1027,Password Policies,"Set and enforce secure password policies for accounts to reduce the likelihood of unauthorized access. Strong password policies include enforcing password complexity, requiring regular password changes, and preventing password reuse. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485,M1027,Password Policies,"Set and enforce secure password policies for accounts to reduce the likelihood of unauthorized access. Strong password policies include enforcing password complexity, requiring regular password changes, and preventing password reuse. This mitigation can be implemented through the following measures:
 
 Windows Systems:
 
@@ -896,7 +896,7 @@ Cross-Platform:
 - Password Managers (Bitwarden, 1Password, KeePass): Manage and enforce strong passwords.
 - Have I Been Pwned API: Prevent the use of breached passwords.
 - NIST SP 800-63B compliant tools: Enforce password guidelines and blacklisting."
-course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46,M1040,Behavior Prevention on Endpoint,"Behavior Prevention on Endpoint refers to the use of technologies and strategies to detect and block potentially malicious activities by analyzing the behavior of processes, files, API calls, and other endpoint events. Rather than relying solely on known signatures, this approach leverages heuristics, machine learning, and real-time monitoring to identify anomalous patterns indicative of an attack. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46,M1040,Behavior Prevention on Endpoint,"Behavior Prevention on Endpoint refers to the use of technologies and strategies to detect and block potentially malicious activities by analyzing the behavior of processes, files, API calls, and other endpoint events. Rather than relying solely on known signatures, this approach leverages heuristics, machine learning, and real-time monitoring to identify anomalous patterns indicative of an attack. This mitigation can be implemented through the following measures:
 
 Suspicious Process Behavior:
 
@@ -917,7 +917,7 @@ Exploit Prevention:
 
 - Implementation: Use behavioral exploit prevention tools to detect and block exploits attempting to gain unauthorized access.
 - Use Case: A buffer overflow exploit is launched against a vulnerable application. The endpoint detects the anomalous memory write operation and halts the process."
-course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317,M1018,User Account Management,"User Account Management involves implementing and enforcing policies for the lifecycle of user accounts, including creation, modification, and deactivation. Proper account management reduces the attack surface by limiting unauthorized access, managing account privileges, and ensuring accounts are used according to organizational policies. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317,M1018,User Account Management,"User Account Management involves implementing and enforcing policies for the lifecycle of user accounts, including creation, modification, and deactivation. Proper account management reduces the attack surface by limiting unauthorized access, managing account privileges, and ensuring accounts are used according to organizational policies. This mitigation can be implemented through the following measures:
 
 Enforcing the Principle of Least Privilege
 
@@ -963,7 +963,7 @@ Identity and Access Management (IAM) Tools:
 
 Privileged Account Management (PAM):
 - CyberArk, BeyondTrust, Thycotic: Manage and monitor privileged account usage, enforce session recording, and JIT access."
-course-of-action--987988f0-cf86-4680-a875-2f6456ab2448,M1022,Restrict File and Directory Permissions,"Restricting file and directory permissions involves setting access controls at the file system level to limit which users, groups, or processes can read, write, or execute files. By configuring permissions appropriately, organizations can reduce the attack surface for adversaries seeking to access sensitive data, plant malicious code, or tamper with system files.
+enterprise-attack,course-of-action--987988f0-cf86-4680-a875-2f6456ab2448,M1022,Restrict File and Directory Permissions,"Restricting file and directory permissions involves setting access controls at the file system level to limit which users, groups, or processes can read, write, or execute files. By configuring permissions appropriately, organizations can reduce the attack surface for adversaries seeking to access sensitive data, plant malicious code, or tamper with system files.
 
 Enforce Least Privilege Permissions:
 
@@ -1000,7 +1000,7 @@ Example: Restrict write access to critical directories like `/etc/`, `/usr/local
 
 - On Windows, use icacls to modify permissions: `icacls ""C:\Windows\System32"" /inheritance:r /grant:r SYSTEM:(OI)(CI)F`
 - On Linux, monitor permissions using tools like `lsattr` or `auditd`."
-course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f,M1026,Privileged Account Management,"Privileged Account Management focuses on implementing policies, controls, and tools to securely manage privileged accounts (e.g., SYSTEM, root, or administrative accounts). This includes restricting access, limiting the scope of permissions, monitoring privileged account usage, and ensuring accountability through logging and auditing.This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f,M1026,Privileged Account Management,"Privileged Account Management focuses on implementing policies, controls, and tools to securely manage privileged accounts (e.g., SYSTEM, root, or administrative accounts). This includes restricting access, limiting the scope of permissions, monitoring privileged account usage, and ensuring accountability through logging and auditing.This mitigation can be implemented through the following measures:
 
 Account Permissions and Roles:
 
@@ -1049,7 +1049,7 @@ Linux Privilege Management:
 Just-In-Time Access:
 
 - Azure Privileged Identity Management (PIM), AWS IAM Roles with session constraints, GCP Identity-Aware Proxy."
-course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9,M1024,Restrict Registry Permissions,"Restricting registry permissions involves configuring access control settings for sensitive registry keys and hives to ensure that only authorized users or processes can make modifications. By limiting access, organizations can prevent unauthorized changes that adversaries might use for persistence, privilege escalation, or defense evasion. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9,M1024,Restrict Registry Permissions,"Restricting registry permissions involves configuring access control settings for sensitive registry keys and hives to ensure that only authorized users or processes can make modifications. By limiting access, organizations can prevent unauthorized changes that adversaries might use for persistence, privilege escalation, or defense evasion. This mitigation can be implemented through the following measures:
 
 Review and Adjust Permissions on Critical Keys
 
@@ -1093,7 +1093,7 @@ Policy Management Tools:
 
 - Group Policy Management Console (GPMC): Enforce registry permissions via GPOs.
 - Microsoft Endpoint Manager: Deploy configuration baselines for registry permissions."
-course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9,M1049,Antivirus/Antimalware,"Antivirus/Antimalware solutions utilize signatures, heuristics, and behavioral analysis to detect, block, and remediate malicious software, including viruses, trojans, ransomware, and spyware. These solutions continuously monitor endpoints and systems for known malicious patterns and suspicious behaviors that indicate compromise. Antivirus/Antimalware software should be deployed across all devices, with automated updates to ensure protection against the latest threats. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9,M1049,Antivirus/Antimalware,"Antivirus/Antimalware solutions utilize signatures, heuristics, and behavioral analysis to detect, block, and remediate malicious software, including viruses, trojans, ransomware, and spyware. These solutions continuously monitor endpoints and systems for known malicious patterns and suspicious behaviors that indicate compromise. Antivirus/Antimalware software should be deployed across all devices, with automated updates to ensure protection against the latest threats. This mitigation can be implemented through the following measures:
 
 Signature-Based Detection:
 
@@ -1125,7 +1125,7 @@ Cloud-Assisted Threat Intelligence:
 - Endpoint Security Platforms: Use solutions such as EDR for comprehensive antivirus/antimalware protection across all systems.
 - Centralized Management: Implement centralized antivirus management consoles that provide visibility into threat activity, enable policy enforcement, and automate updates.
 - Behavioral Analysis Tools: Leverage solutions with advanced behavioral analysis capabilities to detect malicious activity patterns that don’t rely on known signatures."
-course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0,M1032,Multi-factor Authentication,"Multi-Factor Authentication (MFA) enhances security by requiring users to provide at least two forms of verification to prove their identity before granting access. These factors typically include:
+enterprise-attack,course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0,M1032,Multi-factor Authentication,"Multi-Factor Authentication (MFA) enhances security by requiring users to provide at least two forms of verification to prove their identity before granting access. These factors typically include:
 
 - *Something you know*: Passwords, PINs.
 - *Something you have*: Physical tokens, smartphone authenticator apps.
@@ -1159,7 +1159,7 @@ Training and Policy Enforcement:
 
 - Educate employees on the importance of MFA and secure authenticator usage.
 - Enforce policies that require MFA on all critical systems, especially for remote access, privileged accounts, and cloud applications."
-course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067,M1054,Software Configuration,"Software configuration refers to making security-focused adjustments to the settings of applications, middleware, databases, or other software to mitigate potential threats. These changes help reduce the attack surface, enforce best practices, and protect sensitive data. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067,M1054,Software Configuration,"Software configuration refers to making security-focused adjustments to the settings of applications, middleware, databases, or other software to mitigate potential threats. These changes help reduce the attack surface, enforce best practices, and protect sensitive data. This mitigation can be implemented through the following measures:
 
 Conduct a Security Review of Application Settings:
 
@@ -1210,7 +1210,7 @@ Vulnerability Management Solutions:
 Logging and Monitoring Tools:
 
 - Splunk: Aggregates and analyzes application logs to detect suspicious activity."
-course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463,M1048,Application Isolation and Sandboxing,"Application Isolation and Sandboxing refers to the technique of restricting the execution of code to a controlled and isolated environment (e.g., a virtual environment, container, or sandbox). This method prevents potentially malicious code from affecting the rest of the system or network by limiting access to sensitive resources and critical operations. The goal is to contain threats and minimize their impact. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463,M1048,Application Isolation and Sandboxing,"Application Isolation and Sandboxing refers to the technique of restricting the execution of code to a controlled and isolated environment (e.g., a virtual environment, container, or sandbox). This method prevents potentially malicious code from affecting the rest of the system or network by limiting access to sensitive resources and critical operations. The goal is to contain threats and minimize their impact. This mitigation can be implemented through the following measures:
 
 Browser Sandboxing:
 
@@ -1231,7 +1231,7 @@ Endpoint Sandboxing:
 
 - Use Case: Run all downloaded files and applications in a restricted environment to monitor their behavior for malicious activity.
 - Implementation: Use endpoint protection tools for sandboxing at the endpoint level."
-course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8,M1047,Audit,"Auditing is the process of recording activity and systematically reviewing and analyzing the activity and system configurations. The primary purpose of auditing is to detect anomalies and identify potential threats or weaknesses in the environment. Proper auditing configurations can also help to meet compliance requirements. The process of auditing encompasses regular analysis of user behaviors and system logs in support of proactive security measures.
+enterprise-attack,course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8,M1047,Audit,"Auditing is the process of recording activity and systematically reviewing and analyzing the activity and system configurations. The primary purpose of auditing is to detect anomalies and identify potential threats or weaknesses in the environment. Proper auditing configurations can also help to meet compliance requirements. The process of auditing encompasses regular analysis of user behaviors and system logs in support of proactive security measures.
 
 Auditing is applicable to all systems used within an organization, from the front door of a building to accessing a file on a fileserver. It is considered more critical for regulated industries such as, healthcare, finance and government where compliance requirements demand stringent tracking of user and system activates.This mitigation can be implemented through the following measures: 
 
@@ -1259,7 +1259,7 @@ Network Audits:
 
 - Use Case: Examine network traffic, firewall rules, and endpoint communications to identify unauthorized or insecure connections.
 - Implementation: Utilize tools such as Wireshark, or Zeek to monitor and log suspicious network behavior."
-course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3,M1050,Exploit Protection,"Deploy capabilities that detect, block, and mitigate conditions indicative of software exploits. These capabilities aim to prevent exploitation by addressing vulnerabilities, monitoring anomalous behaviors, and applying exploit-mitigation techniques to harden systems and software.
+enterprise-attack,course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3,M1050,Exploit Protection,"Deploy capabilities that detect, block, and mitigate conditions indicative of software exploits. These capabilities aim to prevent exploitation by addressing vulnerabilities, monitoring anomalous behaviors, and applying exploit-mitigation techniques to harden systems and software.
 
 Operating System Exploit Protections:
 
@@ -1281,7 +1281,7 @@ Hardening Application Configurations:
 
 - Use Case: Disable risky application features that can be exploited, such as macros in Microsoft Office or JScript in Internet Explorer.
 - Implementation: Configure Microsoft Office Group Policies to disable execution of macros in downloaded files."
-course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462,M1015,Active Directory Configuration,"Implement robust Active Directory (AD) configurations using group policies to secure user accounts, control access, and minimize the attack surface. AD configurations enable centralized control over account settings, logon policies, and permissions, reducing the risk of unauthorized access and lateral movement within the network. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462,M1015,Active Directory Configuration,"Implement robust Active Directory (AD) configurations using group policies to secure user accounts, control access, and minimize the attack surface. AD configurations enable centralized control over account settings, logon policies, and permissions, reducing the risk of unauthorized access and lateral movement within the network. This mitigation can be implemented through the following measures:
 
 Account Configuration:
 
@@ -1313,7 +1313,7 @@ Authentication Silos:
 - Active Directory Group Policies: Use Group Policy Management Console (GPMC) to configure, deploy, and enforce policies across AD environments.
 - PowerShell: Automate account configuration, logon restrictions, and policy application using PowerShell scripts.
 - AD Administrative Center: Manage Authentication Silos and configure high-level policies for critical user groups within AD."
-course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b,M1051,Update Software,"Software updates ensure systems are protected against known vulnerabilities by applying patches and upgrades provided by vendors. Regular updates reduce the attack surface and prevent adversaries from exploiting known security gaps. This includes patching operating systems, applications, drivers, and firmware. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b,M1051,Update Software,"Software updates ensure systems are protected against known vulnerabilities by applying patches and upgrades provided by vendors. Regular updates reduce the attack surface and prevent adversaries from exploiting known security gaps. This includes patching operating systems, applications, drivers, and firmware. This mitigation can be implemented through the following measures:
 
 Regular Operating System Updates
 
@@ -1351,7 +1351,7 @@ Patch Management Tools:
 Vulnerability Scanning Tools:
 
 - OpenVAS: Open-source vulnerability scanning to identify missing patches."
-course-of-action--e8242a33-481c-4891-af63-4cf3e4cf6aff,M1044,Restrict Library Loading,"Restricting library loading involves implementing security controls to ensure that only trusted and verified libraries (DLLs, shared objects, etc.) are loaded into processes. Adversaries often abuse Dynamic-Link Library (DLL) Injection, DLL Search Order Hijacking, or LD_PRELOAD mechanisms to execute malicious code by forcing the operating system to load untrusted libraries. This mitigation can be implemented through the following measures: 
+enterprise-attack,course-of-action--e8242a33-481c-4891-af63-4cf3e4cf6aff,M1044,Restrict Library Loading,"Restricting library loading involves implementing security controls to ensure that only trusted and verified libraries (DLLs, shared objects, etc.) are loaded into processes. Adversaries often abuse Dynamic-Link Library (DLL) Injection, DLL Search Order Hijacking, or LD_PRELOAD mechanisms to execute malicious code by forcing the operating system to load untrusted libraries. This mitigation can be implemented through the following measures: 
 
 Enforce Safe Library Loading Practices:
 
@@ -1396,7 +1396,7 @@ Cross-Platform Solutions:
 
 - Wazuh or OSSEC: File integrity monitoring for library changes.
 - Tripwire: Detect and alert on unauthorized library modifications."
-course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31,M1042,Disable or Remove Feature or Program,"Disable or remove unnecessary and potentially vulnerable software, features, or services to reduce the attack surface and prevent abuse by adversaries. This involves identifying software or features that are no longer needed or that could be exploited and ensuring they are either removed or properly disabled. This mitigation can be implemented through the following measures: 
+enterprise-attack,course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31,M1042,Disable or Remove Feature or Program,"Disable or remove unnecessary and potentially vulnerable software, features, or services to reduce the attack surface and prevent abuse by adversaries. This involves identifying software or features that are no longer needed or that could be exploited and ensuring they are either removed or properly disabled. This mitigation can be implemented through the following measures: 
 
 Remove Legacy Software:
 
@@ -1424,7 +1424,7 @@ Restrict Add-ons and Plugins:
 - Implementation: Disable Java and ActiveX plugins in web browsers to prevent drive-by attacks.
 
 "
-course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c,M1036,Account Use Policies,"Account Use Policies help mitigate unauthorized access by configuring and enforcing rules that govern how and when accounts can be used. These policies include enforcing account lockout mechanisms, restricting login times, and setting inactivity timeouts. Proper configuration of these policies reduces the risk of brute-force attacks, credential theft, and unauthorized access by limiting the opportunities for malicious actors to exploit accounts. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c,M1036,Account Use Policies,"Account Use Policies help mitigate unauthorized access by configuring and enforcing rules that govern how and when accounts can be used. These policies include enforcing account lockout mechanisms, restricting login times, and setting inactivity timeouts. Proper configuration of these policies reduces the risk of brute-force attacks, credential theft, and unauthorized access by limiting the opportunities for malicious actors to exploit accounts. This mitigation can be implemented through the following measures:
 
 Account Lockout Policies:
 
@@ -1458,7 +1458,7 @@ Account Expiration and Deactivation:
 - Security Information and Event Management (SIEM) platforms: To monitor and alert on unusual login activity, such as failed logins or out-of-hours access attempts.
 - Multi-Factor Authentication (MFA) Tools: To further enforce secure login attempts, preventing brute-force or credential stuffing attacks.
 "
-course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157,M1041,Encrypt Sensitive Information,"Protect sensitive information at rest, in transit, and during processing by using strong encryption algorithms. Encryption ensures the confidentiality and integrity of data, preventing unauthorized access or tampering. This mitigation can be implemented through the following measures:
+enterprise-attack,course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157,M1041,Encrypt Sensitive Information,"Protect sensitive information at rest, in transit, and during processing by using strong encryption algorithms. Encryption ensures the confidentiality and integrity of data, preventing unauthorized access or tampering. This mitigation can be implemented through the following measures:
 
 Encrypt Data at Rest:
 
@@ -1484,3 +1484,56 @@ Database Encryption:
 
 - Use Case: Enable Transparent Data Encryption (TDE) or column-level encryption in database management systems.
 - Implementation: Use MySQL’s built-in encryption features to encrypt sensitive database fields such as social security numbers."
+ics-attack,course-of-action--059ba11e-e3dc-49aa-84ca-88197f40d4ea,M0948,Application Isolation and Sandboxing,Restrict the execution of code to a virtual environment on or in-transit to an endpoint system.
+ics-attack,course-of-action--11f242bc-3121-438c-84b2-5cbd46a4bb17,M0937,Filter Network Traffic,"Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic.   Perform inline allow/denylisting of network messages based on the application layer (OSI Layer 7) protocol, especially for automation protocols. Application allowlists are beneficial when there are well-defined communication sequences, types, rates, or patterns needed during expected system operations. Application denylists may be needed if all acceptable communication sequences cannot be defined, but instead a set of known malicious uses can be denied (e.g., excessive communication  attempts, shutdown messages, invalid commands).  Devices performing these functions are often referred to as deep-packet inspection (DPI) firewalls, context-aware firewalls, or firewalls blocking specific automation/SCADA protocol aware firewalls. (Citation: Centre for the Protection of National Infrastructure February 2005)"
+ics-attack,course-of-action--143b4398-3222-480a-b6a4-e131bc2d3144,M0921,Restrict Web-Based Content,"Restrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc."
+ics-attack,course-of-action--1cbcceef-3233-4062-aa86-ec91afe39517,M0818,Validate Program Inputs,"Devices and programs designed to interact with control system parameters should validate the format and content of all user inputs and actions to ensure the values are within intended operational ranges. These values should be evaluated and further enforced through the program logic running on the field controller. If a problematic or invalid input is identified, the programs should either utilize a predetermined safe value or enter a known safe state, while also logging or alerting on the event.(Citation: PLCTop20 Mar 2023)"
+ics-attack,course-of-action--1e7ccfc0-94c8-496e-8d27-032120892291,M0930,Network Segmentation,"Architect sections of the network to isolate critical systems, functions, or resources. Use physical and logical segmentation to prevent access to potentially sensitive systems and information. Use a DMZ to contain any internet-facing services that should not be exposed from the internal network.  Restrict network access to only required systems and services. In addition, prevent systems from other networks or business functions (e.g., enterprise) from accessing critical process control systems. For example, in IEC 62443, systems within the same secure level should be grouped into a zone, and access to that zone is restricted by a conduit, or mechanism to restrict data flows between zones by segmenting the network. (Citation: IEC February 2019) (Citation: IEC August 2013)"
+ics-attack,course-of-action--2ab9fc6d-3cf6-4d7b-85f1-3ad6949233b3,M0944,Restrict Library Loading,Prevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.
+ics-attack,course-of-action--2f0160b7-e982-49d7-9612-f19b810f1722,M0915,Active Directory Configuration,"Configure Active Directory to prevent use of certain techniques; use security identifier (SID) Filtering, etc."
+ics-attack,course-of-action--3172222b-4983-43f7-8983-753ded4f13bc,M0931,Network Intrusion Prevention,"Use intrusion detection signatures to block traffic at network boundaries.  In industrial control environments, network intrusion prevention should be configured so it will not disrupt protocols and communications responsible for real-time functions related to control or safety."
+ics-attack,course-of-action--3222a807-521b-4a1a-aa13-f1cda45734b3,M0924,Restrict Registry Permissions,Restrict the ability to modify certain hives or keys in the Windows Registry.
+ics-attack,course-of-action--337c4e2a-21a7-4d9a-bfee-9efd6cebf0e5,M0803,Data Loss Prevention,"Data Loss Prevention (DLP) technologies can be used to help identify adversarial attempts to exfiltrate operational information, such as engineering plans, trade secrets, recipes, intellectual property, or process telemetry. DLP functionality may be built into other security products such as firewalls or standalone suites running on the network and host-based agents. DLP may be configured to prevent the transfer of information through corporate resources such as email, web, and physical media such as USB for host-based solutions."
+ics-attack,course-of-action--3992ce42-43e9-4bea-b8db-a102ec3ec1e3,M0801,Access Management,"Access Management technologies can be used to enforce authorization polices and decisions, especially when existing field devices do not provide sufficient capabilities to support user identification and authentication. (Citation: McCarthy, J et al. July 2018) These technologies typically utilize an in-line network device or gateway system to prevent access to unauthenticated users, while also integrating with an authentication service to first verify user credentials. (Citation: Centre for the Protection of National Infrastructure November 2010)"
+ics-attack,course-of-action--469b78dd-a54d-4f7c-8c3b-4a1dd916b433,M0816,Mitigation Limited or Not Effective,This type of attack technique cannot be easily mitigated with preventative controls since it is based on the abuse of system features.
+ics-attack,course-of-action--49363b74-d506-4342-bd63-320586ebadb9,M0950,Exploit Protection,Use capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.
+ics-attack,course-of-action--49b306c1-a046-42c5-a4d2-30f264ada110,M0935,Limit Access to Resource Over Network,"Prevent access to file shares, remote access to systems, unnecessary services. Mechanisms to limit access may include use of network concentrators, RDP gateways, etc."
+ics-attack,course-of-action--4fa717d9-cabe-47c8-8cdd-86e9e2e37f30,M0938,Execution Prevention,"Block execution of code on a system through application control, and/or script blocking."
+ics-attack,course-of-action--52c7a1a9-3a78-4528-a44f-cd7b0fa3541a,M0814,Static Network Configuration,"Configure hosts and devices to use static network configurations when possible, protocols that require dynamic discovery/addressing (e.g., ARP, DHCP, DNS) can be used to manipulate network message forwarding and enable various AiTM attacks. This mitigation may not always be usable due to limited device features or challenges introduced with different network configurations."
+ics-attack,course-of-action--5d97c693-e054-48ba-a3a3-eaf6942dfb65,M0927,Password Policies,Set and enforce secure password policies for accounts.
+ics-attack,course-of-action--622fe4d4-0e8e-4d17-9c25-6c9cef1f15d5,M0926,Privileged Account Management,"Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root."
+ics-attack,course-of-action--66cfe23e-34b6-4583-b178-ed6a412db2b0,M0804,Human User Authentication,"Require user authentication before allowing access to data or accepting commands to a device. While strong multi-factor authentication is preferable, it is not always feasible within ICS environments. Performing strong user authentication also requires additional security controls and processes which are often the target of related adversarial techniques (e.g., Valid Accounts, Default Credentials). Therefore, associated ATT&CK mitigations should be considered in addition to this, including [Multi-factor Authentication](https://attack.mitre.org/mitigations/M0932), [Account Use Policies](https://attack.mitre.org/mitigations/M0936), [Password Policies](https://attack.mitre.org/mitigations/M0927), [User Account Management](https://attack.mitre.org/mitigations/M0918), [Privileged Account Management](https://attack.mitre.org/mitigations/M0926), and [User Account Control](https://attack.mitre.org/mitigations/M1052)."
+ics-attack,course-of-action--6a02e38a-9629-40c0-8c7d-e98e3470315c,M0920,SSL/TLS Inspection,Break and inspect SSL/TLS sessions to look at encrypted web traffic for adversary activity.
+ics-attack,course-of-action--71eb7dad-07eb-4bbc-9df0-ac57bf2fba4a,M0945,Code Signing,Enforce binary and application integrity with digital signature verification to prevent untrusted code from executing.
+ics-attack,course-of-action--72e46e53-e12d-4106-9c70-33241b6ed549,M0813,Software Process and Device Authentication,"Require the authentication of devices and software processes where appropriate. Devices that connect remotely to other systems should require strong authentication to prevent spoofing of communications. Furthermore, software processes should also require authentication when accessing APIs."
+ics-attack,course-of-action--7f153c28-e5f1-4764-88fb-eea1d9b0ad4a,M0808,Encrypt Network Traffic,Utilize strong cryptographic techniques and protocols to prevent eavesdropping on network communications.
+ics-attack,course-of-action--86b455f2-fb63-4043-93a8-32a3a7703a02,M0936,Account Use Policies,"Configure features related to account use like login attempt lockouts, specific login times, etc."
+ics-attack,course-of-action--8a3aadd0-b5f4-433a-800e-4893e4196bb7,M0913,Application Developer Guidance,This mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.
+ics-attack,course-of-action--8ac1d6e1-b07f-476a-9732-84984ebc2405,M0946,Boot Integrity,Use secure methods to boot a system and verify the integrity of the operating system and loading mechanisms.
+ics-attack,course-of-action--8bc4a54e-810c-4600-8b6c-08fa8413a401,M0805,Mechanical Protection Layers,"Utilize a layered protection design based on physical or mechanical protection systems to prevent damage to property, equipment, human safety, or the environment. Examples include interlocks, rupture disk, release values, etc. (Citation: A G Foord, W G Gulland, C R Howard, T Kellacher, W H Smith 2004) "
+ics-attack,course-of-action--97f33c84-8508-45b9-8a1d-cac921828c9e,M0951,Update Software,Perform regular software updates to mitigate exploitation risk. Software updates may need to be scheduled around operational down times.
+ics-attack,course-of-action--98aa0d61-fc9d-4b2d-8f18-b25d03549f53,M0815,Watchdog Timers,Utilize watchdog timers to ensure devices can quickly detect whether a system is unresponsive.
+ics-attack,course-of-action--99c746d7-a08a-4169-94f9-b8c0dad716fa,M0809,Operational Information Confidentiality,"Deploy mechanisms to protect the confidentiality of information related to operational processes, facility locations, device configurations, programs, or databases that may have information that can be used to infer organizational trade-secrets, recipes, and other intellectual property (IP)."
+ics-attack,course-of-action--9a945a29-5233-4422-a9e3-3e957b0e8bce,M0928,Operating System Configuration,Make configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.
+ics-attack,course-of-action--9e3adcad-0b8f-4ecc-a2f3-06f607f53bf0,M0934,Limit Hardware Installation,"Block users or groups from installing or using unapproved hardware on systems, including USB devices."
+ics-attack,course-of-action--9f99fcfd-772e-4e63-9d39-e45612e546dc,M0941,Encrypt Sensitive Information,Protect sensitive data-at-rest with strong encryption.
+ics-attack,course-of-action--aadac250-bcdc-44e3-a4ae-f52bd0a7a16a,M0807,Network Allowlists,"Network allowlists can be implemented through either host-based files or system hosts files to specify what connections (e.g., IP address, MAC address, port, protocol) can be made from a device. Allowlist techniques that operate at the  application layer (e.g., DNP3, Modbus, HTTP) are addressed in [Filter Network Traffic](https://attack.mitre.org/mitigations/M0937) mitigation."
+ics-attack,course-of-action--ac8f3492-7fbb-4a0a-b0b4-b75ec676136c,M0817,Supply Chain Management,"Implement a supply chain management program, including policies and procedures to ensure all devices and components originate from a trusted supplier and are tested to verify their integrity."
+ics-attack,course-of-action--ad12819e-3211-4291-b360-069f280cff0a,M0953,Data Backup,"Take and store data backups from end user systems and critical servers. Ensure backup and storage systems are hardened and kept separate from the corporate network to prevent compromise.   Maintain and exercise incident response plans  (Citation: Department of Homeland Security October 2009), including the management of  'gold-copy' back-up images and configurations for key systems to enable quick recovery and response from adversarial activities that impact control, view, or availability."
+ics-attack,course-of-action--b11cad63-ef30-4eb8-af0d-6cc46eef3f3e,M0810,Out-of-Band Communications Channel,Have alternative methods to support communication requirements during communication failures and data integrity attacks. (Citation: National Institute of Standards and Technology April 2013) (Citation: Defense Advanced Research Projects Agency)
+ics-attack,course-of-action--bcf91ebc-f316-4e19-b2f6-444e9940c697,M0947,Audit,"Perform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses. Perform periodic integrity checks of the device to validate the correctness of the firmware, software, programs, and configurations. Integrity checks, which typically include cryptographic hashes or digital signatures, should be compared to those obtained at known valid states, especially after events like device reboots, program downloads, or program restarts."
+ics-attack,course-of-action--c7257b6e-4159-4771-b1f3-2bb93adaecac,M0802,Communication Authenticity,"When communicating over an untrusted network, utilize secure network protocols that both authenticate the message sender and can verify its integrity. This can be done either through message authentication codes (MACs) or digital signatures, to detect spoofed network messages and unauthorized connections."
+ics-attack,course-of-action--d0909119-2f71-4923-87db-b649881672d7,M0942,Disable or Remove Feature or Program,Remove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.
+ics-attack,course-of-action--d48b79b2-076d-483e-949c-0d38aa347499,M0919,Threat Intelligence Program,A threat intelligence program helps an organization generate their own threat intelligence information and track trends to inform defensive priorities to mitigate risk.
+ics-attack,course-of-action--da44255d-85c5-492c-baf3-ee823d44f848,M0812,Safety Instrumented Systems,"Utilize Safety Instrumented Systems (SIS) to provide an additional layer of protection to hazard scenarios that may cause property damage. A SIS will typically include sensors, logic solvers, and a final control element that can be used to automatically respond to an hazardous condition  (Citation: A G Foord, W G Gulland, C R Howard, T Kellacher, W H Smith 2004) . Ensure that all SISs are segmented from operational networks to prevent them from being targeted by additional adversarial behavior."
+ics-attack,course-of-action--dc61c280-c29d-44e5-a960-c0dd1623d2ba,M0917,User Training,"Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction."
+ics-attack,course-of-action--ddf3e568-f065-49e2-9106-42029a28ddbd,M0932,Multi-factor Authentication,"Use two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.  Within industrial control environments assets such as low-level controllers, workstations, and HMIs have real-time operational control and safety requirements which may restrict the use of multi-factor."
+ics-attack,course-of-action--de0bc375-50e1-4e26-a342-a8ff8c9d3037,M0916,Vulnerability Scanning,Vulnerability scanning is used to find potentially exploitable software vulnerabilities to remediate them.
+ics-attack,course-of-action--e0d38502-decb-481d-ad8b-b8f0a0c330bd,M0800,Authorization Enforcement,"The device or system should restrict read, manipulate, or execute privileges to only authenticated users who require access based on approved security policies.  Role-based Access Control (RBAC) schemes can help reduce the overhead of assigning permissions to the large number of devices within an ICS. For example, IEC 62351 provides examples of roles used to support common system operations within the electric power sector  (Citation: International Electrotechnical Commission July 2020), while IEEE 1686 defines standard permissions for users of IEDs. (Citation: Institute of Electrical and Electronics Engineers January 2014)"
+ics-attack,course-of-action--e57ebc6d-785f-40c8-adb1-b5b5e09b3b48,M0918,User Account Management,"Manage the creation, modification, use, and permissions associated to user accounts."
+ics-attack,course-of-action--f0f5c87a-a58d-440a-b3b5-ca679d98c6dd,M0811,Redundancy of Service,"Redundancy could be provided for both critical ICS devices and services, such as back-up devices or hot-standbys."
+ics-attack,course-of-action--f9fcb3ec-6de0-4559-8cd9-ef1c0c7d1971,M0922,Restrict File and Directory Permissions,Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.
+ics-attack,course-of-action--facb8840-ebe7-49f1-b464-8ef6c8131e21,M0954,Software Configuration,Implement configuration changes to software (other than the operating system) to mitigate security risks associated with how the software operates.
+ics-attack,course-of-action--faf2b40e-5981-433f-aa46-17458e0026f7,M0949,Antivirus/Antimalware,"Use signatures or heuristics to detect malicious software.  Within industrial control environments, antivirus/antimalware installations should be limited to assets that are not involved in critical or real-time operations. To minimize the impact to system availability, all products should first be validated within a representative test environment before deployment to production systems. (Citation: NCCIC August 2018)"
+ics-attack,course-of-action--fce6866f-9a87-4d3e-a73c-f02d8937fe0e,M0806,Minimize Wireless Signal Propagation,"Wireless signals frequently propagate outside of organizational boundaries, which provide opportunities for adversaries to monitor or gain unauthorized access to the wireless network. (Citation: CISA March 2010) To minimize this threat, organizations should implement measures to detect, understand, and reduce unnecessary RF propagation. (Citation: DHS  National Urban Security Technology Laboratory April 2019)"
+ics-attack,course-of-action--945271ef-52cd-4a2c-a4cd-09edda7ffbab,M1061,Limit Software/Package Installation,Prevent unauthorized installation of software on ICS assets. 
