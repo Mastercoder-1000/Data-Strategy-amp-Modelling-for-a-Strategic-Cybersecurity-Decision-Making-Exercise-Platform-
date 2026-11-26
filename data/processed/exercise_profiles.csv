@@ -1,0 +1,17 @@
+﻿exercise_id,manual_title,section,main_threats,top_skills,avg_difficulty
+EX-01,Healthcare,Module 1,Phishing; System Disruption; Vulnerability,Technical Controls; Risk Management; Training & Awareness,1.79
+EX-02,Healthcare,Module 2,Data Exposure; Insider Threat / Unauthorized Access; Other Security Incident; Ransomware; System Disruption,Business Continuity & Recovery; Incident Response; Communication,1.96
+EX-03,Vendor,Module 1,Third-Party / Supply Chain,Technical Controls; Third-Party Management; Risk Management,1.71
+EX-04,Vendor,Module 2 – 6 months later,System Disruption; Other Security Incident; Third-Party / Supply Chain,Incident Response; Business Continuity & Recovery; Third-Party Management,1.9
+EX-05,Ransomware,Module 1,Other Security Incident; Phishing; Vulnerability,Risk Management; Training & Awareness; Business Continuity & Recovery,1.67
+EX-06,Ransomware,Module 2,Data Exposure; Ransomware,Incident Response; Business Continuity & Recovery; Communication,2.12
+EX-07,Insider Threat,Module 1,Vulnerability; Data Exposure; Insider Threat / Unauthorized Access,Training & Awareness; Risk Management; Threat Detection & Monitoring,1.64
+EX-08,Insider Threat,Module 2,Insider Threat / Unauthorized Access; Third-Party / Supply Chain; Vulnerability,Business Continuity & Recovery; Incident Response; Technical Controls,1.84
+EX-09,Executives,Vignette 1: Whaling/Ransomware,Ransomware,Leadership & Decision-Making; Legal & Compliance; Communication,1.94
+EX-10,Executives,Vignette 2: Insider Threat,Insider Threat / Unauthorized Access,Leadership & Decision-Making; Communication; Incident Response,2.0
+EX-11,Industrial Control Systems,Module 1,Insider Threat / Unauthorized Access; Phishing; Third-Party / Supply Chain,Training & Awareness; Incident Response; Technical Controls,1.88
+EX-12,Industrial Control Systems,Module 2,Ransomware; Data Exposure; System Disruption,Incident Response; Business Continuity & Recovery; Threat Detection & Monitoring,1.67
+EX-13,Financial Services,Module 1,Data Exposure; Phishing,Third-Party Management; Threat Detection & Monitoring; Risk Management,1.76
+EX-14,Financial Services,Module 2,Ransomware,Incident Response; Business Continuity & Recovery; Communication,1.85
+EX-15,Communications,Module 1,Phishing; System Disruption,Training & Awareness; Technical Controls; Threat Detection & Monitoring,1.78
+EX-16,Communications,Module 2,Denial of Service,Communication; Incident Response; Business Continuity & Recovery,2.0
