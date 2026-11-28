@@ -1,0 +1,5 @@
+﻿model,hit@3,MRR
+Random,0.383,0.335
+Most questions first,0.209,0.332
+Fixed formula (step 4),0.811,0.636
+Learned recommender (logistic regression),0.769,0.646
