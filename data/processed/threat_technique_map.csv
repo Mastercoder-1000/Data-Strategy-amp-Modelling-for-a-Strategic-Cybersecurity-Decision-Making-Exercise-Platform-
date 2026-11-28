@@ -25,7 +25,7 @@ Suspected Data Exfiltration,T1071.004,enterprise-attack,Unusual DNS traffic used
 Accidental Data Disclosure,,enterprise-attack,"Employee mistake, not an attacker technique.",no technique,,
 DDoS,T1498,enterprise-attack,Millions of requests overload servers; the attack uses a botnet.,supported,Network Denial of Service,impact
 DDoS,T1499,enterprise-attack,Millions of requests overload servers; the attack uses a botnet.,plausible,Endpoint Denial of Service,impact
-DDoS,T1584.005,enterprise-attack,Millions of requests overload servers; the attack uses a botnet.,plausible,Botnet,resource-development
+DDoS,T1584.005,enterprise-attack,Millions of requests overload servers; the attack uses a botnet.,supported,Botnet,resource-development
 DDoS / Unintentional TDoS,T1498,enterprise-attack,Network flooding that also overloads the call centre.,supported,Network Denial of Service,impact
 DDoS / Unintentional TDoS,T1499.002,enterprise-attack,Network flooding that also overloads the call centre.,plausible,Service Exhaustion Flood,impact
 Data Integrity Issue,T1565.001,enterprise-attack,Patient records show incorrect information (stored data manipulation).,plausible,Stored Data Manipulation,impact
