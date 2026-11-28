@@ -1,21 +1,21 @@
-﻿question_id,question_text,team_skill,team_difficulty
-HC-Q-129,What processes are used to evaluate and maintain an approved list of patches?,,
-RW-Q-137,"Utilizing your organization’s cyber incident response plan (CIRP), describe the actions that your organization would take at this time.",,
-VD-Q-147,Describe your policies on remote access to your organization’s network.,,
-ICS-Q-154,What redundant systems exist when primary systems are compromised?,,
-ICS-Q-156,Does your CIRP include procedures to operate in manual mode if a cyber incident compromises OT systems?,,
-IT-Q-152,What capabilities and resources are required to respond to this scenario?,,
-ICS-Q-153,Is your CIRP aligned with any OT incident response plans?,,
-HC-Q-153,Who can authorize use of alternate systems or procedures?,,
-CM-Q-112,What services do you use for intrusion detection monitoring?,,
-CM-Q-91,"What cybersecurity threat information does your organization receive (e.g., information from CISA, FBI, Fusion Center)?",,
-EX-Q-143,Is there funding available to pay for credit monitoring for impacted individuals?,,
-CM-Q-145,How is public messaging  coordinated and disseminated during a cyber incident?,,
-FS-Q-118,How would you coordinate with your cloud service provider to investigate anomalies with cloud-based services?,,
-VD-Q-156,"How does your plan define escalation criteria, notifications, activations, and/or courses of action?",,
-EX-Q-112,What is your role during cyber incident response?,,
-CM-Q-125,What guidance does the plan include on assessing the severity of an incident?,,
-FS-Q-129,How does incident severity level dictate response actions?,,
-EX-Q-87,Describe your cybersecurity culture.,,
-RW-Q-109,Discuss your risk management strategy.,,
-HC-Q-177,"Based on discussion, what changes would you implement to increase the resilience of your organization?",,
+question_id,question_text,team_skill,team_difficulty
+HC-Q-129,What processes are used to evaluate and maintain an approved list of patches?,Technical Controls,Intermediate
+RW-Q-137,"Utilizing your organization’s cyber incident response plan (CIRP), describe the actions that your organization would take at this time.",Incident Response,Advanced
+VD-Q-147,Describe your policies on remote access to your organization’s network.,Technical Controls,Intermediate
+ICS-Q-154,What redundant systems exist when primary systems are compromised?,Business Continuity & Recovery,Basic
+ICS-Q-156,Does your CIRP include procedures to operate in manual mode if a cyber incident compromises OT systems?,Business Continuity & Recovery,Basic
+IT-Q-152,What capabilities and resources are required to respond to this scenario?,Incident Response,Advanced
+ICS-Q-153,Is your CIRP aligned with any OT incident response plans?,Incident Response,Basic
+HC-Q-153,Who can authorize use of alternate systems or procedures?,Leadership & Decision-Making,Basic
+CM-Q-112,What services do you use for intrusion detection monitoring?,Threat Detection & Monitoring,Basic
+CM-Q-91,"What cybersecurity threat information does your organization receive (e.g., information from CISA, FBI, Fusion Center)?",Threat Detection & Monitoring,Basic
+EX-Q-143,Is there funding available to pay for credit monitoring for impacted individuals?,Leadership & Decision-Making,Basic
+CM-Q-145,How is public messaging  coordinated and disseminated during a cyber incident?,Communication,Intermediate
+FS-Q-118,How would you coordinate with your cloud service provider to investigate anomalies with cloud-based services?,Third-Party Management,Intermediate
+VD-Q-156,"How does your plan define escalation criteria, notifications, activations, and/or courses of action?",Incident Response,Intermediate
+EX-Q-112,What is your role during cyber incident response?,Leadership & Decision-Making,Basic
+CM-Q-125,What guidance does the plan include on assessing the severity of an incident?,Incident Response,Intermediate
+FS-Q-129,How does incident severity level dictate response actions?,Incident Response,Intermediate
+EX-Q-87,Describe your cybersecurity culture.,Leadership & Decision-Making,Intermediate
+RW-Q-109,Discuss your risk management strategy.,Risk Management,Intermediate
+HC-Q-177,"Based on discussion, what changes would you implement to increase the resilience of your organization?",Leadership & Decision-Making,Advanced
