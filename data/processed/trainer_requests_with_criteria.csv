@@ -1,0 +1,21 @@
+request_id,threat,skill,difficulty,suitable_exercises
+R01,Ransomware,Leadership & Decision-Making,Advanced,EX-05; EX-06; EX-09
+R02,Phishing,Training & Awareness,Basic,EX-09; EX-13
+R03,Third-Party / Supply Chain,Third-Party Management,Intermediate,EX-03; EX-04; EX-11
+R04,Insider Threat / Unauthorized Access,Threat Detection & Monitoring,Intermediate,EX-07; EX-08; EX-10
+R05,Data Exposure,Legal & Compliance,Intermediate,EX-01; EX-02; EX-13; EX-14
+R06,System Disruption,Business Continuity & Recovery,Intermediate,EX-01; EX-11; EX-12; EX-15
+R07,Denial of Service,Incident Response,Intermediate,EX-15; EX-16
+R08,Vulnerability,Technical Controls,Basic,EX-03; EX-11; EX-13
+R09,Ransomware,Communication,Advanced,EX-05; EX-06; EX-09
+R10,Other Security Incident,Risk Management,Advanced,EX-02; EX-04; EX-10; EX-12
+R11,Phishing,,Basic,EX-09; EX-13; EX-14
+R12,Ransomware,Business Continuity & Recovery,,EX-05; EX-06; EX-09
+R13,,Communication,Intermediate,EX-01; EX-05; EX-14; EX-15
+R14,Third-Party / Supply Chain,,Advanced,EX-03; EX-04; EX-11
+R15,Insider Threat / Unauthorized Access,Leadership & Decision-Making,,EX-07; EX-08; EX-10
+R16,,Technical Controls,Intermediate,EX-03; EX-11; EX-12
+R17,Data Exposure,,Basic,EX-01; EX-02; EX-13
+R18,,Incident Response,Advanced,EX-05; EX-06; EX-15; EX-16
+R19,System Disruption,,,EX-11; EX-12; EX-15; EX-16
+R20,,Risk Management,,EX-02; EX-04; EX-10; EX-14
