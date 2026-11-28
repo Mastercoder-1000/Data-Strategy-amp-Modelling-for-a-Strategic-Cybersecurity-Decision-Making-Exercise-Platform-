@@ -1,7 +1,7 @@
 ﻿threat_category,events,main_impacts,top_responses
 Ransomware,10,Operational Disruption; Reputational Damage,User Account Management; Data Backup; Behavior Prevention on Endpoint
-Insider Threat / Unauthorized Access,9,Security Risk; Data Loss,Multi-factor Authentication; User Account Management; Privileged Account Management
 Data Exposure,8,Data Exposure; Reputational Damage,Filter Network Traffic; User Account Management; Restrict File and Directory Permissions
+Insider Threat / Unauthorized Access,8,Security Risk; Data Loss,Multi-factor Authentication; User Account Management; Privileged Account Management
 System Disruption,6,Operational Disruption; Patient Safety,Restrict File and Directory Permissions; Network Segmentation; User Account Management
 Phishing,5,Security Risk,User Training; Software Configuration; Restrict Web-Based Content
 Third-Party / Supply Chain,5,Security Risk; No Direct Impact,User Account Management; Multi-factor Authentication; Network Segmentation

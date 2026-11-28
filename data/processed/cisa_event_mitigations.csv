@@ -168,14 +168,6 @@ IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1050,Exploit Protection
 IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1048,Application Isolation and Sandboxing
 IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1019,Threat Intelligence Program
 IT-INJ-87,Vulnerability,enterprise-attack,T1068,M1038,Execution Prevention
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1027,Password Policies
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1018,User Account Management
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1026,Privileged Account Management
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1032,Multi-factor Authentication
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1013,Application Developer Guidance
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1017,User Training
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1015,Active Directory Configuration
-IT-INJ-93,Insider Threat / Unauthorized Access,enterprise-attack,T1078,M1036,Account Use Policies
 IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1048,Application Isolation and Sandboxing
 IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1037,Filter Network Traffic
 IT-INJ-121,Vulnerability,enterprise-attack,T1190,M1030,Network Segmentation

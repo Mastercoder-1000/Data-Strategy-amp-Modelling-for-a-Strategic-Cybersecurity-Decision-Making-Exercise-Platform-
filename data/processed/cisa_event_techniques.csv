@@ -1,114 +1,113 @@
-﻿inject_id,manual_title,threat_type,threat_category,domain,technique_id,technique_name,tactics,is_impact_technique
-HC-INJ-89,Healthcare,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,False
-HC-INJ-89,Healthcare,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,False
-HC-INJ-119,Healthcare,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,False
-HC-INJ-119,Healthcare,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,False
-HC-INJ-126,Healthcare,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,True
-HC-INJ-126,Healthcare,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-HC-INJ-135,Healthcare,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",False
-HC-INJ-135,Healthcare,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1621,Multi-Factor Authentication Request Generation,credential-access,False
-HC-INJ-137,Healthcare,Data Integrity Issue,Other Security Incident,enterprise-attack,T1565.001,Stored Data Manipulation,impact,True
-HC-INJ-139,Healthcare,Medical Device Malfunction,System Disruption,enterprise-attack,T1565,Data Manipulation,impact,True
-HC-INJ-156,Healthcare,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-HC-INJ-156,Healthcare,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-HC-INJ-159,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,False
-HC-INJ-159,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,False
-HC-INJ-163,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,False
-HC-INJ-163,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,False
-VD-INJ-111,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1195.002,Compromise Software Supply Chain,initial-access,False
-VD-INJ-111,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,False
-VD-INJ-136,Vendor,Third-Party Data Breach,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,False
-VD-INJ-150,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,True
-VD-INJ-150,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-VD-INJ-152,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,True
-VD-INJ-152,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-VD-INJ-162,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1195.002,Compromise Software Supply Chain,initial-access,False
-VD-INJ-162,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,False
-VD-INJ-167,Vendor,Suspicious Network Activity,Other Security Incident,enterprise-attack,T1041,Exfiltration Over C2 Channel,exfiltration,False
-RW-INJ-86,Ransomware,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,False
-RW-INJ-86,Ransomware,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,False
-RW-INJ-90,Ransomware,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,False
-RW-INJ-90,Ransomware,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,False
-RW-INJ-122,Ransomware,Suspected Data Exfiltration,Data Exposure,enterprise-attack,T1048,Exfiltration Over Alternative Protocol,exfiltration,False
-RW-INJ-122,Ransomware,Suspected Data Exfiltration,Data Exposure,enterprise-attack,T1071.004,DNS,command-and-control,False
-RW-INJ-124,Ransomware,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-RW-INJ-124,Ransomware,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-RW-INJ-126,Ransomware,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,False
-RW-INJ-126,Ransomware,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,False
-RW-INJ-128,Ransomware,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-RW-INJ-128,Ransomware,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-IT-INJ-85,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,False
-IT-INJ-85,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,False
-IT-INJ-87,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,False
-IT-INJ-87,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,False
-IT-INJ-93,Insider Threat,Potential Insider Threat,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",False
-IT-INJ-121,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,False
-IT-INJ-121,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,False
-IT-INJ-123,Insider Threat,Potential Insider Threat,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",False
-IT-INJ-125,Insider Threat,Unauthorized File Modification,Insider Threat / Unauthorized Access,enterprise-attack,T1565.001,Stored Data Manipulation,impact,True
-IT-INJ-125,Insider Threat,Unauthorized File Modification,Insider Threat / Unauthorized Access,enterprise-attack,T1485,Data Destruction,impact,True
-IT-INJ-127,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1136,Create Account,persistence,False
-IT-INJ-127,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,False
-IT-INJ-129,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1136,Create Account,persistence,False
-IT-INJ-129,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,False
-IT-INJ-131,Insider Threat,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,False
-IT-INJ-131,Insider Threat,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",False
-IT-INJ-133,Insider Threat,Unauthorized File Deletion,Insider Threat / Unauthorized Access,enterprise-attack,T1485,Data Destruction,impact,True
-EX-INJ-109,Executives,Whaling / Ransomware,Ransomware,enterprise-attack,T1566,Phishing,initial-access,False
-EX-INJ-109,Executives,Whaling / Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-EX-INJ-126,Executives,Insider Threat,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",False
-EX-INJ-126,Executives,Insider Threat,Insider Threat / Unauthorized Access,enterprise-attack,T1098,Account Manipulation,"persistence, privilege-escalation",False
-ICS-INJ-116,Industrial Control Systems,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,False
-ICS-INJ-116,Industrial Control Systems,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,False
-ICS-INJ-118,Industrial Control Systems,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",False
-ICS-INJ-118,Industrial Control Systems,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1621,Multi-Factor Authentication Request Generation,credential-access,False
-ICS-INJ-129,Industrial Control Systems,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,False
-ICS-INJ-129,Industrial Control Systems,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",False
-ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,True
-ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-ICS-INJ-165,Industrial Control Systems,Extortion Threat,Ransomware,enterprise-attack,T1657,Financial Theft,impact,True
-ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,False
-ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,False
-FS-INJ-98,Financial Services,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,False
-FS-INJ-98,Financial Services,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,False
-FS-INJ-110,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,False
-FS-INJ-110,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,False
-FS-INJ-119,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,False
-FS-INJ-119,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,False
-FS-INJ-123,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-FS-INJ-123,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-FS-INJ-133,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-FS-INJ-133,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-FS-INJ-141,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-FS-INJ-141,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-FS-INJ-150,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,True
-FS-INJ-150,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,True
-CM-INJ-95,Communications,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,False
-CM-INJ-95,Communications,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,False
-CM-INJ-114,Communications,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,True
-CM-INJ-114,Communications,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-CM-INJ-120,Communications,DDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,True
-CM-INJ-120,Communications,DDoS,Denial of Service,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-CM-INJ-120,Communications,DDoS,Denial of Service,enterprise-attack,T1584.005,Botnet,resource-development,False
-CM-INJ-135,Communications,DDoS / Unintentional TDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,True
-CM-INJ-135,Communications,DDoS / Unintentional TDoS,Denial of Service,enterprise-attack,T1499.002,Service Exhaustion Flood,impact,True
-CM-INJ-141,Communications,DDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,True
-CM-INJ-141,Communications,DDoS,Denial of Service,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-CM-INJ-141,Communications,DDoS,Denial of Service,enterprise-attack,T1584.005,Botnet,resource-development,False
-CM-INJ-147,Communications,DDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,True
-CM-INJ-147,Communications,DDoS,Denial of Service,enterprise-attack,T1499,Endpoint Denial of Service,impact,True
-CM-INJ-147,Communications,DDoS,Denial of Service,enterprise-attack,T1584.005,Botnet,resource-development,False
-ICS-INJ-116,Industrial Control Systems,Suspected Phishing,Phishing,ics-attack,T0865,Spearphishing Attachment,initial-access,False
-ICS-INJ-118,Industrial Control Systems,Unauthorized Access Risk,Insider Threat / Unauthorized Access,ics-attack,T0859,Valid Accounts,"persistence, lateral-movement",False
-ICS-INJ-129,Industrial Control Systems,Suspicious Third-Party Activity,Third-Party / Supply Chain,ics-attack,T0862,Supply Chain Compromise,initial-access,False
-ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,ics-attack,T0826,Loss of Availability,impact,True
-ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,ics-attack,T0832,Manipulation of View,impact,True
-ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,ics-attack,T0816,Device Restart/Shutdown,inhibit-response-function,False
-ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,ics-attack,T0826,Loss of Availability,impact,True
-ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,ics-attack,T0828,Loss of Productivity and Revenue,impact,True
-ICS-INJ-165,Industrial Control Systems,Extortion Threat,Ransomware,ics-attack,T0831,Manipulation of Control,impact,True
-ICS-INJ-165,Industrial Control Systems,Extortion Threat,Ransomware,ics-attack,T0828,Loss of Productivity and Revenue,impact,True
-ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,ics-attack,T0883,Internet Accessible Device,initial-access,False
-ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,ics-attack,T0822,External Remote Services,initial-access,False
+﻿inject_id,manual_title,threat_type,threat_category,domain,technique_id,technique_name,tactics,mapping_status,is_impact_technique
+HC-INJ-89,Healthcare,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,supported,False
+HC-INJ-89,Healthcare,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,plausible,False
+HC-INJ-119,Healthcare,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,plausible,False
+HC-INJ-119,Healthcare,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,plausible,False
+HC-INJ-126,Healthcare,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,plausible,True
+HC-INJ-126,Healthcare,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+HC-INJ-135,Healthcare,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",plausible,False
+HC-INJ-135,Healthcare,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1621,Multi-Factor Authentication Request Generation,credential-access,plausible,False
+HC-INJ-137,Healthcare,Data Integrity Issue,Other Security Incident,enterprise-attack,T1565.001,Stored Data Manipulation,impact,plausible,True
+HC-INJ-139,Healthcare,Medical Device Malfunction,System Disruption,enterprise-attack,T1565,Data Manipulation,impact,plausible,True
+HC-INJ-156,Healthcare,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+HC-INJ-156,Healthcare,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+HC-INJ-159,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,plausible,False
+HC-INJ-159,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,plausible,False
+HC-INJ-163,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,plausible,False
+HC-INJ-163,Healthcare,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,plausible,False
+VD-INJ-111,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1195.002,Compromise Software Supply Chain,initial-access,supported,False
+VD-INJ-111,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,supported,False
+VD-INJ-136,Vendor,Third-Party Data Breach,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,plausible,False
+VD-INJ-150,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,plausible,True
+VD-INJ-150,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+VD-INJ-152,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,plausible,True
+VD-INJ-152,Vendor,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+VD-INJ-162,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1195.002,Compromise Software Supply Chain,initial-access,supported,False
+VD-INJ-162,Vendor,Supply Chain Compromise,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,supported,False
+VD-INJ-167,Vendor,Suspicious Network Activity,Other Security Incident,enterprise-attack,T1041,Exfiltration Over C2 Channel,exfiltration,plausible,False
+RW-INJ-86,Ransomware,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,plausible,False
+RW-INJ-86,Ransomware,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,plausible,False
+RW-INJ-90,Ransomware,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,supported,False
+RW-INJ-90,Ransomware,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,plausible,False
+RW-INJ-122,Ransomware,Suspected Data Exfiltration,Data Exposure,enterprise-attack,T1048,Exfiltration Over Alternative Protocol,exfiltration,supported,False
+RW-INJ-122,Ransomware,Suspected Data Exfiltration,Data Exposure,enterprise-attack,T1071.004,DNS,command-and-control,plausible,False
+RW-INJ-124,Ransomware,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+RW-INJ-124,Ransomware,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+RW-INJ-126,Ransomware,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,plausible,False
+RW-INJ-126,Ransomware,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,plausible,False
+RW-INJ-128,Ransomware,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+RW-INJ-128,Ransomware,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+IT-INJ-85,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,plausible,False
+IT-INJ-85,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,plausible,False
+IT-INJ-87,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,plausible,False
+IT-INJ-87,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,plausible,False
+IT-INJ-121,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1190,Exploit Public-Facing Application,initial-access,plausible,False
+IT-INJ-121,Insider Threat,Vulnerability Exposure,Vulnerability,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,plausible,False
+IT-INJ-123,Insider Threat,Potential Insider Threat,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",plausible,False
+IT-INJ-125,Insider Threat,Unauthorized File Modification,Insider Threat / Unauthorized Access,enterprise-attack,T1565.001,Stored Data Manipulation,impact,plausible,True
+IT-INJ-125,Insider Threat,Unauthorized File Modification,Insider Threat / Unauthorized Access,enterprise-attack,T1485,Data Destruction,impact,plausible,True
+IT-INJ-127,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1136,Create Account,persistence,supported,False
+IT-INJ-127,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,supported,False
+IT-INJ-129,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1136,Create Account,persistence,supported,False
+IT-INJ-129,Insider Threat,Unauthorized Access,Insider Threat / Unauthorized Access,enterprise-attack,T1068,Exploitation for Privilege Escalation,privilege-escalation,supported,False
+IT-INJ-131,Insider Threat,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,plausible,False
+IT-INJ-131,Insider Threat,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",plausible,False
+IT-INJ-133,Insider Threat,Unauthorized File Deletion,Insider Threat / Unauthorized Access,enterprise-attack,T1485,Data Destruction,impact,plausible,True
+EX-INJ-109,Executives,Whaling / Ransomware,Ransomware,enterprise-attack,T1566,Phishing,initial-access,supported,False
+EX-INJ-109,Executives,Whaling / Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+EX-INJ-126,Executives,Insider Threat,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",supported,False
+EX-INJ-126,Executives,Insider Threat,Insider Threat / Unauthorized Access,enterprise-attack,T1098,Account Manipulation,"persistence, privilege-escalation",plausible,False
+ICS-INJ-116,Industrial Control Systems,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,supported,False
+ICS-INJ-116,Industrial Control Systems,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,plausible,False
+ICS-INJ-118,Industrial Control Systems,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",plausible,False
+ICS-INJ-118,Industrial Control Systems,Unauthorized Access Risk,Insider Threat / Unauthorized Access,enterprise-attack,T1621,Multi-Factor Authentication Request Generation,credential-access,plausible,False
+ICS-INJ-129,Industrial Control Systems,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1199,Trusted Relationship,initial-access,plausible,False
+ICS-INJ-129,Industrial Control Systems,Suspicious Third-Party Activity,Third-Party / Supply Chain,enterprise-attack,T1078,Valid Accounts,"stealth, persistence, privilege-escalation, initial-access",plausible,False
+ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,plausible,True
+ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,supported,True
+ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+ICS-INJ-165,Industrial Control Systems,Extortion Threat,Ransomware,enterprise-attack,T1657,Financial Theft,impact,plausible,True
+ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,plausible,False
+ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,plausible,False
+FS-INJ-98,Financial Services,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,supported,False
+FS-INJ-98,Financial Services,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,plausible,False
+FS-INJ-110,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,plausible,False
+FS-INJ-110,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,plausible,False
+FS-INJ-119,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1530,Data from Cloud Storage,collection,plausible,False
+FS-INJ-119,Financial Services,Data Breach,Data Exposure,enterprise-attack,T1567,Exfiltration Over Web Service,exfiltration,plausible,False
+FS-INJ-123,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+FS-INJ-123,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+FS-INJ-133,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+FS-INJ-133,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+FS-INJ-141,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+FS-INJ-141,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+FS-INJ-150,Financial Services,Ransomware,Ransomware,enterprise-attack,T1486,Data Encrypted for Impact,impact,plausible,True
+FS-INJ-150,Financial Services,Ransomware,Ransomware,enterprise-attack,T1490,Inhibit System Recovery,impact,plausible,True
+CM-INJ-95,Communications,Suspected Phishing,Phishing,enterprise-attack,T1566,Phishing,initial-access,supported,False
+CM-INJ-95,Communications,Suspected Phishing,Phishing,enterprise-attack,T1598,Phishing for Information,reconnaissance,plausible,False
+CM-INJ-114,Communications,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1489,Service Stop,impact,plausible,True
+CM-INJ-114,Communications,System Disruption (Unconfirmed Cause),System Disruption,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+CM-INJ-120,Communications,DDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,supported,True
+CM-INJ-120,Communications,DDoS,Denial of Service,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+CM-INJ-120,Communications,DDoS,Denial of Service,enterprise-attack,T1584.005,Botnet,resource-development,plausible,False
+CM-INJ-135,Communications,DDoS / Unintentional TDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,supported,True
+CM-INJ-135,Communications,DDoS / Unintentional TDoS,Denial of Service,enterprise-attack,T1499.002,Service Exhaustion Flood,impact,plausible,True
+CM-INJ-141,Communications,DDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,supported,True
+CM-INJ-141,Communications,DDoS,Denial of Service,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+CM-INJ-141,Communications,DDoS,Denial of Service,enterprise-attack,T1584.005,Botnet,resource-development,plausible,False
+CM-INJ-147,Communications,DDoS,Denial of Service,enterprise-attack,T1498,Network Denial of Service,impact,supported,True
+CM-INJ-147,Communications,DDoS,Denial of Service,enterprise-attack,T1499,Endpoint Denial of Service,impact,plausible,True
+CM-INJ-147,Communications,DDoS,Denial of Service,enterprise-attack,T1584.005,Botnet,resource-development,plausible,False
+ICS-INJ-116,Industrial Control Systems,Suspected Phishing,Phishing,ics-attack,T0865,Spearphishing Attachment,initial-access,plausible,False
+ICS-INJ-118,Industrial Control Systems,Unauthorized Access Risk,Insider Threat / Unauthorized Access,ics-attack,T0859,Valid Accounts,"persistence, lateral-movement",plausible,False
+ICS-INJ-129,Industrial Control Systems,Suspicious Third-Party Activity,Third-Party / Supply Chain,ics-attack,T0862,Supply Chain Compromise,initial-access,plausible,False
+ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,ics-attack,T0826,Loss of Availability,impact,supported,True
+ICS-INJ-139,Industrial Control Systems,System Disruption (Unconfirmed Cause),System Disruption,ics-attack,T0832,Manipulation of View,impact,supported,True
+ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,ics-attack,T0816,Device Restart/Shutdown,inhibit-response-function,plausible,False
+ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,ics-attack,T0826,Loss of Availability,impact,supported,True
+ICS-INJ-146,Industrial Control Systems,Suspected Ransomware,Ransomware,ics-attack,T0828,Loss of Productivity and Revenue,impact,supported,True
+ICS-INJ-165,Industrial Control Systems,Extortion Threat,Ransomware,ics-attack,T0831,Manipulation of Control,impact,plausible,True
+ICS-INJ-165,Industrial Control Systems,Extortion Threat,Ransomware,ics-attack,T0828,Loss of Productivity and Revenue,impact,plausible,True
+ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,ics-attack,T0883,Internet Accessible Device,initial-access,plausible,False
+ICS-INJ-167,Industrial Control Systems,Data Breach,Data Exposure,ics-attack,T0822,External Remote Services,initial-access,supported,False

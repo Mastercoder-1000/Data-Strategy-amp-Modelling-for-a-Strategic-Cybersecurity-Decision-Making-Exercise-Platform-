@@ -5,7 +5,7 @@ EX-03,Vendor,Module 1,Third-Party / Supply Chain,Technical Controls; Third-Party
 EX-04,Vendor,Module 2 – 6 months later,System Disruption; Other Security Incident; Third-Party / Supply Chain,Incident Response; Business Continuity & Recovery; Third-Party Management,1.9
 EX-05,Ransomware,Module 1,Other Security Incident; Phishing; Vulnerability,Risk Management; Training & Awareness; Business Continuity & Recovery,1.67
 EX-06,Ransomware,Module 2,Data Exposure; Ransomware,Incident Response; Business Continuity & Recovery; Communication,2.12
-EX-07,Insider Threat,Module 1,Vulnerability; Data Exposure; Insider Threat / Unauthorized Access,Training & Awareness; Risk Management; Threat Detection & Monitoring,1.64
+EX-07,Insider Threat,Module 1,Vulnerability; Data Exposure,Training & Awareness; Risk Management; Threat Detection & Monitoring,1.64
 EX-08,Insider Threat,Module 2,Insider Threat / Unauthorized Access; Third-Party / Supply Chain; Vulnerability,Business Continuity & Recovery; Incident Response; Technical Controls,1.84
 EX-09,Executives,Vignette 1: Whaling/Ransomware,Ransomware,Leadership & Decision-Making; Legal & Compliance; Communication,1.94
 EX-10,Executives,Vignette 2: Insider Threat,Insider Threat / Unauthorized Access,Leadership & Decision-Making; Communication; Incident Response,2.0

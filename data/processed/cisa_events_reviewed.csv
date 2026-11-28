@@ -1,0 +1,67 @@
+﻿inject_id,reviewed_threat,reviewed_impact,impact_status,review_note
+HC-INJ-87,No Confirmed Incident,No Direct Impact,None reported,
+HC-INJ-89,Phishing,Security Risk,Potential or unconfirmed,
+HC-INJ-117,No Confirmed Incident,No Direct Impact,None reported,
+HC-INJ-119,Vulnerability,Security Risk,Potential or unconfirmed,
+HC-INJ-126,System Disruption,Operational Disruption,Described as occurring,
+HC-INJ-135,Insider Threat / Unauthorized Access,Security Risk,Potential or unconfirmed,
+HC-INJ-137,Other Security Incident,Patient Safety,Potential or unconfirmed,Incorrect records are reported. Patient harm is not described.
+HC-INJ-139,System Disruption,Patient Safety,Potential or unconfirmed,Incorrect infusion delivery is reported. Patient harm is not described.
+HC-INJ-156,Ransomware,Operational Disruption,Described as occurring,
+HC-INJ-159,Data Exposure,Data Exposure,Described as occurring,
+HC-INJ-163,Data Exposure,Reputational Damage,Described as occurring,
+VD-INJ-111,Third-Party / Supply Chain,No Direct Impact,None reported,Other organizations experience disruptions. The participating organization is unaffected at this point.
+VD-INJ-122,No Confirmed Incident,No Direct Impact,None reported,
+VD-INJ-136,Third-Party / Supply Chain,Security Risk,Potential or unconfirmed,Sector partners' data appears online. Exposure of the participating organization's data is not reported.
+VD-INJ-143,No Confirmed Incident,No Direct Impact,None reported,
+VD-INJ-150,System Disruption,Operational Disruption,Described as occurring,
+VD-INJ-152,System Disruption,Operational Disruption,Described as occurring,
+VD-INJ-162,Third-Party / Supply Chain,Security Risk,Potential or unconfirmed,
+VD-INJ-167,Other Security Incident,Security Risk,Potential or unconfirmed,
+RW-INJ-84,No Confirmed Incident,No Direct Impact,None reported,
+RW-INJ-86,Vulnerability,Security Risk,Potential or unconfirmed,
+RW-INJ-88,Other Security Incident,Security Risk,Potential or unconfirmed,
+RW-INJ-90,Phishing,Security Risk,Potential or unconfirmed,
+RW-INJ-122,Data Exposure,Data Exposure,Potential or unconfirmed,The outbound transfer is described. The contents and sensitivity of the data are unspecified.
+RW-INJ-124,Ransomware,Operational Disruption,Described as occurring,Screens are interrupted and display a ransom demand. The extent of disruption is unspecified.
+RW-INJ-126,Data Exposure,Data Exposure,Described as occurring,Some records are shared as evidence. Wider exposure and sale remain uncertain.
+RW-INJ-128,Ransomware,Reputational Damage,Potential or unconfirmed,News coverage and requests for comment are described. Reputational damage is a possible consequence.
+IT-INJ-85,Vulnerability,Security Risk,Potential or unconfirmed,
+IT-INJ-87,Vulnerability,Financial Cost,Potential or unconfirmed,The narrative cites expense for the planned replacement without reporting realized costs.
+IT-INJ-89,Data Exposure,Data Exposure,Described as occurring,
+IT-INJ-91,No Confirmed Incident,Personnel Consequences,Described as occurring,Workplace conflict occurs. The termination is described in the following inject.
+IT-INJ-93,No Confirmed Incident,Personnel Consequences,Described as occurring,Management terminates the employee. Retaliation is only a threat.
+IT-INJ-121,Vulnerability,Operational Disruption,Described as occurring,Replacement is underway and constrained by material supply. The 18-month duration is an estimate.
+IT-INJ-123,Insider Threat / Unauthorized Access,Security Risk,Potential or unconfirmed,
+IT-INJ-125,Insider Threat / Unauthorized Access,Data Loss,Described as occurring,
+IT-INJ-127,Insider Threat / Unauthorized Access,Security Risk,Described as occurring,An unauthorized account is observed and disabled. Further compromise is uncertain.
+IT-INJ-129,Insider Threat / Unauthorized Access,Security Risk,Described as occurring,The scenario describes compromised credentials and unauthorized privileged access.
+IT-INJ-131,Third-Party / Supply Chain,Security Risk,Described as occurring,Unauthorized account creation is established. The vendor-associated address does not establish culpability.
+IT-INJ-133,Insider Threat / Unauthorized Access,Operational Disruption,Described as occurring,Critical files are unavailable to staff. Permanent deletion is suspected.
+EX-INJ-109,Ransomware,Operational Disruption,Described as occurring,
+EX-INJ-126,Insider Threat / Unauthorized Access,Data Exposure,Described as occurring,
+ICS-INJ-90,No Confirmed Incident,No Direct Impact,None reported,
+ICS-INJ-102,No Confirmed Incident,No Direct Impact,None reported,
+ICS-INJ-116,Phishing,Security Risk,Potential or unconfirmed,
+ICS-INJ-118,Insider Threat / Unauthorized Access,Security Risk,Potential or unconfirmed,
+ICS-INJ-129,Third-Party / Supply Chain,Security Risk,Potential or unconfirmed,
+ICS-INJ-139,System Disruption,Operational Disruption,Described as occurring,
+ICS-INJ-146,Ransomware,Operational Disruption,Described as occurring,
+ICS-INJ-165,Ransomware,Operational Disruption,Potential or unconfirmed,The actor threatens to continue the lockout. The earlier shutdown is counted in ICS-INJ-146.
+ICS-INJ-167,Data Exposure,Data Exposure,Described as occurring,
+FS-INJ-83,No Confirmed Incident,No Direct Impact,None reported,
+FS-INJ-98,Phishing,Security Risk,Potential or unconfirmed,
+FS-INJ-110,Data Exposure,Operational Disruption,Described as occurring,
+FS-INJ-119,Data Exposure,Data Exposure,Described as occurring,
+FS-INJ-123,Ransomware,Operational Disruption,Described as occurring,
+FS-INJ-133,Ransomware,Operational Disruption,Described as occurring,
+FS-INJ-141,Ransomware,Reputational Damage,Potential or unconfirmed,Media requests are reported. Damage to reputation is a potential consequence.
+FS-INJ-150,Ransomware,Reputational Damage,Described as occurring,Widespread attempts to withdraw or close accounts show a customer reaction. Completed withdrawals are not stated.
+CM-INJ-83,No Confirmed Incident,No Direct Impact,None reported,
+CM-INJ-95,Phishing,Security Risk,Potential or unconfirmed,
+CM-INJ-108,No Confirmed Incident,No Direct Impact,None reported,
+CM-INJ-114,System Disruption,Operational Disruption,Described as occurring,
+CM-INJ-120,Denial of Service,Operational Disruption,Described as occurring,
+CM-INJ-135,Denial of Service,Operational Disruption,Described as occurring,
+CM-INJ-141,Denial of Service,Reputational Damage,Described as occurring,Customers publicly express concern. Long-term reputational effects are unspecified.
+CM-INJ-147,Denial of Service,No Direct Impact,None reported,

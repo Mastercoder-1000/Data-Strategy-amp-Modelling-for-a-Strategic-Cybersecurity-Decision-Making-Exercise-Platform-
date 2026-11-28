@@ -17,14 +17,14 @@ Data Exposure,M0936,Account Use Policies,1,1
 Data Exposure,M0942,Disable or Remove Feature or Program,1,1
 Data Exposure,M1030,Network Segmentation,1,1
 Denial of Service,M1037,Filter Network Traffic,4,3
-Insider Threat / Unauthorized Access,M1032,Multi-factor Authentication,9,5
-Insider Threat / Unauthorized Access,M1018,User Account Management,7,3
-Insider Threat / Unauthorized Access,M1026,Privileged Account Management,7,3
-Insider Threat / Unauthorized Access,M1017,User Training,5,2
-Insider Threat / Unauthorized Access,M1036,Account Use Policies,5,2
-Insider Threat / Unauthorized Access,M1013,Application Developer Guidance,5,1
-Insider Threat / Unauthorized Access,M1015,Active Directory Configuration,5,1
-Insider Threat / Unauthorized Access,M1027,Password Policies,5,1
+Insider Threat / Unauthorized Access,M1032,Multi-factor Authentication,8,5
+Insider Threat / Unauthorized Access,M1018,User Account Management,6,3
+Insider Threat / Unauthorized Access,M1026,Privileged Account Management,6,3
+Insider Threat / Unauthorized Access,M1017,User Training,4,2
+Insider Threat / Unauthorized Access,M1036,Account Use Policies,4,2
+Insider Threat / Unauthorized Access,M1013,Application Developer Guidance,4,1
+Insider Threat / Unauthorized Access,M1015,Active Directory Configuration,4,1
+Insider Threat / Unauthorized Access,M1027,Password Policies,4,1
 Insider Threat / Unauthorized Access,M1028,Operating System Configuration,3,2
 Insider Threat / Unauthorized Access,M1030,Network Segmentation,3,2
 Insider Threat / Unauthorized Access,M1022,Restrict File and Directory Permissions,2,2

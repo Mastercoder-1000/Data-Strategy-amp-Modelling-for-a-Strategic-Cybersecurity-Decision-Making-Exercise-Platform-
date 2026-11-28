@@ -1,5 +1,7 @@
 ﻿model,hit@3,MRR
 Random,0.383,0.335
 Most questions first,0.209,0.332
-Threat only,0.506,0.409
-Recommender (threat + skill + difficulty),0.807,0.646
+Difficulty only,0.335,0.257
+Threat only,0.485,0.398
+Skill only,0.551,0.482
+Recommender (threat + skill + difficulty),0.811,0.636
